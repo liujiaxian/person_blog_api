@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ded4c9dff5be48f1a53387488f439bb1" Name="关系图1">
+        <EntityTypeShape EntityType="bds252114683_dbModel.person_aboutus" Width="1.5" PointX="5.343146829560002" PointY="4.2185868789528431" />
+        <EntityTypeShape EntityType="bds252114683_dbModel.person_aboutus_content" Width="1.5" PointX="10.886087703931185" PointY="22.236412848456023" />
+        <EntityTypeShape EntityType="bds252114683_dbModel.person_accesstoken" Width="1.5" PointX="7.8956881332656774" PointY="7.4867239182287477" />
+        <EntityTypeShape EntityType="bds252114683_dbModel.person_account_notice" Width="1.5" PointX="3.01943924977418" PointY="4.7161486170795506" />
+        <EntityTypeShape EntityType="bds252114683_dbModel.person_achievements" Width="1.5" PointX="8.7751328818384238" PointY="30.847317411958855" />
+        <EntityTypeShape EntityType="bds252114683_dbModel.person_action" Width="1.5" PointX="3.9308892171508116" PointY="11.655461540285247" />
+        <EntityTypeShape EntityType="bds252114683_dbModel.person_active" Width="1.5" PointX="2.3894382800857716" PointY="4.2102138568694771" />
+        <EntityTypeShape EntityType="bds252114683_dbModel.person_banner" Width="1.5" PointX="2.3252472515801186" PointY="30.566431357789053" />
+        <EntityTypeShape EntityType="bds252114683_dbModel.person_blog" Width="1.5" PointX="10.25105022743859" PointY="11.614329239173946" />
+        <EntityTypeShape EntityType="bds252114683_dbModel.person_blog_type" Width="1.5" PointX="10.682969826591654" PointY="25.142505255128491" />
+        <EntityTypeShape EntityType="bds252114683_dbModel.person_case" Width="1.5" PointX="0.65736013308975849" PointY="4.21335895555716" />
+        <EntityTypeShape EntityType="bds252114683_dbModel.person_case_type" Width="1.5" PointX="6.128215796373885" PointY="0.37840122002102494" />
+        <EntityTypeShape EntityType="bds252114683_dbModel.person_client" Width="1.5" PointX="11.032667090665861" PointY="4.9789751642285731" />
+        <EntityTypeShape EntityType="bds252114683_dbModel.person_collection" Width="1.5" PointX="7.2957918584792836" PointY="29.951333879470514" />
+        <EntityTypeShape EntityType="bds252114683_dbModel.person_contact" Width="1.5" PointX="3.9935335833549188" PointY="15.976425148535718" />
+        <EntityTypeShape EntityType="bds252114683_dbModel.person_contact_info" Width="1.5" PointX="11.640619084071656" PointY="10.555308928040466" />
+        <EntityTypeShape EntityType="bds252114683_dbModel.person_download_reader" Width="1.5" PointX="10.801618348249056" PointY="21.15504954250299" />
+        <EntityTypeShape EntityType="bds252114683_dbModel.person_email" Width="1.5" PointX="8.8109527271291945" PointY="24.05651707577357" />
+        <EntityTypeShape EntityType="bds252114683_dbModel.person_faq" Width="1.5" PointX="1.5604960515911208" PointY="31.616920351803731" />
+        <EntityTypeShape EntityType="bds252114683_dbModel.person_faq_content" Width="1.5" PointX="5.7646433980039529" PointY="6.9672545972127722" />
+        <EntityTypeShape EntityType="bds252114683_dbModel.person_hot" Width="1.5" PointX="8.1769677326907253" PointY="12.642512699888327" />
+        <EntityTypeShape EntityType="bds252114683_dbModel.person_icon" Width="1.5" PointX="10.803896650114981" PointY="28.890537394625387" />
+        <EntityTypeShape EntityType="bds252114683_dbModel.person_links" Width="1.5" PointX="1.4119664139170043" PointY="4.5768353513334112" />
+        <EntityTypeShape EntityType="bds252114683_dbModel.person_log" Width="1.5" PointX="11.369671387304399" PointY="3.137431906134557" />
+        <EntityTypeShape EntityType="bds252114683_dbModel.person_music" Width="1.5" PointX="8.4945794849165619" PointY="21.544428865213145" />
+        <EntityTypeShape EntityType="bds252114683_dbModel.person_navigation" Width="1.5" PointX="4.8000016439706092" PointY="0.90339362663374922" />
+        <EntityTypeShape EntityType="bds252114683_dbModel.person_navigation_type" Width="1.5" PointX="2.8809942262624366" PointY="1.3765705830308472" />
+        <EntityTypeShape EntityType="bds252114683_dbModel.person_partner" Width="1.5" PointX="6.9553765295796914" PointY="10.035032589936179" />
+        <EntityTypeShape EntityType="bds252114683_dbModel.person_picture" Width="1.5" PointX="7.4537542832334314" PointY="28.65116599046214" />
+        <EntityTypeShape EntityType="bds252114683_dbModel.person_picture_type" Width="1.5" PointX="9.3059877275051477" PointY="16.076193191146569" />
+        <EntityTypeShape EntityType="bds252114683_dbModel.person_plan" Width="1.5" PointX="7.5117296108564968" PointY="10.1005041199273" />
+        <EntityTypeShape EntityType="bds252114683_dbModel.person_plan_content" Width="1.5" PointX="9.7750221480499135" PointY="7.4239292030334143" />
+        <EntityTypeShape EntityType="bds252114683_dbModel.person_price" Width="1.5" PointX="11.927124945412913" PointY="31.927062317695032" />
+        <EntityTypeShape EntityType="bds252114683_dbModel.person_price_content" Width="1.5" PointX="5.5691797293579111" PointY="17.21678587105907" />
+        <EntityTypeShape EntityType="bds252114683_dbModel.person_product_description" Width="1.5" PointX="4.7678774691968586" PointY="14.144142261773414" />
+        <EntityTypeShape EntityType="bds252114683_dbModel.person_qq_login" Width="1.5" PointX="9.901915707579775" PointY="27.719213588032506" />
+        <EntityTypeShape EntityType="bds252114683_dbModel.person_reader" Width="1.5" PointX="10.590730066686277" PointY="21.52066494036497" />
+        <EntityTypeShape EntityType="bds252114683_dbModel.person_reader_type" Width="1.5" PointX="1.2514717379824594" PointY="21.110447655017698" />
+        <EntityTypeShape EntityType="bds252114683_dbModel.person_resume" Width="1.5" PointX="2.7761129582189548" PointY="19.451371395704975" />
+        <EntityTypeShape EntityType="bds252114683_dbModel.person_role" Width="1.5" PointX="10.72993404359088" PointY="24.843610223775549" />
+        <EntityTypeShape EntityType="bds252114683_dbModel.person_service" Width="1.5" PointX="2.4974442992813159" PointY="16.3180130498102" />
+        <EntityTypeShape EntityType="bds252114683_dbModel.person_site_config" Width="1.5" PointX="2.7371707198848814" PointY="21.104994023733305" />
+        <EntityTypeShape EntityType="bds252114683_dbModel.person_skill" Width="1.5" PointX="1.1911577867302847" PointY="30.138257264224002" />
+        <EntityTypeShape EntityType="bds252114683_dbModel.person_social" Width="1.5" PointX="1.0772466217527383" PointY="27.427745012299969" />
+        <EntityTypeShape EntityType="bds252114683_dbModel.person_user" Width="1.5" PointX="0.977767048858929" PointY="13.460841349075009" />
+        <EntityTypeShape EntityType="bds252114683_dbModel.person_visitor" Width="1.5" PointX="1.567439620181657" PointY="7.51015681378085" />
+        <EntityTypeShape EntityType="bds252114683_dbModel.person_vyw_aboutus_picture" Width="1.5" PointX="2.5503574044212503" PointY="31.296189203530638" />
+        <EntityTypeShape EntityType="bds252114683_dbModel.person_vyw_account_notice_icon" Width="1.5" PointX="7.1009908630982927" PointY="11.704743167247969" />
+        <EntityTypeShape EntityType="bds252114683_dbModel.person_vyw_achievements_icon" Width="1.5" PointX="6.9659201144082106" PointY="21.386461863939864" />
+        <EntityTypeShape EntityType="bds252114683_dbModel.person_vyw_active_user" Width="1.5" PointX="10.906826577571605" PointY="3.8381814527503129" />
+        <EntityTypeShape EntityType="bds252114683_dbModel.person_vyw_banner_user" Width="1.5" PointX="8.1471335273921177" PointY="13.102337828419328" />
+        <EntityTypeShape EntityType="bds252114683_dbModel.person_vyw_blog_type" Width="1.5" PointX="8.4086594956036009" PointY="8.5080696980040837" />
+        <EntityTypeShape EntityType="bds252114683_dbModel.person_vyw_blog_type_picture" Width="1.5" PointX="10.177245116875156" PointY="17.080790795889119" />
+        <EntityTypeShape EntityType="bds252114683_dbModel.person_vyw_case_type_user_picture" Width="1.5" PointX="1.7480425433013789" PointY="18.161986329668196" />
+        <EntityTypeShape EntityType="bds252114683_dbModel.person_vyw_collection_blog_type" Width="1.5" PointX="11.264742230654109" PointY="29.43722309052815" />
+        <EntityTypeShape EntityType="bds252114683_dbModel.person_vyw_collection_music" Width="1.5" PointX="0.987024263007112" PointY="0.42530669291750839" />
+        <EntityTypeShape EntityType="bds252114683_dbModel.person_vyw_collection_plan" Width="1.5" PointX="0.014253202832421848" PointY="31.972357049571517" />
+        <EntityTypeShape EntityType="bds252114683_dbModel.person_vyw_collection_reader_type" Width="1.5" PointX="3.5311281473986469" PointY="3.7132659124737915" />
+        <EntityTypeShape EntityType="bds252114683_dbModel.person_vyw_music_user" Width="1.5" PointX="1.0505183250878556" PointY="4.9617317043997957" />
+        <EntityTypeShape EntityType="bds252114683_dbModel.person_vyw_navigation_type" Width="1.5" PointX="1.5928156644072458" PointY="1.6674092568771026" />
+        <EntityTypeShape EntityType="bds252114683_dbModel.person_vyw_partner_picture" Width="1.5" PointX="10.895401747382898" PointY="19.423400932654459" />
+        <EntityTypeShape EntityType="bds252114683_dbModel.person_vyw_plan_content" Width="1.5" PointX="5.4785276527882214" PointY="31.253498568783282" />
+        <EntityTypeShape EntityType="bds252114683_dbModel.person_vyw_plan_user" Width="1.5" PointX="3.7366137279833729" PointY="18.894951739765215" />
+        <EntityTypeShape EntityType="bds252114683_dbModel.person_vyw_price_icon" Width="1.5" PointX="7.8443476910909391" PointY="28.9457576409661" />
+        <EntityTypeShape EntityType="bds252114683_dbModel.person_vyw_product_description_icon" Width="1.5" PointX="0.96925848953857008" PointY="23.632514800705255" />
+        <EntityTypeShape EntityType="bds252114683_dbModel.person_vyw_reader_user" Width="1.5" PointX="0.950497756223426" PointY="18.016506024644013" />
+        <EntityTypeShape EntityType="bds252114683_dbModel.person_vyw_resume_picture" Width="1.5" PointX="8.38743769581776" PointY="24.774975996825368" />
+        <EntityTypeShape EntityType="bds252114683_dbModel.person_vyw_resume_user" Width="1.5" PointX="1.1692203065237126" PointY="25.557513636330846" />
+        <EntityTypeShape EntityType="bds252114683_dbModel.person_vyw_service_icon" Width="1.5" PointX="9.710595398075224" PointY="30.791052221688933" />
+        <EntityTypeShape EntityType="bds252114683_dbModel.person_vyw_social_icon" Width="1.5" PointX="9.7371276420248343" PointY="18.095629968724971" />
+        <EntityTypeShape EntityType="bds252114683_dbModel.person_vyw_user_picture" Width="1.5" PointX="9.5538039307826228" PointY="16.710671328339107" />
+        <EntityTypeShape EntityType="bds252114683_dbModel.person_vyw_visitor_user" Width="1.5" PointX="11.020662148958381" PointY="5.1701557064289956" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

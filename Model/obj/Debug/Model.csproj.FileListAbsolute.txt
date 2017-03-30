@@ -1,0 +1,9 @@
+E:\mycase\person_api\person_api\Model\bin\Debug\Model.dll.config
+E:\mycase\person_api\person_api\Model\bin\Debug\Model.dll
+E:\mycase\person_api\person_api\Model\bin\Debug\Model.pdb
+E:\mycase\person_api\person_api\Model\bin\Debug\EntityFramework.dll
+E:\mycase\person_api\person_api\Model\bin\Debug\EntityFramework.xml
+E:\mycase\person_api\person_api\Model\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\mycase\person_api\person_api\Model\obj\Debug\Model.dll
+E:\mycase\person_api\person_api\Model\obj\Debug\Model.pdb
+E:\mycase\person_api\person_api\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache

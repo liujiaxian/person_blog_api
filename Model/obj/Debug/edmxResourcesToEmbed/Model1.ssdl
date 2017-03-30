@@ -1,0 +1,1747 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="bds252114683_dbModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="bds252114683_dbModelStoreContainer">
+    <EntitySet Name="person_aboutus" EntityType="bds252114683_dbModel.Store.person_aboutus" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="person_aboutus_content" EntityType="bds252114683_dbModel.Store.person_aboutus_content" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="person_accesstoken" EntityType="bds252114683_dbModel.Store.person_accesstoken" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="person_account_notice" EntityType="bds252114683_dbModel.Store.person_account_notice" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="person_achievements" EntityType="bds252114683_dbModel.Store.person_achievements" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="person_action" EntityType="bds252114683_dbModel.Store.person_action" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="person_active" EntityType="bds252114683_dbModel.Store.person_active" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="person_banner" EntityType="bds252114683_dbModel.Store.person_banner" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="person_blog" EntityType="bds252114683_dbModel.Store.person_blog" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="person_blog_type" EntityType="bds252114683_dbModel.Store.person_blog_type" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="person_case" EntityType="bds252114683_dbModel.Store.person_case" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="person_case_type" EntityType="bds252114683_dbModel.Store.person_case_type" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="person_client" EntityType="bds252114683_dbModel.Store.person_client" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="person_collection" EntityType="bds252114683_dbModel.Store.person_collection" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="person_contact" EntityType="bds252114683_dbModel.Store.person_contact" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="person_contact_info" EntityType="bds252114683_dbModel.Store.person_contact_info" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="person_download_reader" EntityType="bds252114683_dbModel.Store.person_download_reader" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="person_email" EntityType="bds252114683_dbModel.Store.person_email" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="person_faq" EntityType="bds252114683_dbModel.Store.person_faq" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="person_faq_content" EntityType="bds252114683_dbModel.Store.person_faq_content" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="person_hot" EntityType="bds252114683_dbModel.Store.person_hot" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="person_icon" EntityType="bds252114683_dbModel.Store.person_icon" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="person_links" EntityType="bds252114683_dbModel.Store.person_links" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="person_log" EntityType="bds252114683_dbModel.Store.person_log" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="person_music" EntityType="bds252114683_dbModel.Store.person_music" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="person_navigation" EntityType="bds252114683_dbModel.Store.person_navigation" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="person_navigation_type" EntityType="bds252114683_dbModel.Store.person_navigation_type" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="person_partner" EntityType="bds252114683_dbModel.Store.person_partner" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="person_picture" EntityType="bds252114683_dbModel.Store.person_picture" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="person_picture_type" EntityType="bds252114683_dbModel.Store.person_picture_type" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="person_plan" EntityType="bds252114683_dbModel.Store.person_plan" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="person_plan_content" EntityType="bds252114683_dbModel.Store.person_plan_content" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="person_price" EntityType="bds252114683_dbModel.Store.person_price" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="person_price_content" EntityType="bds252114683_dbModel.Store.person_price_content" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="person_product_description" EntityType="bds252114683_dbModel.Store.person_product_description" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="person_qq_login" EntityType="bds252114683_dbModel.Store.person_qq_login" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="person_reader" EntityType="bds252114683_dbModel.Store.person_reader" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="person_reader_type" EntityType="bds252114683_dbModel.Store.person_reader_type" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="person_resume" EntityType="bds252114683_dbModel.Store.person_resume" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="person_role" EntityType="bds252114683_dbModel.Store.person_role" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="person_service" EntityType="bds252114683_dbModel.Store.person_service" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="person_site_config" EntityType="bds252114683_dbModel.Store.person_site_config" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="person_skill" EntityType="bds252114683_dbModel.Store.person_skill" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="person_social" EntityType="bds252114683_dbModel.Store.person_social" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="person_user" EntityType="bds252114683_dbModel.Store.person_user" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="person_visitor" EntityType="bds252114683_dbModel.Store.person_visitor" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="person_vyw_aboutus_picture" EntityType="bds252114683_dbModel.Store.person_vyw_aboutus_picture" store:Type="Views" store:Schema="dbo" store:Name="person_vyw_aboutus_picture">
+      <DefiningQuery>SELECT 
+      [person_vyw_aboutus_picture].[aboutID] AS [aboutID], 
+      [person_vyw_aboutus_picture].[typeName] AS [typeName], 
+      [person_vyw_aboutus_picture].[title] AS [title], 
+      [person_vyw_aboutus_picture].[pictureID] AS [pictureID], 
+      [person_vyw_aboutus_picture].[addTime] AS [addTime], 
+      [person_vyw_aboutus_picture].[updateTime] AS [updateTime], 
+      [person_vyw_aboutus_picture].[pictureTitle] AS [pictureTitle], 
+      [person_vyw_aboutus_picture].[url] AS [url], 
+      [person_vyw_aboutus_picture].[isDelete] AS [isDelete]
+      FROM [dbo].[person_vyw_aboutus_picture] AS [person_vyw_aboutus_picture]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="person_vyw_account_notice_icon" EntityType="bds252114683_dbModel.Store.person_vyw_account_notice_icon" store:Type="Views" store:Schema="dbo" store:Name="person_vyw_account_notice_icon">
+      <DefiningQuery>SELECT 
+      [person_vyw_account_notice_icon].[accountNoticeID] AS [accountNoticeID], 
+      [person_vyw_account_notice_icon].[iconID] AS [iconID], 
+      [person_vyw_account_notice_icon].[remark1] AS [remark1], 
+      [person_vyw_account_notice_icon].[remark2] AS [remark2], 
+      [person_vyw_account_notice_icon].[addTime] AS [addTime], 
+      [person_vyw_account_notice_icon].[updateTime] AS [updateTime], 
+      [person_vyw_account_notice_icon].[iconClass] AS [iconClass], 
+      [person_vyw_account_notice_icon].[title] AS [title]
+      FROM [dbo].[person_vyw_account_notice_icon] AS [person_vyw_account_notice_icon]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="person_vyw_achievements_icon" EntityType="bds252114683_dbModel.Store.person_vyw_achievements_icon" store:Type="Views" store:Schema="dbo" store:Name="person_vyw_achievements_icon">
+      <DefiningQuery>SELECT 
+      [person_vyw_achievements_icon].[achievementsID] AS [achievementsID], 
+      [person_vyw_achievements_icon].[name] AS [name], 
+      [person_vyw_achievements_icon].[count] AS [count], 
+      [person_vyw_achievements_icon].[iconID] AS [iconID], 
+      [person_vyw_achievements_icon].[userID] AS [userID], 
+      [person_vyw_achievements_icon].[addTime] AS [addTime], 
+      [person_vyw_achievements_icon].[updateTime] AS [updateTime], 
+      [person_vyw_achievements_icon].[title] AS [title], 
+      [person_vyw_achievements_icon].[iconClass] AS [iconClass], 
+      [person_vyw_achievements_icon].[email] AS [email], 
+      [person_vyw_achievements_icon].[username] AS [username], 
+      [person_vyw_achievements_icon].[nickName] AS [nickName], 
+      [person_vyw_achievements_icon].[roleID] AS [roleID]
+      FROM [dbo].[person_vyw_achievements_icon] AS [person_vyw_achievements_icon]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="person_vyw_active_user" EntityType="bds252114683_dbModel.Store.person_vyw_active_user" store:Type="Views" store:Schema="dbo" store:Name="person_vyw_active_user">
+      <DefiningQuery>SELECT 
+      [person_vyw_active_user].[activeTime] AS [activeTime], 
+      [person_vyw_active_user].[activeToken] AS [activeToken], 
+      [person_vyw_active_user].[userID] AS [userID], 
+      [person_vyw_active_user].[activeType] AS [activeType], 
+      [person_vyw_active_user].[activeID] AS [activeID], 
+      [person_vyw_active_user].[bindStatus] AS [bindStatus], 
+      [person_vyw_active_user].[username] AS [username], 
+      [person_vyw_active_user].[email] AS [email], 
+      [person_vyw_active_user].[nickName] AS [nickName]
+      FROM [dbo].[person_vyw_active_user] AS [person_vyw_active_user]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="person_vyw_banner_user" EntityType="bds252114683_dbModel.Store.person_vyw_banner_user" store:Type="Views" store:Schema="dbo" store:Name="person_vyw_banner_user">
+      <DefiningQuery>SELECT 
+      [person_vyw_banner_user].[bannerID] AS [bannerID], 
+      [person_vyw_banner_user].[title] AS [title], 
+      [person_vyw_banner_user].[describe] AS [describe], 
+      [person_vyw_banner_user].[content] AS [content], 
+      [person_vyw_banner_user].[userID] AS [userID], 
+      [person_vyw_banner_user].[isDelete] AS [isDelete], 
+      [person_vyw_banner_user].[hot] AS [hot], 
+      [person_vyw_banner_user].[addTime] AS [addTime], 
+      [person_vyw_banner_user].[updateTime] AS [updateTime], 
+      [person_vyw_banner_user].[email] AS [email], 
+      [person_vyw_banner_user].[nickName] AS [nickName], 
+      [person_vyw_banner_user].[isRecommend] AS [isRecommend], 
+      [person_vyw_banner_user].[tags] AS [tags], 
+      [person_vyw_banner_user].[pictureID] AS [pictureID], 
+      [person_vyw_banner_user].[pictureTitle] AS [pictureTitle], 
+      [person_vyw_banner_user].[pictureIsDelete] AS [pictureIsDelete], 
+      [person_vyw_banner_user].[url] AS [url], 
+      [person_vyw_banner_user].[userPictureID] AS [userPictureID], 
+      [person_vyw_banner_user].[userPictureTitle] AS [userPictureTitle], 
+      [person_vyw_banner_user].[userPictureUrl] AS [userPictureUrl], 
+      [person_vyw_banner_user].[userPictureIsDelete] AS [userPictureIsDelete], 
+      [person_vyw_banner_user].[username] AS [username]
+      FROM [dbo].[person_vyw_banner_user] AS [person_vyw_banner_user]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="person_vyw_blog_type" EntityType="bds252114683_dbModel.Store.person_vyw_blog_type" store:Type="Views" store:Schema="dbo" store:Name="person_vyw_blog_type">
+      <DefiningQuery>SELECT 
+      [person_vyw_blog_type].[typeName] AS [typeName], 
+      [person_vyw_blog_type].[blogID] AS [blogID], 
+      [person_vyw_blog_type].[title] AS [title], 
+      [person_vyw_blog_type].[describe] AS [describe], 
+      [person_vyw_blog_type].[content] AS [content], 
+      [person_vyw_blog_type].[typeID] AS [typeID], 
+      [person_vyw_blog_type].[hot] AS [hot], 
+      [person_vyw_blog_type].[isRecommend] AS [isRecommend], 
+      [person_vyw_blog_type].[addTime] AS [addTime], 
+      [person_vyw_blog_type].[updateTime] AS [updateTime], 
+      [person_vyw_blog_type].[userID] AS [userID], 
+      [person_vyw_blog_type].[roleID] AS [roleID], 
+      [person_vyw_blog_type].[nickName] AS [nickName], 
+      [person_vyw_blog_type].[email] AS [email], 
+      [person_vyw_blog_type].[tags] AS [tags], 
+      [person_vyw_blog_type].[sourceType] AS [sourceType], 
+      [person_vyw_blog_type].[pictureID] AS [pictureID], 
+      [person_vyw_blog_type].[pictureTitle] AS [pictureTitle], 
+      [person_vyw_blog_type].[url] AS [url], 
+      [person_vyw_blog_type].[username] AS [username], 
+      [person_vyw_blog_type].[userPictureID] AS [userPictureID], 
+      [person_vyw_blog_type].[userPictureTitle] AS [userPictureTitle], 
+      [person_vyw_blog_type].[userPictureUrl] AS [userPictureUrl]
+      FROM [dbo].[person_vyw_blog_type] AS [person_vyw_blog_type]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="person_vyw_blog_type_picture" EntityType="bds252114683_dbModel.Store.person_vyw_blog_type_picture" store:Type="Views" store:Schema="dbo" store:Name="person_vyw_blog_type_picture">
+      <DefiningQuery>SELECT 
+      [person_vyw_blog_type_picture].[typeID] AS [typeID], 
+      [person_vyw_blog_type_picture].[typeName] AS [typeName], 
+      [person_vyw_blog_type_picture].[userID] AS [userID], 
+      [person_vyw_blog_type_picture].[describe] AS [describe], 
+      [person_vyw_blog_type_picture].[pictureID] AS [pictureID], 
+      [person_vyw_blog_type_picture].[weight] AS [weight], 
+      [person_vyw_blog_type_picture].[addTime] AS [addTime], 
+      [person_vyw_blog_type_picture].[updateTime] AS [updateTime], 
+      [person_vyw_blog_type_picture].[title] AS [title], 
+      [person_vyw_blog_type_picture].[url] AS [url], 
+      [person_vyw_blog_type_picture].[Expr1] AS [Expr1], 
+      [person_vyw_blog_type_picture].[isDelete] AS [isDelete]
+      FROM [dbo].[person_vyw_blog_type_picture] AS [person_vyw_blog_type_picture]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="person_vyw_case_type_user_picture" EntityType="bds252114683_dbModel.Store.person_vyw_case_type_user_picture" store:Type="Views" store:Schema="dbo" store:Name="person_vyw_case_type_user_picture">
+      <DefiningQuery>SELECT 
+      [person_vyw_case_type_user_picture].[caseID] AS [caseID], 
+      [person_vyw_case_type_user_picture].[title] AS [title], 
+      [person_vyw_case_type_user_picture].[describe] AS [describe], 
+      [person_vyw_case_type_user_picture].[content] AS [content], 
+      [person_vyw_case_type_user_picture].[typeID] AS [typeID], 
+      [person_vyw_case_type_user_picture].[userID] AS [userID], 
+      [person_vyw_case_type_user_picture].[hot] AS [hot], 
+      [person_vyw_case_type_user_picture].[addTime] AS [addTime], 
+      [person_vyw_case_type_user_picture].[updateTime] AS [updateTime], 
+      [person_vyw_case_type_user_picture].[name] AS [name], 
+      [person_vyw_case_type_user_picture].[email] AS [email], 
+      [person_vyw_case_type_user_picture].[nickName] AS [nickName], 
+      [person_vyw_case_type_user_picture].[roleID] AS [roleID], 
+      [person_vyw_case_type_user_picture].[isRecommend] AS [isRecommend], 
+      [person_vyw_case_type_user_picture].[isDelete] AS [isDelete], 
+      [person_vyw_case_type_user_picture].[pictureID] AS [pictureID], 
+      [person_vyw_case_type_user_picture].[pictureTitle] AS [pictureTitle], 
+      [person_vyw_case_type_user_picture].[url] AS [url], 
+      [person_vyw_case_type_user_picture].[pictureIsDelete] AS [pictureIsDelete], 
+      [person_vyw_case_type_user_picture].[username] AS [username], 
+      [person_vyw_case_type_user_picture].[userPictureID] AS [userPictureID], 
+      [person_vyw_case_type_user_picture].[userPictureTitle] AS [userPictureTitle], 
+      [person_vyw_case_type_user_picture].[userPictureUrl] AS [userPictureUrl], 
+      [person_vyw_case_type_user_picture].[userPictureIsDelete] AS [userPictureIsDelete]
+      FROM [dbo].[person_vyw_case_type_user_picture] AS [person_vyw_case_type_user_picture]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="person_vyw_collection_blog_type" EntityType="bds252114683_dbModel.Store.person_vyw_collection_blog_type" store:Type="Views" store:Schema="dbo" store:Name="person_vyw_collection_blog_type">
+      <DefiningQuery>SELECT 
+      [person_vyw_collection_blog_type].[title] AS [title], 
+      [person_vyw_collection_blog_type].[typeID] AS [typeID], 
+      [person_vyw_collection_blog_type].[hot] AS [hot], 
+      [person_vyw_collection_blog_type].[typeName] AS [typeName], 
+      [person_vyw_collection_blog_type].[ID] AS [ID], 
+      [person_vyw_collection_blog_type].[collectionID] AS [collectionID], 
+      [person_vyw_collection_blog_type].[userID] AS [userID], 
+      [person_vyw_collection_blog_type].[collectionTypeID] AS [collectionTypeID], 
+      [person_vyw_collection_blog_type].[addTime] AS [addTime], 
+      [person_vyw_collection_blog_type].[describe] AS [describe], 
+      [person_vyw_collection_blog_type].[sourceType] AS [sourceType]
+      FROM [dbo].[person_vyw_collection_blog_type] AS [person_vyw_collection_blog_type]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="person_vyw_collection_music" EntityType="bds252114683_dbModel.Store.person_vyw_collection_music" store:Type="Views" store:Schema="dbo" store:Name="person_vyw_collection_music">
+      <DefiningQuery>SELECT 
+      [person_vyw_collection_music].[collectionID] AS [collectionID], 
+      [person_vyw_collection_music].[ID] AS [ID], 
+      [person_vyw_collection_music].[userID] AS [userID], 
+      [person_vyw_collection_music].[collectionTypeID] AS [collectionTypeID], 
+      [person_vyw_collection_music].[addTime] AS [addTime], 
+      [person_vyw_collection_music].[musicName] AS [musicName], 
+      [person_vyw_collection_music].[musicAuthor] AS [musicAuthor], 
+      [person_vyw_collection_music].[musicLink] AS [musicLink], 
+      [person_vyw_collection_music].[isRecommend] AS [isRecommend], 
+      [person_vyw_collection_music].[hot] AS [hot]
+      FROM [dbo].[person_vyw_collection_music] AS [person_vyw_collection_music]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="person_vyw_collection_plan" EntityType="bds252114683_dbModel.Store.person_vyw_collection_plan" store:Type="Views" store:Schema="dbo" store:Name="person_vyw_collection_plan">
+      <DefiningQuery>SELECT 
+      [person_vyw_collection_plan].[addTime] AS [addTime], 
+      [person_vyw_collection_plan].[collectionTypeID] AS [collectionTypeID], 
+      [person_vyw_collection_plan].[userID] AS [userID], 
+      [person_vyw_collection_plan].[ID] AS [ID], 
+      [person_vyw_collection_plan].[collectionID] AS [collectionID], 
+      [person_vyw_collection_plan].[hot] AS [hot], 
+      [person_vyw_collection_plan].[title] AS [title], 
+      [person_vyw_collection_plan].[describe] AS [describe]
+      FROM [dbo].[person_vyw_collection_plan] AS [person_vyw_collection_plan]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="person_vyw_collection_reader_type" EntityType="bds252114683_dbModel.Store.person_vyw_collection_reader_type" store:Type="Views" store:Schema="dbo" store:Name="person_vyw_collection_reader_type">
+      <DefiningQuery>SELECT 
+      [person_vyw_collection_reader_type].[typeName] AS [typeName], 
+      [person_vyw_collection_reader_type].[readerTitle] AS [readerTitle], 
+      [person_vyw_collection_reader_type].[readerDescribe] AS [readerDescribe], 
+      [person_vyw_collection_reader_type].[hot] AS [hot], 
+      [person_vyw_collection_reader_type].[typeID] AS [typeID], 
+      [person_vyw_collection_reader_type].[addTime] AS [addTime], 
+      [person_vyw_collection_reader_type].[collectionTypeID] AS [collectionTypeID], 
+      [person_vyw_collection_reader_type].[userID] AS [userID], 
+      [person_vyw_collection_reader_type].[ID] AS [ID], 
+      [person_vyw_collection_reader_type].[collectionID] AS [collectionID], 
+      [person_vyw_collection_reader_type].[tags] AS [tags]
+      FROM [dbo].[person_vyw_collection_reader_type] AS [person_vyw_collection_reader_type]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="person_vyw_music_user" EntityType="bds252114683_dbModel.Store.person_vyw_music_user" store:Type="Views" store:Schema="dbo" store:Name="person_vyw_music_user">
+      <DefiningQuery>SELECT 
+      [person_vyw_music_user].[musicID] AS [musicID], 
+      [person_vyw_music_user].[musicName] AS [musicName], 
+      [person_vyw_music_user].[musicAuthor] AS [musicAuthor], 
+      [person_vyw_music_user].[musicLink] AS [musicLink], 
+      [person_vyw_music_user].[weight] AS [weight], 
+      [person_vyw_music_user].[userID] AS [userID], 
+      [person_vyw_music_user].[addTime] AS [addTime], 
+      [person_vyw_music_user].[updateTime] AS [updateTime], 
+      [person_vyw_music_user].[nickName] AS [nickName], 
+      [person_vyw_music_user].[email] AS [email], 
+      [person_vyw_music_user].[roleID] AS [roleID], 
+      [person_vyw_music_user].[hot] AS [hot], 
+      [person_vyw_music_user].[isRecommend] AS [isRecommend], 
+      [person_vyw_music_user].[coverImage] AS [coverImage], 
+      [person_vyw_music_user].[username] AS [username]
+      FROM [dbo].[person_vyw_music_user] AS [person_vyw_music_user]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="person_vyw_navigation_type" EntityType="bds252114683_dbModel.Store.person_vyw_navigation_type" store:Type="Views" store:Schema="dbo" store:Name="person_vyw_navigation_type">
+      <DefiningQuery>SELECT 
+      [person_vyw_navigation_type].[name] AS [name], 
+      [person_vyw_navigation_type].[describe] AS [describe], 
+      [person_vyw_navigation_type].[typeID] AS [typeID], 
+      [person_vyw_navigation_type].[siteUrl] AS [siteUrl], 
+      [person_vyw_navigation_type].[siteName] AS [siteName], 
+      [person_vyw_navigation_type].[navigationID] AS [navigationID], 
+      [person_vyw_navigation_type].[addTime] AS [addTime], 
+      [person_vyw_navigation_type].[updateTime] AS [updateTime], 
+      [person_vyw_navigation_type].[hot] AS [hot], 
+      [person_vyw_navigation_type].[isRecommend] AS [isRecommend]
+      FROM [dbo].[person_vyw_navigation_type] AS [person_vyw_navigation_type]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="person_vyw_partner_picture" EntityType="bds252114683_dbModel.Store.person_vyw_partner_picture" store:Type="Views" store:Schema="dbo" store:Name="person_vyw_partner_picture">
+      <DefiningQuery>SELECT 
+      [person_vyw_partner_picture].[partnerID] AS [partnerID], 
+      [person_vyw_partner_picture].[name] AS [name], 
+      [person_vyw_partner_picture].[url] AS [url], 
+      [person_vyw_partner_picture].[addTime] AS [addTime], 
+      [person_vyw_partner_picture].[updateTime] AS [updateTime], 
+      [person_vyw_partner_picture].[pictureID] AS [pictureID], 
+      [person_vyw_partner_picture].[title] AS [title], 
+      [person_vyw_partner_picture].[pictureUrl] AS [pictureUrl], 
+      [person_vyw_partner_picture].[isDelete] AS [isDelete]
+      FROM [dbo].[person_vyw_partner_picture] AS [person_vyw_partner_picture]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="person_vyw_plan_content" EntityType="bds252114683_dbModel.Store.person_vyw_plan_content" store:Type="Views" store:Schema="dbo" store:Name="person_vyw_plan_content">
+      <DefiningQuery>SELECT 
+      [person_vyw_plan_content].[hot] AS [hot], 
+      [person_vyw_plan_content].[weight] AS [weight], 
+      [person_vyw_plan_content].[content] AS [content], 
+      [person_vyw_plan_content].[detailID] AS [detailID], 
+      [person_vyw_plan_content].[startTime] AS [startTime], 
+      [person_vyw_plan_content].[endTime] AS [endTime], 
+      [person_vyw_plan_content].[planID] AS [planID], 
+      [person_vyw_plan_content].[userID] AS [userID], 
+      [person_vyw_plan_content].[isRecommend] AS [isRecommend], 
+      [person_vyw_plan_content].[addTime] AS [addTime], 
+      [person_vyw_plan_content].[status] AS [status], 
+      [person_vyw_plan_content].[tags] AS [tags], 
+      [person_vyw_plan_content].[describe] AS [describe], 
+      [person_vyw_plan_content].[title] AS [title], 
+      [person_vyw_plan_content].[planTitle] AS [planTitle]
+      FROM [dbo].[person_vyw_plan_content] AS [person_vyw_plan_content]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="person_vyw_plan_user" EntityType="bds252114683_dbModel.Store.person_vyw_plan_user" store:Type="Views" store:Schema="dbo" store:Name="person_vyw_plan_user">
+      <DefiningQuery>SELECT 
+      [person_vyw_plan_user].[email] AS [email], 
+      [person_vyw_plan_user].[roleID] AS [roleID], 
+      [person_vyw_plan_user].[planID] AS [planID], 
+      [person_vyw_plan_user].[title] AS [title], 
+      [person_vyw_plan_user].[describe] AS [describe], 
+      [person_vyw_plan_user].[userID] AS [userID], 
+      [person_vyw_plan_user].[hot] AS [hot], 
+      [person_vyw_plan_user].[isRecommend] AS [isRecommend], 
+      [person_vyw_plan_user].[addTime] AS [addTime], 
+      [person_vyw_plan_user].[updateTime] AS [updateTime], 
+      [person_vyw_plan_user].[nickName] AS [nickName], 
+      [person_vyw_plan_user].[tags] AS [tags], 
+      [person_vyw_plan_user].[pictureID] AS [pictureID], 
+      [person_vyw_plan_user].[isDelete] AS [isDelete], 
+      [person_vyw_plan_user].[url] AS [url], 
+      [person_vyw_plan_user].[pictureTitle] AS [pictureTitle], 
+      [person_vyw_plan_user].[username] AS [username]
+      FROM [dbo].[person_vyw_plan_user] AS [person_vyw_plan_user]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="person_vyw_price_icon" EntityType="bds252114683_dbModel.Store.person_vyw_price_icon" store:Type="Views" store:Schema="dbo" store:Name="person_vyw_price_icon">
+      <DefiningQuery>SELECT 
+      [person_vyw_price_icon].[priceID] AS [priceID], 
+      [person_vyw_price_icon].[title] AS [title], 
+      [person_vyw_price_icon].[price] AS [price], 
+      [person_vyw_price_icon].[iconID] AS [iconID], 
+      [person_vyw_price_icon].[url] AS [url], 
+      [person_vyw_price_icon].[addTime] AS [addTime], 
+      [person_vyw_price_icon].[updateTime] AS [updateTime], 
+      [person_vyw_price_icon].[iconClass] AS [iconClass], 
+      [person_vyw_price_icon].[iconTitle] AS [iconTitle], 
+      [person_vyw_price_icon].[username] AS [username], 
+      [person_vyw_price_icon].[email] AS [email], 
+      [person_vyw_price_icon].[roleID] AS [roleID], 
+      [person_vyw_price_icon].[nickName] AS [nickName], 
+      [person_vyw_price_icon].[userID] AS [userID]
+      FROM [dbo].[person_vyw_price_icon] AS [person_vyw_price_icon]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="person_vyw_product_description_icon" EntityType="bds252114683_dbModel.Store.person_vyw_product_description_icon" store:Type="Views" store:Schema="dbo" store:Name="person_vyw_product_description_icon">
+      <DefiningQuery>SELECT 
+      [person_vyw_product_description_icon].[describe] AS [describe], 
+      [person_vyw_product_description_icon].[title] AS [title], 
+      [person_vyw_product_description_icon].[content] AS [content], 
+      [person_vyw_product_description_icon].[iconID] AS [iconID], 
+      [person_vyw_product_description_icon].[hot] AS [hot], 
+      [person_vyw_product_description_icon].[addTime] AS [addTime], 
+      [person_vyw_product_description_icon].[updateTime] AS [updateTime], 
+      [person_vyw_product_description_icon].[iconClass] AS [iconClass], 
+      [person_vyw_product_description_icon].[iconTitle] AS [iconTitle], 
+      [person_vyw_product_description_icon].[productDescriptionID] AS [productDescriptionID]
+      FROM [dbo].[person_vyw_product_description_icon] AS [person_vyw_product_description_icon]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="person_vyw_reader_user" EntityType="bds252114683_dbModel.Store.person_vyw_reader_user" store:Type="Views" store:Schema="dbo" store:Name="person_vyw_reader_user">
+      <DefiningQuery>SELECT 
+      [person_vyw_reader_user].[nickName] AS [nickName], 
+      [person_vyw_reader_user].[email] AS [email], 
+      [person_vyw_reader_user].[readerID] AS [readerID], 
+      [person_vyw_reader_user].[readerTitle] AS [readerTitle], 
+      [person_vyw_reader_user].[readerDescribe] AS [readerDescribe], 
+      [person_vyw_reader_user].[link] AS [link], 
+      [person_vyw_reader_user].[userID] AS [userID], 
+      [person_vyw_reader_user].[hot] AS [hot], 
+      [person_vyw_reader_user].[typeID] AS [typeID], 
+      [person_vyw_reader_user].[addTime] AS [addTime], 
+      [person_vyw_reader_user].[updateTime] AS [updateTime], 
+      [person_vyw_reader_user].[isRecommend] AS [isRecommend], 
+      [person_vyw_reader_user].[roleID] AS [roleID], 
+      [person_vyw_reader_user].[typeName] AS [typeName], 
+      [person_vyw_reader_user].[weight] AS [weight], 
+      [person_vyw_reader_user].[tags] AS [tags], 
+      [person_vyw_reader_user].[downloadCount] AS [downloadCount], 
+      [person_vyw_reader_user].[username] AS [username], 
+      [person_vyw_reader_user].[pictureID] AS [pictureID], 
+      [person_vyw_reader_user].[title] AS [title], 
+      [person_vyw_reader_user].[url] AS [url], 
+      [person_vyw_reader_user].[isDelete] AS [isDelete]
+      FROM [dbo].[person_vyw_reader_user] AS [person_vyw_reader_user]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="person_vyw_resume_picture" EntityType="bds252114683_dbModel.Store.person_vyw_resume_picture" store:Type="Views" store:Schema="dbo" store:Name="person_vyw_resume_picture">
+      <DefiningQuery>SELECT 
+      [person_vyw_resume_picture].[updateTime] AS [updateTime], 
+      [person_vyw_resume_picture].[addTime] AS [addTime], 
+      [person_vyw_resume_picture].[isShow] AS [isShow], 
+      [person_vyw_resume_picture].[contactEmail] AS [contactEmail], 
+      [person_vyw_resume_picture].[address] AS [address], 
+      [person_vyw_resume_picture].[mobile] AS [mobile], 
+      [person_vyw_resume_picture].[workTime] AS [workTime], 
+      [person_vyw_resume_picture].[education] AS [education], 
+      [person_vyw_resume_picture].[birthday] AS [birthday], 
+      [person_vyw_resume_picture].[sex] AS [sex], 
+      [person_vyw_resume_picture].[userID] AS [userID], 
+      [person_vyw_resume_picture].[describe] AS [describe], 
+      [person_vyw_resume_picture].[position] AS [position], 
+      [person_vyw_resume_picture].[pictureID] AS [pictureID], 
+      [person_vyw_resume_picture].[realName] AS [realName], 
+      [person_vyw_resume_picture].[resumeID] AS [resumeID], 
+      [person_vyw_resume_picture].[title] AS [title], 
+      [person_vyw_resume_picture].[url] AS [url], 
+      [person_vyw_resume_picture].[typeID] AS [typeID], 
+      [person_vyw_resume_picture].[isDelete] AS [isDelete]
+      FROM [dbo].[person_vyw_resume_picture] AS [person_vyw_resume_picture]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="person_vyw_resume_user" EntityType="bds252114683_dbModel.Store.person_vyw_resume_user" store:Type="Views" store:Schema="dbo" store:Name="person_vyw_resume_user">
+      <DefiningQuery>SELECT 
+      [person_vyw_resume_user].[resumeID] AS [resumeID], 
+      [person_vyw_resume_user].[realName] AS [realName], 
+      [person_vyw_resume_user].[position] AS [position], 
+      [person_vyw_resume_user].[describe] AS [describe], 
+      [person_vyw_resume_user].[userID] AS [userID], 
+      [person_vyw_resume_user].[isShow] AS [isShow], 
+      [person_vyw_resume_user].[addTime] AS [addTime], 
+      [person_vyw_resume_user].[updateTime] AS [updateTime], 
+      [person_vyw_resume_user].[roleID] AS [roleID], 
+      [person_vyw_resume_user].[pictureID] AS [pictureID], 
+      [person_vyw_resume_user].[username] AS [username], 
+      [person_vyw_resume_user].[title] AS [title], 
+      [person_vyw_resume_user].[url] AS [url], 
+      [person_vyw_resume_user].[isDelete] AS [isDelete]
+      FROM [dbo].[person_vyw_resume_user] AS [person_vyw_resume_user]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="person_vyw_service_icon" EntityType="bds252114683_dbModel.Store.person_vyw_service_icon" store:Type="Views" store:Schema="dbo" store:Name="person_vyw_service_icon">
+      <DefiningQuery>SELECT 
+      [person_vyw_service_icon].[serviceID] AS [serviceID], 
+      [person_vyw_service_icon].[title] AS [title], 
+      [person_vyw_service_icon].[content] AS [content], 
+      [person_vyw_service_icon].[iconID] AS [iconID], 
+      [person_vyw_service_icon].[addTime] AS [addTime], 
+      [person_vyw_service_icon].[updateTime] AS [updateTime], 
+      [person_vyw_service_icon].[iconClass] AS [iconClass], 
+      [person_vyw_service_icon].[iconTitle] AS [iconTitle], 
+      [person_vyw_service_icon].[userID] AS [userID], 
+      [person_vyw_service_icon].[email] AS [email], 
+      [person_vyw_service_icon].[username] AS [username], 
+      [person_vyw_service_icon].[nickName] AS [nickName], 
+      [person_vyw_service_icon].[roleID] AS [roleID]
+      FROM [dbo].[person_vyw_service_icon] AS [person_vyw_service_icon]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="person_vyw_social_icon" EntityType="bds252114683_dbModel.Store.person_vyw_social_icon" store:Type="Views" store:Schema="dbo" store:Name="person_vyw_social_icon">
+      <DefiningQuery>SELECT 
+      [person_vyw_social_icon].[socialID] AS [socialID], 
+      [person_vyw_social_icon].[iconID] AS [iconID], 
+      [person_vyw_social_icon].[linkUrl] AS [linkUrl], 
+      [person_vyw_social_icon].[userID] AS [userID], 
+      [person_vyw_social_icon].[hot] AS [hot], 
+      [person_vyw_social_icon].[addTime] AS [addTime], 
+      [person_vyw_social_icon].[updateTime] AS [updateTime], 
+      [person_vyw_social_icon].[title] AS [title], 
+      [person_vyw_social_icon].[iconClass] AS [iconClass], 
+      [person_vyw_social_icon].[email] AS [email], 
+      [person_vyw_social_icon].[username] AS [username], 
+      [person_vyw_social_icon].[nickName] AS [nickName], 
+      [person_vyw_social_icon].[roleID] AS [roleID]
+      FROM [dbo].[person_vyw_social_icon] AS [person_vyw_social_icon]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="person_vyw_user_picture" EntityType="bds252114683_dbModel.Store.person_vyw_user_picture" store:Type="Views" store:Schema="dbo" store:Name="person_vyw_user_picture">
+      <DefiningQuery>SELECT 
+      [person_vyw_user_picture].[title] AS [title], 
+      [person_vyw_user_picture].[url] AS [url], 
+      [person_vyw_user_picture].[typeID] AS [typeID], 
+      [person_vyw_user_picture].[isDelete] AS [isDelete], 
+      [person_vyw_user_picture].[email] AS [email], 
+      [person_vyw_user_picture].[username] AS [username], 
+      [person_vyw_user_picture].[password] AS [password], 
+      [person_vyw_user_picture].[nickName] AS [nickName], 
+      [person_vyw_user_picture].[sex] AS [sex], 
+      [person_vyw_user_picture].[score] AS [score], 
+      [person_vyw_user_picture].[pictureID] AS [pictureID], 
+      [person_vyw_user_picture].[bindStatus] AS [bindStatus], 
+      [person_vyw_user_picture].[roleID] AS [roleID], 
+      [person_vyw_user_picture].[loginCount] AS [loginCount], 
+      [person_vyw_user_picture].[motto] AS [motto], 
+      [person_vyw_user_picture].[signature] AS [signature], 
+      [person_vyw_user_picture].[status] AS [status], 
+      [person_vyw_user_picture].[qqID] AS [qqID], 
+      [person_vyw_user_picture].[signTime] AS [signTime], 
+      [person_vyw_user_picture].[loginTime] AS [loginTime], 
+      [person_vyw_user_picture].[updateTime] AS [updateTime], 
+      [person_vyw_user_picture].[userID] AS [userID]
+      FROM [dbo].[person_vyw_user_picture] AS [person_vyw_user_picture]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="person_vyw_visitor_user" EntityType="bds252114683_dbModel.Store.person_vyw_visitor_user" store:Type="Views" store:Schema="dbo" store:Name="person_vyw_visitor_user">
+      <DefiningQuery>SELECT 
+      [person_vyw_visitor_user].[nickName] AS [nickName], 
+      [person_vyw_visitor_user].[email] AS [email], 
+      [person_vyw_visitor_user].[visitorID] AS [visitorID], 
+      [person_vyw_visitor_user].[memberInfoID] AS [memberInfoID], 
+      [person_vyw_visitor_user].[userID] AS [userID], 
+      [person_vyw_visitor_user].[addTime] AS [addTime]
+      FROM [dbo].[person_vyw_visitor_user] AS [person_vyw_visitor_user]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+  <EntityType Name="person_aboutus">
+    <Key>
+      <PropertyRef Name="aboutID" />
+    </Key>
+    <Property Name="aboutID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="typeName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="title" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="pictureID" Type="int" />
+    <Property Name="addTime" Type="datetime" />
+    <Property Name="updateTime" Type="datetime" />
+  </EntityType>
+  <EntityType Name="person_aboutus_content">
+    <Key>
+      <PropertyRef Name="aboutContentID" />
+    </Key>
+    <Property Name="aboutContentID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="content" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="aboutID" Type="int" Nullable="false" />
+    <Property Name="addTime" Type="datetime" />
+    <Property Name="updateTime" Type="datetime" />
+  </EntityType>
+  <EntityType Name="person_accesstoken">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="access_token" Type="nvarchar" MaxLength="250" />
+    <Property Name="expires_in" Type="int" />
+    <Property Name="refresh_token" Type="nvarchar" MaxLength="250" />
+    <Property Name="updateTime" Type="datetime" />
+  </EntityType>
+  <EntityType Name="person_account_notice">
+    <Key>
+      <PropertyRef Name="accountNoticeID" />
+    </Key>
+    <Property Name="accountNoticeID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="iconID" Type="int" Nullable="false" />
+    <Property Name="remark1" Type="nvarchar" MaxLength="50" />
+    <Property Name="remark2" Type="nvarchar" MaxLength="50" />
+    <Property Name="addTime" Type="datetime" />
+    <Property Name="updateTime" Type="datetime" />
+  </EntityType>
+  <EntityType Name="person_achievements">
+    <Key>
+      <PropertyRef Name="achievementsID" />
+    </Key>
+    <Property Name="achievementsID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="count" Type="int" Nullable="false" />
+    <Property Name="iconID" Type="int" Nullable="false" />
+    <Property Name="userID" Type="int" Nullable="false" />
+    <Property Name="addTime" Type="datetime" />
+    <Property Name="updateTime" Type="datetime" />
+  </EntityType>
+  <EntityType Name="person_action">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="actionType" Type="int" Nullable="false" />
+    <Property Name="actionID" Type="int" Nullable="false" />
+    <Property Name="userID" Type="int" Nullable="false" />
+    <Property Name="addTime" Type="datetime" />
+  </EntityType>
+  <EntityType Name="person_active">
+    <Key>
+      <PropertyRef Name="activeID" />
+    </Key>
+    <Property Name="activeID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="activeType" Type="int" Nullable="false" />
+    <Property Name="userID" Type="int" Nullable="false" />
+    <Property Name="activeToken" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="activeTime" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="person_banner">
+    <Key>
+      <PropertyRef Name="bannerID" />
+    </Key>
+    <Property Name="bannerID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="title" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="describe" Type="nvarchar" Nullable="false" MaxLength="250" />
+    <Property Name="content" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="pictureID" Type="int" />
+    <Property Name="userID" Type="int" Nullable="false" />
+    <Property Name="isDelete" Type="bit" />
+    <Property Name="hot" Type="int" />
+    <Property Name="tags" Type="nvarchar" MaxLength="500" />
+    <Property Name="isRecommend" Type="bit" />
+    <Property Name="addTime" Type="datetime" />
+    <Property Name="updateTime" Type="datetime" />
+  </EntityType>
+  <EntityType Name="person_blog">
+    <Key>
+      <PropertyRef Name="blogID" />
+    </Key>
+    <Property Name="blogID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="title" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="describe" Type="nvarchar" MaxLength="250" />
+    <Property Name="content" Type="nvarchar(max)" />
+    <Property Name="typeID" Type="int" Nullable="false" />
+    <Property Name="userID" Type="int" />
+    <Property Name="isRecommend" Type="bit" />
+    <Property Name="hot" Type="int" />
+    <Property Name="tags" Type="nvarchar" MaxLength="500" />
+    <Property Name="sourceType" Type="int" />
+    <Property Name="addTime" Type="datetime" />
+    <Property Name="updateTime" Type="datetime" />
+  </EntityType>
+  <EntityType Name="person_blog_type">
+    <Key>
+      <PropertyRef Name="typeID" />
+    </Key>
+    <Property Name="typeID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="typeName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="userID" Type="int" Nullable="false" />
+    <Property Name="describe" Type="nvarchar" MaxLength="250" />
+    <Property Name="pictureID" Type="int" Nullable="false" />
+    <Property Name="weight" Type="int" />
+    <Property Name="addTime" Type="datetime" />
+    <Property Name="updateTime" Type="datetime" />
+  </EntityType>
+  <EntityType Name="person_case">
+    <Key>
+      <PropertyRef Name="caseID" />
+    </Key>
+    <Property Name="caseID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="title" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="describe" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="content" Type="nvarchar(max)" />
+    <Property Name="pictureID" Type="int" />
+    <Property Name="typeID" Type="int" Nullable="false" />
+    <Property Name="userID" Type="int" Nullable="false" />
+    <Property Name="hot" Type="int" />
+    <Property Name="isRecommend" Type="bit" />
+    <Property Name="isDelete" Type="bit" />
+    <Property Name="addTime" Type="datetime" />
+    <Property Name="updateTime" Type="datetime" />
+  </EntityType>
+  <EntityType Name="person_case_type">
+    <Key>
+      <PropertyRef Name="typeID" />
+    </Key>
+    <Property Name="typeID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="weight" Type="int" />
+    <Property Name="addTime" Type="datetime" />
+    <Property Name="updateTime" Type="datetime" />
+  </EntityType>
+  <EntityType Name="person_client">
+    <Key>
+      <PropertyRef Name="clientID" />
+    </Key>
+    <Property Name="clientID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="content" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="name" Type="nvarchar" MaxLength="50" />
+    <Property Name="webName" Type="nvarchar" MaxLength="50" />
+    <Property Name="webUrl" Type="nvarchar" MaxLength="1050" />
+    <Property Name="addTime" Type="datetime" />
+    <Property Name="updateTime" Type="datetime" />
+  </EntityType>
+  <EntityType Name="person_collection">
+    <Key>
+      <PropertyRef Name="collectionID" />
+    </Key>
+    <Property Name="collectionID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="userID" Type="int" Nullable="false" />
+    <Property Name="collectionTypeID" Type="int" />
+    <Property Name="addTime" Type="datetime" />
+  </EntityType>
+  <EntityType Name="person_contact">
+    <Key>
+      <PropertyRef Name="contactID" />
+    </Key>
+    <Property Name="contactID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="email" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="phone" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="website" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="message" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="userID" Type="int" Nullable="false" />
+    <Property Name="isRead" Type="bit" />
+    <Property Name="isDelete" Type="bit" />
+    <Property Name="addTime" Type="datetime" />
+    <Property Name="updateTime" Type="datetime" />
+  </EntityType>
+  <EntityType Name="person_contact_info">
+    <Key>
+      <PropertyRef Name="contactInfoID" />
+    </Key>
+    <Property Name="contactInfoID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="phoneOne" Type="nvarchar" MaxLength="50" />
+    <Property Name="phoneTwo" Type="nvarchar" MaxLength="50" />
+    <Property Name="emailOne" Type="nvarchar" MaxLength="50" />
+    <Property Name="emailTwo" Type="nvarchar" MaxLength="50" />
+    <Property Name="address" Type="nvarchar" MaxLength="50" />
+    <Property Name="area" Type="nvarchar" MaxLength="100" />
+    <Property Name="userID" Type="int" />
+    <Property Name="addTime" Type="datetime" />
+    <Property Name="updateTime" Type="datetime" />
+  </EntityType>
+  <EntityType Name="person_download_reader">
+    <Key>
+      <PropertyRef Name="downloadID" />
+    </Key>
+    <Property Name="downloadID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="readerID" Type="int" Nullable="false" />
+    <Property Name="userID" Type="int" Nullable="false" />
+    <Property Name="addTime" Type="datetime" />
+  </EntityType>
+  <EntityType Name="person_email">
+    <Key>
+      <PropertyRef Name="emailID" />
+    </Key>
+    <Property Name="emailID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="emailLast" Type="nvarchar" MaxLength="250" />
+    <Property Name="emailUrl" Type="nvarchar" MaxLength="250" />
+  </EntityType>
+  <EntityType Name="person_faq">
+    <Key>
+      <PropertyRef Name="faqID" />
+    </Key>
+    <Property Name="faqID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="title" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="addTime" Type="datetime" />
+    <Property Name="updateTime" Type="datetime" />
+  </EntityType>
+  <EntityType Name="person_faq_content">
+    <Key>
+      <PropertyRef Name="faqContentID" />
+    </Key>
+    <Property Name="faqContentID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="content" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="faqID" Type="int" Nullable="false" />
+    <Property Name="addTime" Type="datetime" />
+    <Property Name="updateTime" Type="datetime" />
+  </EntityType>
+  <EntityType Name="person_hot">
+    <Key>
+      <PropertyRef Name="hotID" />
+    </Key>
+    <Property Name="hotID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="ipAddress" Type="nvarchar" MaxLength="50" />
+    <Property Name="typeID" Type="int" />
+    <Property Name="addTime" Type="datetime" />
+  </EntityType>
+  <EntityType Name="person_icon">
+    <Key>
+      <PropertyRef Name="iconID" />
+    </Key>
+    <Property Name="iconID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="iconClass" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="title" Type="nvarchar" MaxLength="50" />
+    <Property Name="addTime" Type="datetime" />
+    <Property Name="updateTime" Type="datetime" />
+  </EntityType>
+  <EntityType Name="person_links">
+    <Key>
+      <PropertyRef Name="linkID" />
+    </Key>
+    <Property Name="linkID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="url" Type="nvarchar" MaxLength="1050" />
+    <Property Name="addTime" Type="datetime" />
+    <Property Name="updateTime" Type="datetime" />
+  </EntityType>
+  <EntityType Name="person_log">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="msg" Type="nvarchar(max)" />
+    <Property Name="addTime" Type="datetime" />
+  </EntityType>
+  <EntityType Name="person_music">
+    <Key>
+      <PropertyRef Name="musicID" />
+    </Key>
+    <Property Name="musicID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="musicName" Type="nvarchar" Nullable="false" MaxLength="250" />
+    <Property Name="musicAuthor" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="musicLink" Type="nvarchar" Nullable="false" MaxLength="1024" />
+    <Property Name="coverImage" Type="nvarchar" MaxLength="1050" />
+    <Property Name="isRecommend" Type="bit" />
+    <Property Name="weight" Type="int" />
+    <Property Name="hot" Type="int" />
+    <Property Name="userID" Type="int" Nullable="false" />
+    <Property Name="addTime" Type="datetime" />
+    <Property Name="updateTime" Type="datetime" />
+  </EntityType>
+  <EntityType Name="person_navigation">
+    <Key>
+      <PropertyRef Name="navigationID" />
+    </Key>
+    <Property Name="navigationID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="siteName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="siteUrl" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="typeID" Type="int" Nullable="false" />
+    <Property Name="isRecommend" Type="bit" />
+    <Property Name="hot" Type="int" />
+    <Property Name="addTime" Type="datetime" />
+    <Property Name="updateTime" Type="datetime" />
+  </EntityType>
+  <EntityType Name="person_navigation_type">
+    <Key>
+      <PropertyRef Name="typeID" />
+    </Key>
+    <Property Name="typeID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="describe" Type="nvarchar" MaxLength="500" />
+    <Property Name="addTime" Type="datetime" />
+    <Property Name="updateTime" Type="datetime" />
+  </EntityType>
+  <EntityType Name="person_partner">
+    <Key>
+      <PropertyRef Name="partnerID" />
+    </Key>
+    <Property Name="partnerID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="nvarchar" MaxLength="50" />
+    <Property Name="pictureID" Type="int" />
+    <Property Name="url" Type="nvarchar" MaxLength="1050" />
+    <Property Name="addTime" Type="datetime" />
+    <Property Name="updateTime" Type="datetime" />
+  </EntityType>
+  <EntityType Name="person_picture">
+    <Key>
+      <PropertyRef Name="pictureID" />
+    </Key>
+    <Property Name="pictureID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="title" Type="nvarchar" MaxLength="100" />
+    <Property Name="url" Type="nvarchar" Nullable="false" MaxLength="1050" />
+    <Property Name="userID" Type="int" Nullable="false" />
+    <Property Name="typeID" Type="int" Nullable="false" />
+    <Property Name="isDelete" Type="bit" Nullable="false" />
+    <Property Name="addTime" Type="datetime" />
+    <Property Name="updateTime" Type="datetime" />
+  </EntityType>
+  <EntityType Name="person_picture_type">
+    <Key>
+      <PropertyRef Name="typeID" />
+    </Key>
+    <Property Name="typeID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="userID" Type="int" Nullable="false" />
+    <Property Name="addTime" Type="datetime" />
+    <Property Name="updateTime" Type="datetime" />
+  </EntityType>
+  <EntityType Name="person_plan">
+    <Key>
+      <PropertyRef Name="planID" />
+    </Key>
+    <Property Name="planID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="title" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="describe" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="userID" Type="int" Nullable="false" />
+    <Property Name="hot" Type="int" Nullable="false" />
+    <Property Name="isRecommend" Type="bit" />
+    <Property Name="tags" Type="nvarchar" MaxLength="500" />
+    <Property Name="addTime" Type="datetime" />
+    <Property Name="updateTime" Type="datetime" />
+  </EntityType>
+  <EntityType Name="person_plan_content">
+    <Key>
+      <PropertyRef Name="detailID" />
+    </Key>
+    <Property Name="detailID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="title" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="content" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="weight" Type="int" Nullable="false" />
+    <Property Name="planID" Type="int" Nullable="false" />
+    <Property Name="userID" Type="int" Nullable="false" />
+    <Property Name="status" Type="int" />
+    <Property Name="startTime" Type="datetime" />
+    <Property Name="endTime" Type="datetime" />
+    <Property Name="addTime" Type="datetime" />
+    <Property Name="updateTime" Type="datetime" />
+  </EntityType>
+  <EntityType Name="person_price">
+    <Key>
+      <PropertyRef Name="priceID" />
+    </Key>
+    <Property Name="priceID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="title" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="price" Type="int" Nullable="false" />
+    <Property Name="url" Type="nvarchar" MaxLength="1050" />
+    <Property Name="iconID" Type="int" />
+    <Property Name="userID" Type="int" />
+    <Property Name="addTime" Type="datetime" />
+    <Property Name="updateTime" Type="datetime" />
+  </EntityType>
+  <EntityType Name="person_price_content">
+    <Key>
+      <PropertyRef Name="priceContentID" />
+    </Key>
+    <Property Name="priceContentID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="priceID" Type="int" Nullable="false" />
+    <Property Name="userID" Type="int" />
+    <Property Name="addTime" Type="datetime" />
+    <Property Name="updateTime" Type="datetime" />
+  </EntityType>
+  <EntityType Name="person_product_description">
+    <Key>
+      <PropertyRef Name="productDescriptionID" />
+    </Key>
+    <Property Name="productDescriptionID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="title" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="describe" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="content" Type="nvarchar(max)" />
+    <Property Name="iconID" Type="int" />
+    <Property Name="hot" Type="int" />
+    <Property Name="addTime" Type="datetime" />
+    <Property Name="updateTime" Type="datetime" />
+  </EntityType>
+  <EntityType Name="person_qq_login">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="ret" Type="int" />
+    <Property Name="msg" Type="nvarchar" MaxLength="1024" />
+    <Property Name="nickname" Type="nvarchar" MaxLength="50" />
+    <Property Name="figureurl" Type="nvarchar" MaxLength="1050" />
+    <Property Name="figureurl_1" Type="nvarchar" MaxLength="1050" />
+    <Property Name="figureurl_2" Type="nvarchar" MaxLength="1050" />
+    <Property Name="figureurl_qq_1" Type="nvarchar" MaxLength="1050" />
+    <Property Name="figureurl_qq_2" Type="nvarchar" MaxLength="1050" />
+    <Property Name="gender" Type="nvarchar" MaxLength="10" />
+    <Property Name="is_yellow_vip" Type="int" />
+    <Property Name="vip" Type="int" />
+    <Property Name="yellow_vip_level" Type="nvarchar" MaxLength="50" />
+    <Property Name="level" Type="nvarchar" MaxLength="50" />
+    <Property Name="is_yellow_year_vip" Type="int" />
+    <Property Name="openid" Type="nvarchar" MaxLength="50" />
+    <Property Name="addTime" Type="datetime" />
+  </EntityType>
+  <EntityType Name="person_reader">
+    <Key>
+      <PropertyRef Name="readerID" />
+    </Key>
+    <Property Name="readerID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="readerTitle" Type="nvarchar" Nullable="false" MaxLength="250" />
+    <Property Name="readerDescribe" Type="nvarchar" Nullable="false" MaxLength="1024" />
+    <Property Name="link" Type="nvarchar" Nullable="false" MaxLength="1024" />
+    <Property Name="userID" Type="int" />
+    <Property Name="hot" Type="int" />
+    <Property Name="isRecommend" Type="bit" />
+    <Property Name="typeID" Type="int" />
+    <Property Name="tags" Type="nvarchar" MaxLength="500" />
+    <Property Name="downloadCount" Type="int" />
+    <Property Name="addTime" Type="datetime" />
+    <Property Name="updateTime" Type="datetime" />
+  </EntityType>
+  <EntityType Name="person_reader_type">
+    <Key>
+      <PropertyRef Name="typeID" />
+    </Key>
+    <Property Name="typeID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="typeName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="weight" Type="int" />
+    <Property Name="addTime" Type="datetime" />
+    <Property Name="updateTime" Type="datetime" />
+  </EntityType>
+  <EntityType Name="person_resume">
+    <Key>
+      <PropertyRef Name="resumeID" />
+    </Key>
+    <Property Name="resumeID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="realName" Type="nvarchar" MaxLength="50" />
+    <Property Name="pictureID" Type="int" Nullable="false" />
+    <Property Name="position" Type="nvarchar" MaxLength="50" />
+    <Property Name="describe" Type="nvarchar" MaxLength="500" />
+    <Property Name="userID" Type="int" />
+    <Property Name="sex" Type="int" />
+    <Property Name="birthday" Type="nvarchar" MaxLength="50" />
+    <Property Name="education" Type="int" />
+    <Property Name="workTime" Type="int" />
+    <Property Name="address" Type="nvarchar" MaxLength="50" />
+    <Property Name="mobile" Type="nvarchar" MaxLength="50" />
+    <Property Name="contactEmail" Type="nvarchar" MaxLength="50" />
+    <Property Name="isShow" Type="bit" />
+    <Property Name="addTime" Type="datetime" />
+    <Property Name="updateTime" Type="datetime" />
+  </EntityType>
+  <EntityType Name="person_role">
+    <Key>
+      <PropertyRef Name="roleID" />
+    </Key>
+    <Property Name="roleID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="roleName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="remark" Type="nvarchar" MaxLength="250" />
+    <Property Name="addTime" Type="datetime" />
+    <Property Name="updateTime" Type="datetime" />
+  </EntityType>
+  <EntityType Name="person_service">
+    <Key>
+      <PropertyRef Name="serviceID" />
+    </Key>
+    <Property Name="serviceID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="title" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="content" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="iconID" Type="int" />
+    <Property Name="userID" Type="int" />
+    <Property Name="addTime" Type="datetime" />
+    <Property Name="updateTime" Type="datetime" />
+  </EntityType>
+  <EntityType Name="person_site_config">
+    <Key>
+      <PropertyRef Name="configID" />
+    </Key>
+    <Property Name="configID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="key" Type="nvarchar" MaxLength="500" />
+    <Property Name="value" Type="nvarchar" MaxLength="500" />
+    <Property Name="updateTime" Type="datetime" />
+  </EntityType>
+  <EntityType Name="person_skill">
+    <Key>
+      <PropertyRef Name="skillID" />
+    </Key>
+    <Property Name="skillID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="title" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="percent" Type="int" Nullable="false" />
+    <Property Name="userID" Type="int" Nullable="false" />
+    <Property Name="addTime" Type="datetime" />
+    <Property Name="updateTime" Type="datetime" />
+  </EntityType>
+  <EntityType Name="person_social">
+    <Key>
+      <PropertyRef Name="socialID" />
+    </Key>
+    <Property Name="socialID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="linkUrl" Type="nvarchar" Nullable="false" MaxLength="1050" />
+    <Property Name="iconID" Type="int" Nullable="false" />
+    <Property Name="userID" Type="int" Nullable="false" />
+    <Property Name="hot" Type="int" />
+    <Property Name="addTime" Type="datetime" />
+    <Property Name="updateTime" Type="datetime" />
+  </EntityType>
+  <EntityType Name="person_user">
+    <Key>
+      <PropertyRef Name="userID" />
+    </Key>
+    <Property Name="userID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="email" Type="nvarchar" MaxLength="50" />
+    <Property Name="username" Type="nvarchar" MaxLength="50" />
+    <Property Name="password" Type="nvarchar" MaxLength="50" />
+    <Property Name="nickName" Type="nvarchar" MaxLength="50" />
+    <Property Name="sex" Type="int" />
+    <Property Name="score" Type="int" />
+    <Property Name="pictureID" Type="int" />
+    <Property Name="bindStatus" Type="bit" />
+    <Property Name="roleID" Type="int" />
+    <Property Name="loginCount" Type="int" />
+    <Property Name="motto" Type="nvarchar" MaxLength="20" />
+    <Property Name="signature" Type="nvarchar" MaxLength="200" />
+    <Property Name="status" Type="int" Nullable="false" />
+    <Property Name="qqID" Type="int" />
+    <Property Name="signTime" Type="datetime" />
+    <Property Name="loginTime" Type="datetime" />
+    <Property Name="updateTime" Type="datetime" />
+  </EntityType>
+  <EntityType Name="person_visitor">
+    <Key>
+      <PropertyRef Name="visitorID" />
+    </Key>
+    <Property Name="visitorID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="userID" Type="int" Nullable="false" />
+    <Property Name="memberInfoID" Type="int" Nullable="false" />
+    <Property Name="addTime" Type="datetime" />
+  </EntityType>
+  <!--生成过程中发现错误:
+      警告 6002: 表/视图“bds252114683_db.dbo.person_vyw_aboutus_picture”未定义主键。已推断出该键，并将定义创建为只读的表/视图。
+      -->
+  <EntityType Name="person_vyw_aboutus_picture">
+    <Key>
+      <PropertyRef Name="aboutID" />
+      <PropertyRef Name="typeName" />
+      <PropertyRef Name="title" />
+    </Key>
+    <Property Name="aboutID" Type="int" Nullable="false" />
+    <Property Name="typeName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="title" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="pictureID" Type="int" />
+    <Property Name="addTime" Type="datetime" />
+    <Property Name="updateTime" Type="datetime" />
+    <Property Name="pictureTitle" Type="nvarchar" MaxLength="100" />
+    <Property Name="url" Type="nvarchar" MaxLength="1050" />
+    <Property Name="isDelete" Type="bit" />
+  </EntityType>
+  <!--生成过程中发现错误:
+      警告 6002: 表/视图“bds252114683_db.dbo.person_vyw_account_notice_icon”未定义主键。已推断出该键，并将定义创建为只读的表/视图。
+      -->
+  <EntityType Name="person_vyw_account_notice_icon">
+    <Key>
+      <PropertyRef Name="accountNoticeID" />
+      <PropertyRef Name="iconID" />
+      <PropertyRef Name="iconClass" />
+    </Key>
+    <Property Name="accountNoticeID" Type="int" Nullable="false" />
+    <Property Name="iconID" Type="int" Nullable="false" />
+    <Property Name="remark1" Type="nvarchar" MaxLength="50" />
+    <Property Name="remark2" Type="nvarchar" MaxLength="50" />
+    <Property Name="addTime" Type="datetime" />
+    <Property Name="updateTime" Type="datetime" />
+    <Property Name="iconClass" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="title" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <!--生成过程中发现错误:
+      警告 6002: 表/视图“bds252114683_db.dbo.person_vyw_achievements_icon”未定义主键。已推断出该键，并将定义创建为只读的表/视图。
+      -->
+  <EntityType Name="person_vyw_achievements_icon">
+    <Key>
+      <PropertyRef Name="achievementsID" />
+      <PropertyRef Name="name" />
+      <PropertyRef Name="count" />
+      <PropertyRef Name="iconID" />
+      <PropertyRef Name="userID" />
+    </Key>
+    <Property Name="achievementsID" Type="int" Nullable="false" />
+    <Property Name="name" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="count" Type="int" Nullable="false" />
+    <Property Name="iconID" Type="int" Nullable="false" />
+    <Property Name="userID" Type="int" Nullable="false" />
+    <Property Name="addTime" Type="datetime" />
+    <Property Name="updateTime" Type="datetime" />
+    <Property Name="title" Type="nvarchar" MaxLength="50" />
+    <Property Name="iconClass" Type="nvarchar" MaxLength="50" />
+    <Property Name="email" Type="nvarchar" MaxLength="50" />
+    <Property Name="username" Type="nvarchar" MaxLength="50" />
+    <Property Name="nickName" Type="nvarchar" MaxLength="50" />
+    <Property Name="roleID" Type="int" />
+  </EntityType>
+  <!--生成过程中发现错误:
+      警告 6002: 表/视图“bds252114683_db.dbo.person_vyw_active_user”未定义主键。已推断出该键，并将定义创建为只读的表/视图。
+      -->
+  <EntityType Name="person_vyw_active_user">
+    <Key>
+      <PropertyRef Name="activeTime" />
+      <PropertyRef Name="activeToken" />
+      <PropertyRef Name="userID" />
+      <PropertyRef Name="activeType" />
+      <PropertyRef Name="activeID" />
+    </Key>
+    <Property Name="activeTime" Type="datetime" Nullable="false" />
+    <Property Name="activeToken" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="userID" Type="int" Nullable="false" />
+    <Property Name="activeType" Type="int" Nullable="false" />
+    <Property Name="activeID" Type="int" Nullable="false" />
+    <Property Name="bindStatus" Type="bit" />
+    <Property Name="username" Type="nvarchar" MaxLength="50" />
+    <Property Name="email" Type="nvarchar" MaxLength="50" />
+    <Property Name="nickName" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <!--生成过程中发现错误:
+      警告 6002: 表/视图“bds252114683_db.dbo.person_vyw_banner_user”未定义主键。已推断出该键，并将定义创建为只读的表/视图。
+      -->
+  <EntityType Name="person_vyw_banner_user">
+    <Key>
+      <PropertyRef Name="bannerID" />
+      <PropertyRef Name="title" />
+      <PropertyRef Name="describe" />
+      <PropertyRef Name="content" />
+      <PropertyRef Name="userID" />
+      <PropertyRef Name="userPictureUrl" />
+      <PropertyRef Name="userPictureIsDelete" />
+    </Key>
+    <Property Name="bannerID" Type="int" Nullable="false" />
+    <Property Name="title" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="describe" Type="nvarchar" Nullable="false" MaxLength="250" />
+    <Property Name="content" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="userID" Type="int" Nullable="false" />
+    <Property Name="isDelete" Type="bit" />
+    <Property Name="hot" Type="int" />
+    <Property Name="addTime" Type="datetime" />
+    <Property Name="updateTime" Type="datetime" />
+    <Property Name="email" Type="nvarchar" MaxLength="50" />
+    <Property Name="nickName" Type="nvarchar" MaxLength="50" />
+    <Property Name="isRecommend" Type="bit" />
+    <Property Name="tags" Type="nvarchar" MaxLength="500" />
+    <Property Name="pictureID" Type="int" />
+    <Property Name="pictureTitle" Type="nvarchar" MaxLength="100" />
+    <Property Name="pictureIsDelete" Type="bit" />
+    <Property Name="url" Type="nvarchar" MaxLength="1050" />
+    <Property Name="userPictureID" Type="int" />
+    <Property Name="userPictureTitle" Type="nvarchar" MaxLength="100" />
+    <Property Name="userPictureUrl" Type="nvarchar" Nullable="false" MaxLength="1050" />
+    <Property Name="userPictureIsDelete" Type="bit" Nullable="false" />
+    <Property Name="username" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <!--生成过程中发现错误:
+      警告 6002: 表/视图“bds252114683_db.dbo.person_vyw_blog_type”未定义主键。已推断出该键，并将定义创建为只读的表/视图。
+      -->
+  <EntityType Name="person_vyw_blog_type">
+    <Key>
+      <PropertyRef Name="typeName" />
+      <PropertyRef Name="blogID" />
+      <PropertyRef Name="title" />
+      <PropertyRef Name="typeID" />
+      <PropertyRef Name="pictureID" />
+    </Key>
+    <Property Name="typeName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="blogID" Type="int" Nullable="false" />
+    <Property Name="title" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="describe" Type="nvarchar" MaxLength="250" />
+    <Property Name="content" Type="nvarchar(max)" />
+    <Property Name="typeID" Type="int" Nullable="false" />
+    <Property Name="hot" Type="int" />
+    <Property Name="isRecommend" Type="bit" />
+    <Property Name="addTime" Type="datetime" />
+    <Property Name="updateTime" Type="datetime" />
+    <Property Name="userID" Type="int" />
+    <Property Name="roleID" Type="int" />
+    <Property Name="nickName" Type="nvarchar" MaxLength="50" />
+    <Property Name="email" Type="nvarchar" MaxLength="50" />
+    <Property Name="tags" Type="nvarchar" MaxLength="500" />
+    <Property Name="sourceType" Type="int" />
+    <Property Name="pictureID" Type="int" Nullable="false" />
+    <Property Name="pictureTitle" Type="nvarchar" MaxLength="100" />
+    <Property Name="url" Type="nvarchar" MaxLength="1050" />
+    <Property Name="username" Type="nvarchar" MaxLength="50" />
+    <Property Name="userPictureID" Type="int" />
+    <Property Name="userPictureTitle" Type="nvarchar" MaxLength="100" />
+    <Property Name="userPictureUrl" Type="nvarchar" MaxLength="1050" />
+  </EntityType>
+  <!--生成过程中发现错误:
+      警告 6002: 表/视图“bds252114683_db.dbo.person_vyw_blog_type_picture”未定义主键。已推断出该键，并将定义创建为只读的表/视图。
+      -->
+  <EntityType Name="person_vyw_blog_type_picture">
+    <Key>
+      <PropertyRef Name="typeID" />
+      <PropertyRef Name="typeName" />
+      <PropertyRef Name="userID" />
+      <PropertyRef Name="pictureID" />
+    </Key>
+    <Property Name="typeID" Type="int" Nullable="false" />
+    <Property Name="typeName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="userID" Type="int" Nullable="false" />
+    <Property Name="describe" Type="nvarchar" MaxLength="250" />
+    <Property Name="pictureID" Type="int" Nullable="false" />
+    <Property Name="weight" Type="int" />
+    <Property Name="addTime" Type="datetime" />
+    <Property Name="updateTime" Type="datetime" />
+    <Property Name="title" Type="nvarchar" MaxLength="100" />
+    <Property Name="url" Type="nvarchar" MaxLength="1050" />
+    <Property Name="Expr1" Type="int" />
+    <Property Name="isDelete" Type="bit" />
+  </EntityType>
+  <!--生成过程中发现错误:
+      警告 6002: 表/视图“bds252114683_db.dbo.person_vyw_case_type_user_picture”未定义主键。已推断出该键，并将定义创建为只读的表/视图。
+      -->
+  <EntityType Name="person_vyw_case_type_user_picture">
+    <Key>
+      <PropertyRef Name="caseID" />
+      <PropertyRef Name="title" />
+      <PropertyRef Name="describe" />
+      <PropertyRef Name="typeID" />
+      <PropertyRef Name="userID" />
+      <PropertyRef Name="name" />
+      <PropertyRef Name="userPictureUrl" />
+      <PropertyRef Name="userPictureIsDelete" />
+    </Key>
+    <Property Name="caseID" Type="int" Nullable="false" />
+    <Property Name="title" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="describe" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="content" Type="nvarchar(max)" />
+    <Property Name="typeID" Type="int" Nullable="false" />
+    <Property Name="userID" Type="int" Nullable="false" />
+    <Property Name="hot" Type="int" />
+    <Property Name="addTime" Type="datetime" />
+    <Property Name="updateTime" Type="datetime" />
+    <Property Name="name" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="email" Type="nvarchar" MaxLength="50" />
+    <Property Name="nickName" Type="nvarchar" MaxLength="50" />
+    <Property Name="roleID" Type="int" />
+    <Property Name="isRecommend" Type="bit" />
+    <Property Name="isDelete" Type="bit" />
+    <Property Name="pictureID" Type="int" />
+    <Property Name="pictureTitle" Type="nvarchar" MaxLength="100" />
+    <Property Name="url" Type="nvarchar" MaxLength="1050" />
+    <Property Name="pictureIsDelete" Type="bit" />
+    <Property Name="username" Type="nvarchar" MaxLength="50" />
+    <Property Name="userPictureID" Type="int" />
+    <Property Name="userPictureTitle" Type="nvarchar" MaxLength="100" />
+    <Property Name="userPictureUrl" Type="nvarchar" Nullable="false" MaxLength="1050" />
+    <Property Name="userPictureIsDelete" Type="bit" Nullable="false" />
+  </EntityType>
+  <!--生成过程中发现错误:
+      警告 6002: 表/视图“bds252114683_db.dbo.person_vyw_collection_blog_type”未定义主键。已推断出该键，并将定义创建为只读的表/视图。
+      -->
+  <EntityType Name="person_vyw_collection_blog_type">
+    <Key>
+      <PropertyRef Name="title" />
+      <PropertyRef Name="typeID" />
+      <PropertyRef Name="typeName" />
+      <PropertyRef Name="ID" />
+      <PropertyRef Name="collectionID" />
+      <PropertyRef Name="userID" />
+    </Key>
+    <Property Name="title" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="typeID" Type="int" Nullable="false" />
+    <Property Name="hot" Type="int" />
+    <Property Name="typeName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="collectionID" Type="int" Nullable="false" />
+    <Property Name="userID" Type="int" Nullable="false" />
+    <Property Name="collectionTypeID" Type="int" />
+    <Property Name="addTime" Type="datetime" />
+    <Property Name="describe" Type="nvarchar" MaxLength="250" />
+    <Property Name="sourceType" Type="int" />
+  </EntityType>
+  <!--生成过程中发现错误:
+      警告 6002: 表/视图“bds252114683_db.dbo.person_vyw_collection_music”未定义主键。已推断出该键，并将定义创建为只读的表/视图。
+      -->
+  <EntityType Name="person_vyw_collection_music">
+    <Key>
+      <PropertyRef Name="collectionID" />
+      <PropertyRef Name="ID" />
+      <PropertyRef Name="userID" />
+      <PropertyRef Name="musicName" />
+      <PropertyRef Name="musicAuthor" />
+      <PropertyRef Name="musicLink" />
+    </Key>
+    <Property Name="collectionID" Type="int" Nullable="false" />
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="userID" Type="int" Nullable="false" />
+    <Property Name="collectionTypeID" Type="int" />
+    <Property Name="addTime" Type="datetime" />
+    <Property Name="musicName" Type="nvarchar" Nullable="false" MaxLength="250" />
+    <Property Name="musicAuthor" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="musicLink" Type="nvarchar" Nullable="false" MaxLength="1024" />
+    <Property Name="isRecommend" Type="bit" />
+    <Property Name="hot" Type="int" />
+  </EntityType>
+  <!--生成过程中发现错误:
+      警告 6002: 表/视图“bds252114683_db.dbo.person_vyw_collection_plan”未定义主键。已推断出该键，并将定义创建为只读的表/视图。
+      -->
+  <EntityType Name="person_vyw_collection_plan">
+    <Key>
+      <PropertyRef Name="userID" />
+      <PropertyRef Name="ID" />
+      <PropertyRef Name="collectionID" />
+      <PropertyRef Name="hot" />
+      <PropertyRef Name="title" />
+      <PropertyRef Name="describe" />
+    </Key>
+    <Property Name="addTime" Type="datetime" />
+    <Property Name="collectionTypeID" Type="int" />
+    <Property Name="userID" Type="int" Nullable="false" />
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="collectionID" Type="int" Nullable="false" />
+    <Property Name="hot" Type="int" Nullable="false" />
+    <Property Name="title" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="describe" Type="nvarchar" Nullable="false" MaxLength="500" />
+  </EntityType>
+  <!--生成过程中发现错误:
+      警告 6002: 表/视图“bds252114683_db.dbo.person_vyw_collection_reader_type”未定义主键。已推断出该键，并将定义创建为只读的表/视图。
+      -->
+  <EntityType Name="person_vyw_collection_reader_type">
+    <Key>
+      <PropertyRef Name="typeName" />
+      <PropertyRef Name="readerTitle" />
+      <PropertyRef Name="readerDescribe" />
+      <PropertyRef Name="userID" />
+      <PropertyRef Name="ID" />
+      <PropertyRef Name="collectionID" />
+    </Key>
+    <Property Name="typeName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="readerTitle" Type="nvarchar" Nullable="false" MaxLength="250" />
+    <Property Name="readerDescribe" Type="nvarchar" Nullable="false" MaxLength="1024" />
+    <Property Name="hot" Type="int" />
+    <Property Name="typeID" Type="int" />
+    <Property Name="addTime" Type="datetime" />
+    <Property Name="collectionTypeID" Type="int" />
+    <Property Name="userID" Type="int" Nullable="false" />
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="collectionID" Type="int" Nullable="false" />
+    <Property Name="tags" Type="nvarchar" MaxLength="500" />
+  </EntityType>
+  <!--生成过程中发现错误:
+      警告 6002: 表/视图“bds252114683_db.dbo.person_vyw_music_user”未定义主键。已推断出该键，并将定义创建为只读的表/视图。
+      -->
+  <EntityType Name="person_vyw_music_user">
+    <Key>
+      <PropertyRef Name="musicID" />
+      <PropertyRef Name="musicName" />
+      <PropertyRef Name="musicAuthor" />
+      <PropertyRef Name="musicLink" />
+      <PropertyRef Name="userID" />
+    </Key>
+    <Property Name="musicID" Type="int" Nullable="false" />
+    <Property Name="musicName" Type="nvarchar" Nullable="false" MaxLength="250" />
+    <Property Name="musicAuthor" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="musicLink" Type="nvarchar" Nullable="false" MaxLength="1024" />
+    <Property Name="weight" Type="int" />
+    <Property Name="userID" Type="int" Nullable="false" />
+    <Property Name="addTime" Type="datetime" />
+    <Property Name="updateTime" Type="datetime" />
+    <Property Name="nickName" Type="nvarchar" MaxLength="50" />
+    <Property Name="email" Type="nvarchar" MaxLength="50" />
+    <Property Name="roleID" Type="int" />
+    <Property Name="hot" Type="int" />
+    <Property Name="isRecommend" Type="bit" />
+    <Property Name="coverImage" Type="nvarchar" MaxLength="1050" />
+    <Property Name="username" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <!--生成过程中发现错误:
+      警告 6002: 表/视图“bds252114683_db.dbo.person_vyw_navigation_type”未定义主键。已推断出该键，并将定义创建为只读的表/视图。
+      -->
+  <EntityType Name="person_vyw_navigation_type">
+    <Key>
+      <PropertyRef Name="name" />
+      <PropertyRef Name="typeID" />
+      <PropertyRef Name="siteUrl" />
+      <PropertyRef Name="siteName" />
+      <PropertyRef Name="navigationID" />
+    </Key>
+    <Property Name="name" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="describe" Type="nvarchar" MaxLength="500" />
+    <Property Name="typeID" Type="int" Nullable="false" />
+    <Property Name="siteUrl" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="siteName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="navigationID" Type="int" Nullable="false" />
+    <Property Name="addTime" Type="datetime" />
+    <Property Name="updateTime" Type="datetime" />
+    <Property Name="hot" Type="int" />
+    <Property Name="isRecommend" Type="bit" />
+  </EntityType>
+  <!--生成过程中发现错误:
+      警告 6002: 表/视图“bds252114683_db.dbo.person_vyw_partner_picture”未定义主键。已推断出该键，并将定义创建为只读的表/视图。
+      -->
+  <EntityType Name="person_vyw_partner_picture">
+    <Key>
+      <PropertyRef Name="partnerID" />
+    </Key>
+    <Property Name="partnerID" Type="int" Nullable="false" />
+    <Property Name="name" Type="nvarchar" MaxLength="50" />
+    <Property Name="url" Type="nvarchar" MaxLength="1050" />
+    <Property Name="addTime" Type="datetime" />
+    <Property Name="updateTime" Type="datetime" />
+    <Property Name="pictureID" Type="int" />
+    <Property Name="title" Type="nvarchar" MaxLength="100" />
+    <Property Name="pictureUrl" Type="nvarchar" MaxLength="1050" />
+    <Property Name="isDelete" Type="bit" />
+  </EntityType>
+  <!--生成过程中发现错误:
+      警告 6002: 表/视图“bds252114683_db.dbo.person_vyw_plan_content”未定义主键。已推断出该键，并将定义创建为只读的表/视图。
+      -->
+  <EntityType Name="person_vyw_plan_content">
+    <Key>
+      <PropertyRef Name="hot" />
+      <PropertyRef Name="weight" />
+      <PropertyRef Name="content" />
+      <PropertyRef Name="detailID" />
+      <PropertyRef Name="planID" />
+      <PropertyRef Name="userID" />
+      <PropertyRef Name="describe" />
+      <PropertyRef Name="title" />
+      <PropertyRef Name="planTitle" />
+    </Key>
+    <Property Name="hot" Type="int" Nullable="false" />
+    <Property Name="weight" Type="int" Nullable="false" />
+    <Property Name="content" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="detailID" Type="int" Nullable="false" />
+    <Property Name="startTime" Type="datetime" />
+    <Property Name="endTime" Type="datetime" />
+    <Property Name="planID" Type="int" Nullable="false" />
+    <Property Name="userID" Type="int" Nullable="false" />
+    <Property Name="isRecommend" Type="bit" />
+    <Property Name="addTime" Type="datetime" />
+    <Property Name="status" Type="int" />
+    <Property Name="tags" Type="nvarchar" MaxLength="500" />
+    <Property Name="describe" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="title" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="planTitle" Type="nvarchar" Nullable="false" MaxLength="50" />
+  </EntityType>
+  <!--生成过程中发现错误:
+      警告 6002: 表/视图“bds252114683_db.dbo.person_vyw_plan_user”未定义主键。已推断出该键，并将定义创建为只读的表/视图。
+      -->
+  <EntityType Name="person_vyw_plan_user">
+    <Key>
+      <PropertyRef Name="planID" />
+      <PropertyRef Name="title" />
+      <PropertyRef Name="describe" />
+      <PropertyRef Name="userID" />
+      <PropertyRef Name="hot" />
+    </Key>
+    <Property Name="email" Type="nvarchar" MaxLength="50" />
+    <Property Name="roleID" Type="int" />
+    <Property Name="planID" Type="int" Nullable="false" />
+    <Property Name="title" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="describe" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="userID" Type="int" Nullable="false" />
+    <Property Name="hot" Type="int" Nullable="false" />
+    <Property Name="isRecommend" Type="bit" />
+    <Property Name="addTime" Type="datetime" />
+    <Property Name="updateTime" Type="datetime" />
+    <Property Name="nickName" Type="nvarchar" MaxLength="50" />
+    <Property Name="tags" Type="nvarchar" MaxLength="500" />
+    <Property Name="pictureID" Type="int" />
+    <Property Name="isDelete" Type="bit" />
+    <Property Name="url" Type="nvarchar" MaxLength="1050" />
+    <Property Name="pictureTitle" Type="nvarchar" MaxLength="100" />
+    <Property Name="username" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <!--生成过程中发现错误:
+      警告 6002: 表/视图“bds252114683_db.dbo.person_vyw_price_icon”未定义主键。已推断出该键，并将定义创建为只读的表/视图。
+      -->
+  <EntityType Name="person_vyw_price_icon">
+    <Key>
+      <PropertyRef Name="priceID" />
+      <PropertyRef Name="title" />
+      <PropertyRef Name="price" />
+    </Key>
+    <Property Name="priceID" Type="int" Nullable="false" />
+    <Property Name="title" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="price" Type="int" Nullable="false" />
+    <Property Name="iconID" Type="int" />
+    <Property Name="url" Type="nvarchar" MaxLength="1050" />
+    <Property Name="addTime" Type="datetime" />
+    <Property Name="updateTime" Type="datetime" />
+    <Property Name="iconClass" Type="nvarchar" MaxLength="50" />
+    <Property Name="iconTitle" Type="nvarchar" MaxLength="50" />
+    <Property Name="username" Type="nvarchar" MaxLength="50" />
+    <Property Name="email" Type="nvarchar" MaxLength="50" />
+    <Property Name="roleID" Type="int" />
+    <Property Name="nickName" Type="nvarchar" MaxLength="50" />
+    <Property Name="userID" Type="int" />
+  </EntityType>
+  <!--生成过程中发现错误:
+      警告 6002: 表/视图“bds252114683_db.dbo.person_vyw_product_description_icon”未定义主键。已推断出该键，并将定义创建为只读的表/视图。
+      -->
+  <EntityType Name="person_vyw_product_description_icon">
+    <Key>
+      <PropertyRef Name="describe" />
+      <PropertyRef Name="title" />
+      <PropertyRef Name="iconClass" />
+      <PropertyRef Name="productDescriptionID" />
+    </Key>
+    <Property Name="describe" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="title" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="content" Type="nvarchar(max)" />
+    <Property Name="iconID" Type="int" />
+    <Property Name="hot" Type="int" />
+    <Property Name="addTime" Type="datetime" />
+    <Property Name="updateTime" Type="datetime" />
+    <Property Name="iconClass" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="iconTitle" Type="nvarchar" MaxLength="50" />
+    <Property Name="productDescriptionID" Type="int" Nullable="false" />
+  </EntityType>
+  <!--生成过程中发现错误:
+      警告 6002: 表/视图“bds252114683_db.dbo.person_vyw_reader_user”未定义主键。已推断出该键，并将定义创建为只读的表/视图。
+      -->
+  <EntityType Name="person_vyw_reader_user">
+    <Key>
+      <PropertyRef Name="readerID" />
+      <PropertyRef Name="readerTitle" />
+      <PropertyRef Name="readerDescribe" />
+      <PropertyRef Name="link" />
+      <PropertyRef Name="typeName" />
+    </Key>
+    <Property Name="nickName" Type="nvarchar" MaxLength="50" />
+    <Property Name="email" Type="nvarchar" MaxLength="50" />
+    <Property Name="readerID" Type="int" Nullable="false" />
+    <Property Name="readerTitle" Type="nvarchar" Nullable="false" MaxLength="250" />
+    <Property Name="readerDescribe" Type="nvarchar" Nullable="false" MaxLength="1024" />
+    <Property Name="link" Type="nvarchar" Nullable="false" MaxLength="1024" />
+    <Property Name="userID" Type="int" />
+    <Property Name="hot" Type="int" />
+    <Property Name="typeID" Type="int" />
+    <Property Name="addTime" Type="datetime" />
+    <Property Name="updateTime" Type="datetime" />
+    <Property Name="isRecommend" Type="bit" />
+    <Property Name="roleID" Type="int" />
+    <Property Name="typeName" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="weight" Type="int" />
+    <Property Name="tags" Type="nvarchar" MaxLength="500" />
+    <Property Name="downloadCount" Type="int" />
+    <Property Name="username" Type="nvarchar" MaxLength="50" />
+    <Property Name="pictureID" Type="int" />
+    <Property Name="title" Type="nvarchar" MaxLength="100" />
+    <Property Name="url" Type="nvarchar" MaxLength="1050" />
+    <Property Name="isDelete" Type="bit" />
+  </EntityType>
+  <!--生成过程中发现错误:
+      警告 6002: 表/视图“bds252114683_db.dbo.person_vyw_resume_picture”未定义主键。已推断出该键，并将定义创建为只读的表/视图。
+      -->
+  <EntityType Name="person_vyw_resume_picture">
+    <Key>
+      <PropertyRef Name="pictureID" />
+      <PropertyRef Name="resumeID" />
+    </Key>
+    <Property Name="updateTime" Type="datetime" />
+    <Property Name="addTime" Type="datetime" />
+    <Property Name="isShow" Type="bit" />
+    <Property Name="contactEmail" Type="nvarchar" MaxLength="50" />
+    <Property Name="address" Type="nvarchar" MaxLength="50" />
+    <Property Name="mobile" Type="nvarchar" MaxLength="50" />
+    <Property Name="workTime" Type="int" />
+    <Property Name="education" Type="int" />
+    <Property Name="birthday" Type="nvarchar" MaxLength="50" />
+    <Property Name="sex" Type="int" />
+    <Property Name="userID" Type="int" />
+    <Property Name="describe" Type="nvarchar" MaxLength="500" />
+    <Property Name="position" Type="nvarchar" MaxLength="50" />
+    <Property Name="pictureID" Type="int" Nullable="false" />
+    <Property Name="realName" Type="nvarchar" MaxLength="50" />
+    <Property Name="resumeID" Type="int" Nullable="false" />
+    <Property Name="title" Type="nvarchar" MaxLength="100" />
+    <Property Name="url" Type="nvarchar" MaxLength="1050" />
+    <Property Name="typeID" Type="int" />
+    <Property Name="isDelete" Type="bit" />
+  </EntityType>
+  <!--生成过程中发现错误:
+      警告 6002: 表/视图“bds252114683_db.dbo.person_vyw_resume_user”未定义主键。已推断出该键，并将定义创建为只读的表/视图。
+      -->
+  <EntityType Name="person_vyw_resume_user">
+    <Key>
+      <PropertyRef Name="resumeID" />
+      <PropertyRef Name="pictureID" />
+      <PropertyRef Name="url" />
+      <PropertyRef Name="isDelete" />
+    </Key>
+    <Property Name="resumeID" Type="int" Nullable="false" />
+    <Property Name="realName" Type="nvarchar" MaxLength="50" />
+    <Property Name="position" Type="nvarchar" MaxLength="50" />
+    <Property Name="describe" Type="nvarchar" MaxLength="500" />
+    <Property Name="userID" Type="int" />
+    <Property Name="isShow" Type="bit" />
+    <Property Name="addTime" Type="datetime" />
+    <Property Name="updateTime" Type="datetime" />
+    <Property Name="roleID" Type="int" />
+    <Property Name="pictureID" Type="int" Nullable="false" />
+    <Property Name="username" Type="nvarchar" MaxLength="50" />
+    <Property Name="title" Type="nvarchar" MaxLength="100" />
+    <Property Name="url" Type="nvarchar" Nullable="false" MaxLength="1050" />
+    <Property Name="isDelete" Type="bit" Nullable="false" />
+  </EntityType>
+  <!--生成过程中发现错误:
+      警告 6002: 表/视图“bds252114683_db.dbo.person_vyw_service_icon”未定义主键。已推断出该键，并将定义创建为只读的表/视图。
+      -->
+  <EntityType Name="person_vyw_service_icon">
+    <Key>
+      <PropertyRef Name="serviceID" />
+      <PropertyRef Name="title" />
+      <PropertyRef Name="content" />
+    </Key>
+    <Property Name="serviceID" Type="int" Nullable="false" />
+    <Property Name="title" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="content" Type="nvarchar" Nullable="false" MaxLength="500" />
+    <Property Name="iconID" Type="int" />
+    <Property Name="addTime" Type="datetime" />
+    <Property Name="updateTime" Type="datetime" />
+    <Property Name="iconClass" Type="nvarchar" MaxLength="50" />
+    <Property Name="iconTitle" Type="nvarchar" MaxLength="50" />
+    <Property Name="userID" Type="int" />
+    <Property Name="email" Type="nvarchar" MaxLength="50" />
+    <Property Name="username" Type="nvarchar" MaxLength="50" />
+    <Property Name="nickName" Type="nvarchar" MaxLength="50" />
+    <Property Name="roleID" Type="int" />
+  </EntityType>
+  <!--生成过程中发现错误:
+      警告 6002: 表/视图“bds252114683_db.dbo.person_vyw_social_icon”未定义主键。已推断出该键，并将定义创建为只读的表/视图。
+      -->
+  <EntityType Name="person_vyw_social_icon">
+    <Key>
+      <PropertyRef Name="socialID" />
+      <PropertyRef Name="iconID" />
+      <PropertyRef Name="linkUrl" />
+      <PropertyRef Name="userID" />
+    </Key>
+    <Property Name="socialID" Type="int" Nullable="false" />
+    <Property Name="iconID" Type="int" Nullable="false" />
+    <Property Name="linkUrl" Type="nvarchar" Nullable="false" MaxLength="1050" />
+    <Property Name="userID" Type="int" Nullable="false" />
+    <Property Name="hot" Type="int" />
+    <Property Name="addTime" Type="datetime" />
+    <Property Name="updateTime" Type="datetime" />
+    <Property Name="title" Type="nvarchar" MaxLength="50" />
+    <Property Name="iconClass" Type="nvarchar" MaxLength="50" />
+    <Property Name="email" Type="nvarchar" MaxLength="50" />
+    <Property Name="username" Type="nvarchar" MaxLength="50" />
+    <Property Name="nickName" Type="nvarchar" MaxLength="50" />
+    <Property Name="roleID" Type="int" />
+  </EntityType>
+  <!--生成过程中发现错误:
+      警告 6002: 表/视图“bds252114683_db.dbo.person_vyw_user_picture”未定义主键。已推断出该键，并将定义创建为只读的表/视图。
+      -->
+  <EntityType Name="person_vyw_user_picture">
+    <Key>
+      <PropertyRef Name="status" />
+      <PropertyRef Name="userID" />
+    </Key>
+    <Property Name="title" Type="nvarchar" MaxLength="100" />
+    <Property Name="url" Type="nvarchar" MaxLength="1050" />
+    <Property Name="typeID" Type="int" />
+    <Property Name="isDelete" Type="bit" />
+    <Property Name="email" Type="nvarchar" MaxLength="50" />
+    <Property Name="username" Type="nvarchar" MaxLength="50" />
+    <Property Name="password" Type="nvarchar" MaxLength="50" />
+    <Property Name="nickName" Type="nvarchar" MaxLength="50" />
+    <Property Name="sex" Type="int" />
+    <Property Name="score" Type="int" />
+    <Property Name="pictureID" Type="int" />
+    <Property Name="bindStatus" Type="bit" />
+    <Property Name="roleID" Type="int" />
+    <Property Name="loginCount" Type="int" />
+    <Property Name="motto" Type="nvarchar" MaxLength="20" />
+    <Property Name="signature" Type="nvarchar" MaxLength="100" />
+    <Property Name="status" Type="int" Nullable="false" />
+    <Property Name="qqID" Type="int" />
+    <Property Name="signTime" Type="datetime" />
+    <Property Name="loginTime" Type="datetime" />
+    <Property Name="updateTime" Type="datetime" />
+    <Property Name="userID" Type="int" Nullable="false" />
+  </EntityType>
+  <!--生成过程中发现错误:
+      警告 6002: 表/视图“bds252114683_db.dbo.person_vyw_visitor_user”未定义主键。已推断出该键，并将定义创建为只读的表/视图。
+      -->
+  <EntityType Name="person_vyw_visitor_user">
+    <Key>
+      <PropertyRef Name="visitorID" />
+      <PropertyRef Name="memberInfoID" />
+      <PropertyRef Name="userID" />
+    </Key>
+    <Property Name="nickName" Type="nvarchar" MaxLength="50" />
+    <Property Name="email" Type="nvarchar" MaxLength="50" />
+    <Property Name="visitorID" Type="int" Nullable="false" />
+    <Property Name="memberInfoID" Type="int" Nullable="false" />
+    <Property Name="userID" Type="int" Nullable="false" />
+    <Property Name="addTime" Type="datetime" />
+  </EntityType>
+</Schema>

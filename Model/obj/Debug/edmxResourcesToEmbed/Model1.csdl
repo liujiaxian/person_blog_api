@@ -1,0 +1,1231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="bds252114683_dbModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="bds252114683_dbEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="person_aboutus" EntityType="bds252114683_dbModel.person_aboutus" />
+    <EntitySet Name="person_aboutus_content" EntityType="bds252114683_dbModel.person_aboutus_content" />
+    <EntitySet Name="person_accesstoken" EntityType="bds252114683_dbModel.person_accesstoken" />
+    <EntitySet Name="person_account_notice" EntityType="bds252114683_dbModel.person_account_notice" />
+    <EntitySet Name="person_achievements" EntityType="bds252114683_dbModel.person_achievements" />
+    <EntitySet Name="person_action" EntityType="bds252114683_dbModel.person_action" />
+    <EntitySet Name="person_active" EntityType="bds252114683_dbModel.person_active" />
+    <EntitySet Name="person_banner" EntityType="bds252114683_dbModel.person_banner" />
+    <EntitySet Name="person_blog" EntityType="bds252114683_dbModel.person_blog" />
+    <EntitySet Name="person_blog_type" EntityType="bds252114683_dbModel.person_blog_type" />
+    <EntitySet Name="person_case" EntityType="bds252114683_dbModel.person_case" />
+    <EntitySet Name="person_case_type" EntityType="bds252114683_dbModel.person_case_type" />
+    <EntitySet Name="person_client" EntityType="bds252114683_dbModel.person_client" />
+    <EntitySet Name="person_collection" EntityType="bds252114683_dbModel.person_collection" />
+    <EntitySet Name="person_contact" EntityType="bds252114683_dbModel.person_contact" />
+    <EntitySet Name="person_contact_info" EntityType="bds252114683_dbModel.person_contact_info" />
+    <EntitySet Name="person_download_reader" EntityType="bds252114683_dbModel.person_download_reader" />
+    <EntitySet Name="person_email" EntityType="bds252114683_dbModel.person_email" />
+    <EntitySet Name="person_faq" EntityType="bds252114683_dbModel.person_faq" />
+    <EntitySet Name="person_faq_content" EntityType="bds252114683_dbModel.person_faq_content" />
+    <EntitySet Name="person_hot" EntityType="bds252114683_dbModel.person_hot" />
+    <EntitySet Name="person_icon" EntityType="bds252114683_dbModel.person_icon" />
+    <EntitySet Name="person_links" EntityType="bds252114683_dbModel.person_links" />
+    <EntitySet Name="person_log" EntityType="bds252114683_dbModel.person_log" />
+    <EntitySet Name="person_music" EntityType="bds252114683_dbModel.person_music" />
+    <EntitySet Name="person_navigation" EntityType="bds252114683_dbModel.person_navigation" />
+    <EntitySet Name="person_navigation_type" EntityType="bds252114683_dbModel.person_navigation_type" />
+    <EntitySet Name="person_partner" EntityType="bds252114683_dbModel.person_partner" />
+    <EntitySet Name="person_picture" EntityType="bds252114683_dbModel.person_picture" />
+    <EntitySet Name="person_picture_type" EntityType="bds252114683_dbModel.person_picture_type" />
+    <EntitySet Name="person_plan" EntityType="bds252114683_dbModel.person_plan" />
+    <EntitySet Name="person_plan_content" EntityType="bds252114683_dbModel.person_plan_content" />
+    <EntitySet Name="person_price" EntityType="bds252114683_dbModel.person_price" />
+    <EntitySet Name="person_price_content" EntityType="bds252114683_dbModel.person_price_content" />
+    <EntitySet Name="person_product_description" EntityType="bds252114683_dbModel.person_product_description" />
+    <EntitySet Name="person_qq_login" EntityType="bds252114683_dbModel.person_qq_login" />
+    <EntitySet Name="person_reader" EntityType="bds252114683_dbModel.person_reader" />
+    <EntitySet Name="person_reader_type" EntityType="bds252114683_dbModel.person_reader_type" />
+    <EntitySet Name="person_resume" EntityType="bds252114683_dbModel.person_resume" />
+    <EntitySet Name="person_role" EntityType="bds252114683_dbModel.person_role" />
+    <EntitySet Name="person_service" EntityType="bds252114683_dbModel.person_service" />
+    <EntitySet Name="person_site_config" EntityType="bds252114683_dbModel.person_site_config" />
+    <EntitySet Name="person_skill" EntityType="bds252114683_dbModel.person_skill" />
+    <EntitySet Name="person_social" EntityType="bds252114683_dbModel.person_social" />
+    <EntitySet Name="person_user" EntityType="bds252114683_dbModel.person_user" />
+    <EntitySet Name="person_visitor" EntityType="bds252114683_dbModel.person_visitor" />
+    <EntitySet Name="person_vyw_aboutus_picture" EntityType="bds252114683_dbModel.person_vyw_aboutus_picture" />
+    <EntitySet Name="person_vyw_account_notice_icon" EntityType="bds252114683_dbModel.person_vyw_account_notice_icon" />
+    <EntitySet Name="person_vyw_achievements_icon" EntityType="bds252114683_dbModel.person_vyw_achievements_icon" />
+    <EntitySet Name="person_vyw_active_user" EntityType="bds252114683_dbModel.person_vyw_active_user" />
+    <EntitySet Name="person_vyw_banner_user" EntityType="bds252114683_dbModel.person_vyw_banner_user" />
+    <EntitySet Name="person_vyw_blog_type" EntityType="bds252114683_dbModel.person_vyw_blog_type" />
+    <EntitySet Name="person_vyw_blog_type_picture" EntityType="bds252114683_dbModel.person_vyw_blog_type_picture" />
+    <EntitySet Name="person_vyw_case_type_user_picture" EntityType="bds252114683_dbModel.person_vyw_case_type_user_picture" />
+    <EntitySet Name="person_vyw_collection_blog_type" EntityType="bds252114683_dbModel.person_vyw_collection_blog_type" />
+    <EntitySet Name="person_vyw_collection_music" EntityType="bds252114683_dbModel.person_vyw_collection_music" />
+    <EntitySet Name="person_vyw_collection_plan" EntityType="bds252114683_dbModel.person_vyw_collection_plan" />
+    <EntitySet Name="person_vyw_collection_reader_type" EntityType="bds252114683_dbModel.person_vyw_collection_reader_type" />
+    <EntitySet Name="person_vyw_music_user" EntityType="bds252114683_dbModel.person_vyw_music_user" />
+    <EntitySet Name="person_vyw_navigation_type" EntityType="bds252114683_dbModel.person_vyw_navigation_type" />
+    <EntitySet Name="person_vyw_partner_picture" EntityType="bds252114683_dbModel.person_vyw_partner_picture" />
+    <EntitySet Name="person_vyw_plan_content" EntityType="bds252114683_dbModel.person_vyw_plan_content" />
+    <EntitySet Name="person_vyw_plan_user" EntityType="bds252114683_dbModel.person_vyw_plan_user" />
+    <EntitySet Name="person_vyw_price_icon" EntityType="bds252114683_dbModel.person_vyw_price_icon" />
+    <EntitySet Name="person_vyw_product_description_icon" EntityType="bds252114683_dbModel.person_vyw_product_description_icon" />
+    <EntitySet Name="person_vyw_reader_user" EntityType="bds252114683_dbModel.person_vyw_reader_user" />
+    <EntitySet Name="person_vyw_resume_picture" EntityType="bds252114683_dbModel.person_vyw_resume_picture" />
+    <EntitySet Name="person_vyw_resume_user" EntityType="bds252114683_dbModel.person_vyw_resume_user" />
+    <EntitySet Name="person_vyw_service_icon" EntityType="bds252114683_dbModel.person_vyw_service_icon" />
+    <EntitySet Name="person_vyw_social_icon" EntityType="bds252114683_dbModel.person_vyw_social_icon" />
+    <EntitySet Name="person_vyw_user_picture" EntityType="bds252114683_dbModel.person_vyw_user_picture" />
+    <EntitySet Name="person_vyw_visitor_user" EntityType="bds252114683_dbModel.person_vyw_visitor_user" />
+  </EntityContainer>
+  <EntityType Name="person_aboutus">
+    <Key>
+      <PropertyRef Name="aboutID" />
+    </Key>
+    <Property Type="Int32" Name="aboutID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="typeName" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="title" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="pictureID" />
+    <Property Type="DateTime" Name="addTime" Precision="3" />
+    <Property Type="DateTime" Name="updateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="person_aboutus_content">
+    <Key>
+      <PropertyRef Name="aboutContentID" />
+    </Key>
+    <Property Type="Int32" Name="aboutContentID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="content" Nullable="false" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="aboutID" Nullable="false" />
+    <Property Type="DateTime" Name="addTime" Precision="3" />
+    <Property Type="DateTime" Name="updateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="person_accesstoken">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="access_token" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="expires_in" />
+    <Property Type="String" Name="refresh_token" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="updateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="person_account_notice">
+    <Key>
+      <PropertyRef Name="accountNoticeID" />
+    </Key>
+    <Property Type="Int32" Name="accountNoticeID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="iconID" Nullable="false" />
+    <Property Type="String" Name="remark1" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="remark2" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="addTime" Precision="3" />
+    <Property Type="DateTime" Name="updateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="person_achievements">
+    <Key>
+      <PropertyRef Name="achievementsID" />
+    </Key>
+    <Property Type="Int32" Name="achievementsID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="name" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="count" Nullable="false" />
+    <Property Type="Int32" Name="iconID" Nullable="false" />
+    <Property Type="Int32" Name="userID" Nullable="false" />
+    <Property Type="DateTime" Name="addTime" Precision="3" />
+    <Property Type="DateTime" Name="updateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="person_action">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="actionType" Nullable="false" />
+    <Property Type="Int32" Name="actionID" Nullable="false" />
+    <Property Type="Int32" Name="userID" Nullable="false" />
+    <Property Type="DateTime" Name="addTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="person_active">
+    <Key>
+      <PropertyRef Name="activeID" />
+    </Key>
+    <Property Type="Int32" Name="activeID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="activeType" Nullable="false" />
+    <Property Type="Int32" Name="userID" Nullable="false" />
+    <Property Type="String" Name="activeToken" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="activeTime" Nullable="false" Precision="3" />
+  </EntityType>
+  <EntityType Name="person_banner">
+    <Key>
+      <PropertyRef Name="bannerID" />
+    </Key>
+    <Property Type="Int32" Name="bannerID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="title" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="describe" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="content" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="pictureID" />
+    <Property Type="Int32" Name="userID" Nullable="false" />
+    <Property Type="Boolean" Name="isDelete" />
+    <Property Type="Int32" Name="hot" />
+    <Property Type="String" Name="tags" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="isRecommend" />
+    <Property Type="DateTime" Name="addTime" Precision="3" />
+    <Property Type="DateTime" Name="updateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="person_blog">
+    <Key>
+      <PropertyRef Name="blogID" />
+    </Key>
+    <Property Type="Int32" Name="blogID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="title" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="describe" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="content" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="typeID" Nullable="false" />
+    <Property Type="Int32" Name="userID" />
+    <Property Type="Boolean" Name="isRecommend" />
+    <Property Type="Int32" Name="hot" />
+    <Property Type="String" Name="tags" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="sourceType" />
+    <Property Type="DateTime" Name="addTime" Precision="3" />
+    <Property Type="DateTime" Name="updateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="person_blog_type">
+    <Key>
+      <PropertyRef Name="typeID" />
+    </Key>
+    <Property Type="Int32" Name="typeID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="typeName" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="userID" Nullable="false" />
+    <Property Type="String" Name="describe" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="pictureID" Nullable="false" />
+    <Property Type="Int32" Name="weight" />
+    <Property Type="DateTime" Name="addTime" Precision="3" />
+    <Property Type="DateTime" Name="updateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="person_case">
+    <Key>
+      <PropertyRef Name="caseID" />
+    </Key>
+    <Property Type="Int32" Name="caseID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="title" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="describe" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="content" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="pictureID" />
+    <Property Type="Int32" Name="typeID" Nullable="false" />
+    <Property Type="Int32" Name="userID" Nullable="false" />
+    <Property Type="Int32" Name="hot" />
+    <Property Type="Boolean" Name="isRecommend" />
+    <Property Type="Boolean" Name="isDelete" />
+    <Property Type="DateTime" Name="addTime" Precision="3" />
+    <Property Type="DateTime" Name="updateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="person_case_type">
+    <Key>
+      <PropertyRef Name="typeID" />
+    </Key>
+    <Property Type="Int32" Name="typeID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="name" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="weight" />
+    <Property Type="DateTime" Name="addTime" Precision="3" />
+    <Property Type="DateTime" Name="updateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="person_client">
+    <Key>
+      <PropertyRef Name="clientID" />
+    </Key>
+    <Property Type="Int32" Name="clientID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="content" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="name" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="webName" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="webUrl" MaxLength="1050" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="addTime" Precision="3" />
+    <Property Type="DateTime" Name="updateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="person_collection">
+    <Key>
+      <PropertyRef Name="collectionID" />
+    </Key>
+    <Property Type="Int32" Name="collectionID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="Int32" Name="userID" Nullable="false" />
+    <Property Type="Int32" Name="collectionTypeID" />
+    <Property Type="DateTime" Name="addTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="person_contact">
+    <Key>
+      <PropertyRef Name="contactID" />
+    </Key>
+    <Property Type="Int32" Name="contactID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="name" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="email" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="phone" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="website" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="message" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="userID" Nullable="false" />
+    <Property Type="Boolean" Name="isRead" />
+    <Property Type="Boolean" Name="isDelete" />
+    <Property Type="DateTime" Name="addTime" Precision="3" />
+    <Property Type="DateTime" Name="updateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="person_contact_info">
+    <Key>
+      <PropertyRef Name="contactInfoID" />
+    </Key>
+    <Property Type="Int32" Name="contactInfoID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="phoneOne" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="phoneTwo" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="emailOne" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="emailTwo" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="address" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="area" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="userID" />
+    <Property Type="DateTime" Name="addTime" Precision="3" />
+    <Property Type="DateTime" Name="updateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="person_download_reader">
+    <Key>
+      <PropertyRef Name="downloadID" />
+    </Key>
+    <Property Type="Int32" Name="downloadID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="readerID" Nullable="false" />
+    <Property Type="Int32" Name="userID" Nullable="false" />
+    <Property Type="DateTime" Name="addTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="person_email">
+    <Key>
+      <PropertyRef Name="emailID" />
+    </Key>
+    <Property Type="Int32" Name="emailID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="emailLast" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="emailUrl" MaxLength="250" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="person_faq">
+    <Key>
+      <PropertyRef Name="faqID" />
+    </Key>
+    <Property Type="Int32" Name="faqID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="title" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="addTime" Precision="3" />
+    <Property Type="DateTime" Name="updateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="person_faq_content">
+    <Key>
+      <PropertyRef Name="faqContentID" />
+    </Key>
+    <Property Type="Int32" Name="faqContentID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="content" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="faqID" Nullable="false" />
+    <Property Type="DateTime" Name="addTime" Precision="3" />
+    <Property Type="DateTime" Name="updateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="person_hot">
+    <Key>
+      <PropertyRef Name="hotID" />
+    </Key>
+    <Property Type="Int32" Name="hotID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="ipAddress" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="typeID" />
+    <Property Type="DateTime" Name="addTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="person_icon">
+    <Key>
+      <PropertyRef Name="iconID" />
+    </Key>
+    <Property Type="Int32" Name="iconID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="iconClass" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="title" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="addTime" Precision="3" />
+    <Property Type="DateTime" Name="updateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="person_links">
+    <Key>
+      <PropertyRef Name="linkID" />
+    </Key>
+    <Property Type="Int32" Name="linkID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="name" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="url" MaxLength="1050" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="addTime" Precision="3" />
+    <Property Type="DateTime" Name="updateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="person_log">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="msg" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="addTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="person_music">
+    <Key>
+      <PropertyRef Name="musicID" />
+    </Key>
+    <Property Type="Int32" Name="musicID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="musicName" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="musicAuthor" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="musicLink" Nullable="false" MaxLength="1024" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="coverImage" MaxLength="1050" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="isRecommend" />
+    <Property Type="Int32" Name="weight" />
+    <Property Type="Int32" Name="hot" />
+    <Property Type="Int32" Name="userID" Nullable="false" />
+    <Property Type="DateTime" Name="addTime" Precision="3" />
+    <Property Type="DateTime" Name="updateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="person_navigation">
+    <Key>
+      <PropertyRef Name="navigationID" />
+    </Key>
+    <Property Type="Int32" Name="navigationID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="siteName" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="siteUrl" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="typeID" Nullable="false" />
+    <Property Type="Boolean" Name="isRecommend" />
+    <Property Type="Int32" Name="hot" />
+    <Property Type="DateTime" Name="addTime" Precision="3" />
+    <Property Type="DateTime" Name="updateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="person_navigation_type">
+    <Key>
+      <PropertyRef Name="typeID" />
+    </Key>
+    <Property Type="Int32" Name="typeID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="name" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="describe" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="addTime" Precision="3" />
+    <Property Type="DateTime" Name="updateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="person_partner">
+    <Key>
+      <PropertyRef Name="partnerID" />
+    </Key>
+    <Property Type="Int32" Name="partnerID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="name" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="pictureID" />
+    <Property Type="String" Name="url" MaxLength="1050" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="addTime" Precision="3" />
+    <Property Type="DateTime" Name="updateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="person_picture">
+    <Key>
+      <PropertyRef Name="pictureID" />
+    </Key>
+    <Property Type="Int32" Name="pictureID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="title" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="url" Nullable="false" MaxLength="1050" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="userID" Nullable="false" />
+    <Property Type="Int32" Name="typeID" Nullable="false" />
+    <Property Type="Boolean" Name="isDelete" Nullable="false" />
+    <Property Type="DateTime" Name="addTime" Precision="3" />
+    <Property Type="DateTime" Name="updateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="person_picture_type">
+    <Key>
+      <PropertyRef Name="typeID" />
+    </Key>
+    <Property Type="Int32" Name="typeID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="name" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="userID" Nullable="false" />
+    <Property Type="DateTime" Name="addTime" Precision="3" />
+    <Property Type="DateTime" Name="updateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="person_plan">
+    <Key>
+      <PropertyRef Name="planID" />
+    </Key>
+    <Property Type="Int32" Name="planID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="title" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="describe" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="userID" Nullable="false" />
+    <Property Type="Int32" Name="hot" Nullable="false" />
+    <Property Type="Boolean" Name="isRecommend" />
+    <Property Type="String" Name="tags" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="addTime" Precision="3" />
+    <Property Type="DateTime" Name="updateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="person_plan_content">
+    <Key>
+      <PropertyRef Name="detailID" />
+    </Key>
+    <Property Type="Int32" Name="detailID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="title" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="content" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="weight" Nullable="false" />
+    <Property Type="Int32" Name="planID" Nullable="false" />
+    <Property Type="Int32" Name="userID" Nullable="false" />
+    <Property Type="Int32" Name="status" />
+    <Property Type="DateTime" Name="startTime" Precision="3" />
+    <Property Type="DateTime" Name="endTime" Precision="3" />
+    <Property Type="DateTime" Name="addTime" Precision="3" />
+    <Property Type="DateTime" Name="updateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="person_price">
+    <Key>
+      <PropertyRef Name="priceID" />
+    </Key>
+    <Property Type="Int32" Name="priceID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="title" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="price" Nullable="false" />
+    <Property Type="String" Name="url" MaxLength="1050" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="iconID" />
+    <Property Type="Int32" Name="userID" />
+    <Property Type="DateTime" Name="addTime" Precision="3" />
+    <Property Type="DateTime" Name="updateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="person_price_content">
+    <Key>
+      <PropertyRef Name="priceContentID" />
+    </Key>
+    <Property Type="Int32" Name="priceContentID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="name" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="priceID" Nullable="false" />
+    <Property Type="Int32" Name="userID" />
+    <Property Type="DateTime" Name="addTime" Precision="3" />
+    <Property Type="DateTime" Name="updateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="person_product_description">
+    <Key>
+      <PropertyRef Name="productDescriptionID" />
+    </Key>
+    <Property Type="Int32" Name="productDescriptionID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="title" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="describe" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="content" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="iconID" />
+    <Property Type="Int32" Name="hot" />
+    <Property Type="DateTime" Name="addTime" Precision="3" />
+    <Property Type="DateTime" Name="updateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="person_qq_login">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="ret" />
+    <Property Type="String" Name="msg" MaxLength="1024" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="nickname" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="figureurl" MaxLength="1050" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="figureurl_1" MaxLength="1050" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="figureurl_2" MaxLength="1050" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="figureurl_qq_1" MaxLength="1050" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="figureurl_qq_2" MaxLength="1050" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="gender" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="is_yellow_vip" />
+    <Property Type="Int32" Name="vip" />
+    <Property Type="String" Name="yellow_vip_level" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="level" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="is_yellow_year_vip" />
+    <Property Type="String" Name="openid" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="addTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="person_reader">
+    <Key>
+      <PropertyRef Name="readerID" />
+    </Key>
+    <Property Type="Int32" Name="readerID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="readerTitle" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="readerDescribe" Nullable="false" MaxLength="1024" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="link" Nullable="false" MaxLength="1024" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="userID" />
+    <Property Type="Int32" Name="hot" />
+    <Property Type="Boolean" Name="isRecommend" />
+    <Property Type="Int32" Name="typeID" />
+    <Property Type="String" Name="tags" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="downloadCount" />
+    <Property Type="DateTime" Name="addTime" Precision="3" />
+    <Property Type="DateTime" Name="updateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="person_reader_type">
+    <Key>
+      <PropertyRef Name="typeID" />
+    </Key>
+    <Property Type="Int32" Name="typeID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="typeName" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="weight" />
+    <Property Type="DateTime" Name="addTime" Precision="3" />
+    <Property Type="DateTime" Name="updateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="person_resume">
+    <Key>
+      <PropertyRef Name="resumeID" />
+    </Key>
+    <Property Type="Int32" Name="resumeID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="realName" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="pictureID" Nullable="false" />
+    <Property Type="String" Name="position" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="describe" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="userID" />
+    <Property Type="Int32" Name="sex" />
+    <Property Type="String" Name="birthday" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="education" />
+    <Property Type="Int32" Name="workTime" />
+    <Property Type="String" Name="address" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="mobile" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="contactEmail" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="isShow" />
+    <Property Type="DateTime" Name="addTime" Precision="3" />
+    <Property Type="DateTime" Name="updateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="person_role">
+    <Key>
+      <PropertyRef Name="roleID" />
+    </Key>
+    <Property Type="Int32" Name="roleID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="roleName" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="remark" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="addTime" Precision="3" />
+    <Property Type="DateTime" Name="updateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="person_service">
+    <Key>
+      <PropertyRef Name="serviceID" />
+    </Key>
+    <Property Type="Int32" Name="serviceID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="title" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="content" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="iconID" />
+    <Property Type="Int32" Name="userID" />
+    <Property Type="DateTime" Name="addTime" Precision="3" />
+    <Property Type="DateTime" Name="updateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="person_site_config">
+    <Key>
+      <PropertyRef Name="configID" />
+    </Key>
+    <Property Type="Int32" Name="configID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="key" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="value" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="updateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="person_skill">
+    <Key>
+      <PropertyRef Name="skillID" />
+    </Key>
+    <Property Type="Int32" Name="skillID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="title" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="percent" Nullable="false" />
+    <Property Type="Int32" Name="userID" Nullable="false" />
+    <Property Type="DateTime" Name="addTime" Precision="3" />
+    <Property Type="DateTime" Name="updateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="person_social">
+    <Key>
+      <PropertyRef Name="socialID" />
+    </Key>
+    <Property Type="Int32" Name="socialID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="linkUrl" Nullable="false" MaxLength="1050" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="iconID" Nullable="false" />
+    <Property Type="Int32" Name="userID" Nullable="false" />
+    <Property Type="Int32" Name="hot" />
+    <Property Type="DateTime" Name="addTime" Precision="3" />
+    <Property Type="DateTime" Name="updateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="person_user">
+    <Key>
+      <PropertyRef Name="userID" />
+    </Key>
+    <Property Type="Int32" Name="userID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="email" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="username" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="password" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="nickName" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="sex" />
+    <Property Type="Int32" Name="score" />
+    <Property Type="Int32" Name="pictureID" />
+    <Property Type="Boolean" Name="bindStatus" />
+    <Property Type="Int32" Name="roleID" />
+    <Property Type="Int32" Name="loginCount" />
+    <Property Type="String" Name="motto" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="signature" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="status" Nullable="false" />
+    <Property Type="Int32" Name="qqID" />
+    <Property Type="DateTime" Name="signTime" Precision="3" />
+    <Property Type="DateTime" Name="loginTime" Precision="3" />
+    <Property Type="DateTime" Name="updateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="person_visitor">
+    <Key>
+      <PropertyRef Name="visitorID" />
+    </Key>
+    <Property Type="Int32" Name="visitorID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="userID" Nullable="false" />
+    <Property Type="Int32" Name="memberInfoID" Nullable="false" />
+    <Property Type="DateTime" Name="addTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="person_vyw_aboutus_picture">
+    <Key>
+      <PropertyRef Name="aboutID" />
+      <PropertyRef Name="typeName" />
+      <PropertyRef Name="title" />
+    </Key>
+    <Property Type="Int32" Name="aboutID" Nullable="false" />
+    <Property Type="String" Name="typeName" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="title" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="pictureID" />
+    <Property Type="DateTime" Name="addTime" Precision="3" />
+    <Property Type="DateTime" Name="updateTime" Precision="3" />
+    <Property Type="String" Name="pictureTitle" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="url" MaxLength="1050" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="isDelete" />
+  </EntityType>
+  <EntityType Name="person_vyw_account_notice_icon">
+    <Key>
+      <PropertyRef Name="accountNoticeID" />
+      <PropertyRef Name="iconID" />
+      <PropertyRef Name="iconClass" />
+    </Key>
+    <Property Type="Int32" Name="accountNoticeID" Nullable="false" />
+    <Property Type="Int32" Name="iconID" Nullable="false" />
+    <Property Type="String" Name="remark1" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="remark2" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="addTime" Precision="3" />
+    <Property Type="DateTime" Name="updateTime" Precision="3" />
+    <Property Type="String" Name="iconClass" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="title" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="person_vyw_achievements_icon">
+    <Key>
+      <PropertyRef Name="achievementsID" />
+      <PropertyRef Name="name" />
+      <PropertyRef Name="count" />
+      <PropertyRef Name="iconID" />
+      <PropertyRef Name="userID" />
+    </Key>
+    <Property Type="Int32" Name="achievementsID" Nullable="false" />
+    <Property Type="String" Name="name" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="count" Nullable="false" />
+    <Property Type="Int32" Name="iconID" Nullable="false" />
+    <Property Type="Int32" Name="userID" Nullable="false" />
+    <Property Type="DateTime" Name="addTime" Precision="3" />
+    <Property Type="DateTime" Name="updateTime" Precision="3" />
+    <Property Type="String" Name="title" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="iconClass" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="email" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="username" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="nickName" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="roleID" />
+  </EntityType>
+  <EntityType Name="person_vyw_active_user">
+    <Key>
+      <PropertyRef Name="activeTime" />
+      <PropertyRef Name="activeToken" />
+      <PropertyRef Name="userID" />
+      <PropertyRef Name="activeType" />
+      <PropertyRef Name="activeID" />
+    </Key>
+    <Property Type="DateTime" Name="activeTime" Nullable="false" Precision="3" />
+    <Property Type="String" Name="activeToken" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="userID" Nullable="false" />
+    <Property Type="Int32" Name="activeType" Nullable="false" />
+    <Property Type="Int32" Name="activeID" Nullable="false" />
+    <Property Type="Boolean" Name="bindStatus" />
+    <Property Type="String" Name="username" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="email" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="nickName" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="person_vyw_banner_user">
+    <Key>
+      <PropertyRef Name="bannerID" />
+      <PropertyRef Name="title" />
+      <PropertyRef Name="describe" />
+      <PropertyRef Name="content" />
+      <PropertyRef Name="userID" />
+      <PropertyRef Name="userPictureUrl" />
+      <PropertyRef Name="userPictureIsDelete" />
+    </Key>
+    <Property Type="Int32" Name="bannerID" Nullable="false" />
+    <Property Type="String" Name="title" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="describe" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="content" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="userID" Nullable="false" />
+    <Property Type="Boolean" Name="isDelete" />
+    <Property Type="Int32" Name="hot" />
+    <Property Type="DateTime" Name="addTime" Precision="3" />
+    <Property Type="DateTime" Name="updateTime" Precision="3" />
+    <Property Type="String" Name="email" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="nickName" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="isRecommend" />
+    <Property Type="String" Name="tags" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="pictureID" />
+    <Property Type="String" Name="pictureTitle" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="pictureIsDelete" />
+    <Property Type="String" Name="url" MaxLength="1050" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="userPictureID" />
+    <Property Type="String" Name="userPictureTitle" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="userPictureUrl" Nullable="false" MaxLength="1050" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="userPictureIsDelete" Nullable="false" />
+    <Property Type="String" Name="username" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="person_vyw_blog_type">
+    <Key>
+      <PropertyRef Name="typeName" />
+      <PropertyRef Name="blogID" />
+      <PropertyRef Name="title" />
+      <PropertyRef Name="typeID" />
+      <PropertyRef Name="pictureID" />
+    </Key>
+    <Property Type="String" Name="typeName" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="blogID" Nullable="false" />
+    <Property Type="String" Name="title" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="describe" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="content" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="typeID" Nullable="false" />
+    <Property Type="Int32" Name="hot" />
+    <Property Type="Boolean" Name="isRecommend" />
+    <Property Type="DateTime" Name="addTime" Precision="3" />
+    <Property Type="DateTime" Name="updateTime" Precision="3" />
+    <Property Type="Int32" Name="userID" />
+    <Property Type="Int32" Name="roleID" />
+    <Property Type="String" Name="nickName" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="email" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="tags" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="sourceType" />
+    <Property Type="Int32" Name="pictureID" Nullable="false" />
+    <Property Type="String" Name="pictureTitle" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="url" MaxLength="1050" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="username" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="userPictureID" />
+    <Property Type="String" Name="userPictureTitle" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="userPictureUrl" MaxLength="1050" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="person_vyw_blog_type_picture">
+    <Key>
+      <PropertyRef Name="typeID" />
+      <PropertyRef Name="typeName" />
+      <PropertyRef Name="userID" />
+      <PropertyRef Name="pictureID" />
+    </Key>
+    <Property Type="Int32" Name="typeID" Nullable="false" />
+    <Property Type="String" Name="typeName" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="userID" Nullable="false" />
+    <Property Type="String" Name="describe" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="pictureID" Nullable="false" />
+    <Property Type="Int32" Name="weight" />
+    <Property Type="DateTime" Name="addTime" Precision="3" />
+    <Property Type="DateTime" Name="updateTime" Precision="3" />
+    <Property Type="String" Name="title" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="url" MaxLength="1050" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="Expr1" />
+    <Property Type="Boolean" Name="isDelete" />
+  </EntityType>
+  <EntityType Name="person_vyw_case_type_user_picture">
+    <Key>
+      <PropertyRef Name="caseID" />
+      <PropertyRef Name="title" />
+      <PropertyRef Name="describe" />
+      <PropertyRef Name="typeID" />
+      <PropertyRef Name="userID" />
+      <PropertyRef Name="name" />
+      <PropertyRef Name="userPictureUrl" />
+      <PropertyRef Name="userPictureIsDelete" />
+    </Key>
+    <Property Type="Int32" Name="caseID" Nullable="false" />
+    <Property Type="String" Name="title" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="describe" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="content" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="typeID" Nullable="false" />
+    <Property Type="Int32" Name="userID" Nullable="false" />
+    <Property Type="Int32" Name="hot" />
+    <Property Type="DateTime" Name="addTime" Precision="3" />
+    <Property Type="DateTime" Name="updateTime" Precision="3" />
+    <Property Type="String" Name="name" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="email" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="nickName" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="roleID" />
+    <Property Type="Boolean" Name="isRecommend" />
+    <Property Type="Boolean" Name="isDelete" />
+    <Property Type="Int32" Name="pictureID" />
+    <Property Type="String" Name="pictureTitle" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="url" MaxLength="1050" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="pictureIsDelete" />
+    <Property Type="String" Name="username" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="userPictureID" />
+    <Property Type="String" Name="userPictureTitle" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="userPictureUrl" Nullable="false" MaxLength="1050" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="userPictureIsDelete" Nullable="false" />
+  </EntityType>
+  <EntityType Name="person_vyw_collection_blog_type">
+    <Key>
+      <PropertyRef Name="title" />
+      <PropertyRef Name="typeID" />
+      <PropertyRef Name="typeName" />
+      <PropertyRef Name="ID" />
+      <PropertyRef Name="collectionID" />
+      <PropertyRef Name="userID" />
+    </Key>
+    <Property Type="String" Name="title" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="typeID" Nullable="false" />
+    <Property Type="Int32" Name="hot" />
+    <Property Type="String" Name="typeName" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="Int32" Name="collectionID" Nullable="false" />
+    <Property Type="Int32" Name="userID" Nullable="false" />
+    <Property Type="Int32" Name="collectionTypeID" />
+    <Property Type="DateTime" Name="addTime" Precision="3" />
+    <Property Type="String" Name="describe" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="sourceType" />
+  </EntityType>
+  <EntityType Name="person_vyw_collection_music">
+    <Key>
+      <PropertyRef Name="collectionID" />
+      <PropertyRef Name="ID" />
+      <PropertyRef Name="userID" />
+      <PropertyRef Name="musicName" />
+      <PropertyRef Name="musicAuthor" />
+      <PropertyRef Name="musicLink" />
+    </Key>
+    <Property Type="Int32" Name="collectionID" Nullable="false" />
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="Int32" Name="userID" Nullable="false" />
+    <Property Type="Int32" Name="collectionTypeID" />
+    <Property Type="DateTime" Name="addTime" Precision="3" />
+    <Property Type="String" Name="musicName" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="musicAuthor" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="musicLink" Nullable="false" MaxLength="1024" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="isRecommend" />
+    <Property Type="Int32" Name="hot" />
+  </EntityType>
+  <EntityType Name="person_vyw_collection_plan">
+    <Key>
+      <PropertyRef Name="userID" />
+      <PropertyRef Name="ID" />
+      <PropertyRef Name="collectionID" />
+      <PropertyRef Name="hot" />
+      <PropertyRef Name="title" />
+      <PropertyRef Name="describe" />
+    </Key>
+    <Property Type="DateTime" Name="addTime" Precision="3" />
+    <Property Type="Int32" Name="collectionTypeID" />
+    <Property Type="Int32" Name="userID" Nullable="false" />
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="Int32" Name="collectionID" Nullable="false" />
+    <Property Type="Int32" Name="hot" Nullable="false" />
+    <Property Type="String" Name="title" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="describe" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="person_vyw_collection_reader_type">
+    <Key>
+      <PropertyRef Name="typeName" />
+      <PropertyRef Name="readerTitle" />
+      <PropertyRef Name="readerDescribe" />
+      <PropertyRef Name="userID" />
+      <PropertyRef Name="ID" />
+      <PropertyRef Name="collectionID" />
+    </Key>
+    <Property Type="String" Name="typeName" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="readerTitle" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="readerDescribe" Nullable="false" MaxLength="1024" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="hot" />
+    <Property Type="Int32" Name="typeID" />
+    <Property Type="DateTime" Name="addTime" Precision="3" />
+    <Property Type="Int32" Name="collectionTypeID" />
+    <Property Type="Int32" Name="userID" Nullable="false" />
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="Int32" Name="collectionID" Nullable="false" />
+    <Property Type="String" Name="tags" MaxLength="500" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="person_vyw_music_user">
+    <Key>
+      <PropertyRef Name="musicID" />
+      <PropertyRef Name="musicName" />
+      <PropertyRef Name="musicAuthor" />
+      <PropertyRef Name="musicLink" />
+      <PropertyRef Name="userID" />
+    </Key>
+    <Property Type="Int32" Name="musicID" Nullable="false" />
+    <Property Type="String" Name="musicName" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="musicAuthor" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="musicLink" Nullable="false" MaxLength="1024" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="weight" />
+    <Property Type="Int32" Name="userID" Nullable="false" />
+    <Property Type="DateTime" Name="addTime" Precision="3" />
+    <Property Type="DateTime" Name="updateTime" Precision="3" />
+    <Property Type="String" Name="nickName" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="email" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="roleID" />
+    <Property Type="Int32" Name="hot" />
+    <Property Type="Boolean" Name="isRecommend" />
+    <Property Type="String" Name="coverImage" MaxLength="1050" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="username" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="person_vyw_navigation_type">
+    <Key>
+      <PropertyRef Name="name" />
+      <PropertyRef Name="typeID" />
+      <PropertyRef Name="siteUrl" />
+      <PropertyRef Name="siteName" />
+      <PropertyRef Name="navigationID" />
+    </Key>
+    <Property Type="String" Name="name" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="describe" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="typeID" Nullable="false" />
+    <Property Type="String" Name="siteUrl" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="siteName" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="navigationID" Nullable="false" />
+    <Property Type="DateTime" Name="addTime" Precision="3" />
+    <Property Type="DateTime" Name="updateTime" Precision="3" />
+    <Property Type="Int32" Name="hot" />
+    <Property Type="Boolean" Name="isRecommend" />
+  </EntityType>
+  <EntityType Name="person_vyw_partner_picture">
+    <Key>
+      <PropertyRef Name="partnerID" />
+    </Key>
+    <Property Type="Int32" Name="partnerID" Nullable="false" />
+    <Property Type="String" Name="name" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="url" MaxLength="1050" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="addTime" Precision="3" />
+    <Property Type="DateTime" Name="updateTime" Precision="3" />
+    <Property Type="Int32" Name="pictureID" />
+    <Property Type="String" Name="title" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="pictureUrl" MaxLength="1050" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="isDelete" />
+  </EntityType>
+  <EntityType Name="person_vyw_plan_content">
+    <Key>
+      <PropertyRef Name="hot" />
+      <PropertyRef Name="weight" />
+      <PropertyRef Name="content" />
+      <PropertyRef Name="detailID" />
+      <PropertyRef Name="planID" />
+      <PropertyRef Name="userID" />
+      <PropertyRef Name="describe" />
+      <PropertyRef Name="title" />
+      <PropertyRef Name="planTitle" />
+    </Key>
+    <Property Type="Int32" Name="hot" Nullable="false" />
+    <Property Type="Int32" Name="weight" Nullable="false" />
+    <Property Type="String" Name="content" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="detailID" Nullable="false" />
+    <Property Type="DateTime" Name="startTime" Precision="3" />
+    <Property Type="DateTime" Name="endTime" Precision="3" />
+    <Property Type="Int32" Name="planID" Nullable="false" />
+    <Property Type="Int32" Name="userID" Nullable="false" />
+    <Property Type="Boolean" Name="isRecommend" />
+    <Property Type="DateTime" Name="addTime" Precision="3" />
+    <Property Type="Int32" Name="status" />
+    <Property Type="String" Name="tags" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="describe" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="title" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="planTitle" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="person_vyw_plan_user">
+    <Key>
+      <PropertyRef Name="planID" />
+      <PropertyRef Name="title" />
+      <PropertyRef Name="describe" />
+      <PropertyRef Name="userID" />
+      <PropertyRef Name="hot" />
+    </Key>
+    <Property Type="String" Name="email" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="roleID" />
+    <Property Type="Int32" Name="planID" Nullable="false" />
+    <Property Type="String" Name="title" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="describe" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="userID" Nullable="false" />
+    <Property Type="Int32" Name="hot" Nullable="false" />
+    <Property Type="Boolean" Name="isRecommend" />
+    <Property Type="DateTime" Name="addTime" Precision="3" />
+    <Property Type="DateTime" Name="updateTime" Precision="3" />
+    <Property Type="String" Name="nickName" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="tags" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="pictureID" />
+    <Property Type="Boolean" Name="isDelete" />
+    <Property Type="String" Name="url" MaxLength="1050" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="pictureTitle" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="username" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="person_vyw_price_icon">
+    <Key>
+      <PropertyRef Name="priceID" />
+      <PropertyRef Name="title" />
+      <PropertyRef Name="price" />
+    </Key>
+    <Property Type="Int32" Name="priceID" Nullable="false" />
+    <Property Type="String" Name="title" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="price" Nullable="false" />
+    <Property Type="Int32" Name="iconID" />
+    <Property Type="String" Name="url" MaxLength="1050" FixedLength="false" Unicode="true" />
+    <Property Type="DateTime" Name="addTime" Precision="3" />
+    <Property Type="DateTime" Name="updateTime" Precision="3" />
+    <Property Type="String" Name="iconClass" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="iconTitle" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="username" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="email" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="roleID" />
+    <Property Type="String" Name="nickName" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="userID" />
+  </EntityType>
+  <EntityType Name="person_vyw_product_description_icon">
+    <Key>
+      <PropertyRef Name="describe" />
+      <PropertyRef Name="title" />
+      <PropertyRef Name="iconClass" />
+      <PropertyRef Name="productDescriptionID" />
+    </Key>
+    <Property Type="String" Name="describe" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="title" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="content" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="iconID" />
+    <Property Type="Int32" Name="hot" />
+    <Property Type="DateTime" Name="addTime" Precision="3" />
+    <Property Type="DateTime" Name="updateTime" Precision="3" />
+    <Property Type="String" Name="iconClass" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="iconTitle" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="productDescriptionID" Nullable="false" />
+  </EntityType>
+  <EntityType Name="person_vyw_reader_user">
+    <Key>
+      <PropertyRef Name="readerID" />
+      <PropertyRef Name="readerTitle" />
+      <PropertyRef Name="readerDescribe" />
+      <PropertyRef Name="link" />
+      <PropertyRef Name="typeName" />
+    </Key>
+    <Property Type="String" Name="nickName" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="email" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="readerID" Nullable="false" />
+    <Property Type="String" Name="readerTitle" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="readerDescribe" Nullable="false" MaxLength="1024" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="link" Nullable="false" MaxLength="1024" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="userID" />
+    <Property Type="Int32" Name="hot" />
+    <Property Type="Int32" Name="typeID" />
+    <Property Type="DateTime" Name="addTime" Precision="3" />
+    <Property Type="DateTime" Name="updateTime" Precision="3" />
+    <Property Type="Boolean" Name="isRecommend" />
+    <Property Type="Int32" Name="roleID" />
+    <Property Type="String" Name="typeName" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="weight" />
+    <Property Type="String" Name="tags" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="downloadCount" />
+    <Property Type="String" Name="username" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="pictureID" />
+    <Property Type="String" Name="title" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="url" MaxLength="1050" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="isDelete" />
+  </EntityType>
+  <EntityType Name="person_vyw_resume_picture">
+    <Key>
+      <PropertyRef Name="pictureID" />
+      <PropertyRef Name="resumeID" />
+    </Key>
+    <Property Type="DateTime" Name="updateTime" Precision="3" />
+    <Property Type="DateTime" Name="addTime" Precision="3" />
+    <Property Type="Boolean" Name="isShow" />
+    <Property Type="String" Name="contactEmail" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="address" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="mobile" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="workTime" />
+    <Property Type="Int32" Name="education" />
+    <Property Type="String" Name="birthday" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="sex" />
+    <Property Type="Int32" Name="userID" />
+    <Property Type="String" Name="describe" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="position" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="pictureID" Nullable="false" />
+    <Property Type="String" Name="realName" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="resumeID" Nullable="false" />
+    <Property Type="String" Name="title" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="url" MaxLength="1050" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="typeID" />
+    <Property Type="Boolean" Name="isDelete" />
+  </EntityType>
+  <EntityType Name="person_vyw_resume_user">
+    <Key>
+      <PropertyRef Name="resumeID" />
+      <PropertyRef Name="pictureID" />
+      <PropertyRef Name="url" />
+      <PropertyRef Name="isDelete" />
+    </Key>
+    <Property Type="Int32" Name="resumeID" Nullable="false" />
+    <Property Type="String" Name="realName" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="position" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="describe" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="userID" />
+    <Property Type="Boolean" Name="isShow" />
+    <Property Type="DateTime" Name="addTime" Precision="3" />
+    <Property Type="DateTime" Name="updateTime" Precision="3" />
+    <Property Type="Int32" Name="roleID" />
+    <Property Type="Int32" Name="pictureID" Nullable="false" />
+    <Property Type="String" Name="username" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="title" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="url" Nullable="false" MaxLength="1050" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="isDelete" Nullable="false" />
+  </EntityType>
+  <EntityType Name="person_vyw_service_icon">
+    <Key>
+      <PropertyRef Name="serviceID" />
+      <PropertyRef Name="title" />
+      <PropertyRef Name="content" />
+    </Key>
+    <Property Type="Int32" Name="serviceID" Nullable="false" />
+    <Property Type="String" Name="title" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="content" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="iconID" />
+    <Property Type="DateTime" Name="addTime" Precision="3" />
+    <Property Type="DateTime" Name="updateTime" Precision="3" />
+    <Property Type="String" Name="iconClass" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="iconTitle" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="userID" />
+    <Property Type="String" Name="email" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="username" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="nickName" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="roleID" />
+  </EntityType>
+  <EntityType Name="person_vyw_social_icon">
+    <Key>
+      <PropertyRef Name="socialID" />
+      <PropertyRef Name="iconID" />
+      <PropertyRef Name="linkUrl" />
+      <PropertyRef Name="userID" />
+    </Key>
+    <Property Type="Int32" Name="socialID" Nullable="false" />
+    <Property Type="Int32" Name="iconID" Nullable="false" />
+    <Property Type="String" Name="linkUrl" Nullable="false" MaxLength="1050" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="userID" Nullable="false" />
+    <Property Type="Int32" Name="hot" />
+    <Property Type="DateTime" Name="addTime" Precision="3" />
+    <Property Type="DateTime" Name="updateTime" Precision="3" />
+    <Property Type="String" Name="title" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="iconClass" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="email" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="username" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="nickName" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="roleID" />
+  </EntityType>
+  <EntityType Name="person_vyw_user_picture">
+    <Key>
+      <PropertyRef Name="status" />
+      <PropertyRef Name="userID" />
+    </Key>
+    <Property Type="String" Name="title" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="url" MaxLength="1050" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="typeID" />
+    <Property Type="Boolean" Name="isDelete" />
+    <Property Type="String" Name="email" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="username" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="password" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="nickName" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="sex" />
+    <Property Type="Int32" Name="score" />
+    <Property Type="Int32" Name="pictureID" />
+    <Property Type="Boolean" Name="bindStatus" />
+    <Property Type="Int32" Name="roleID" />
+    <Property Type="Int32" Name="loginCount" />
+    <Property Type="String" Name="motto" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="signature" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="status" Nullable="false" />
+    <Property Type="Int32" Name="qqID" />
+    <Property Type="DateTime" Name="signTime" Precision="3" />
+    <Property Type="DateTime" Name="loginTime" Precision="3" />
+    <Property Type="DateTime" Name="updateTime" Precision="3" />
+    <Property Type="Int32" Name="userID" Nullable="false" />
+  </EntityType>
+  <EntityType Name="person_vyw_visitor_user">
+    <Key>
+      <PropertyRef Name="visitorID" />
+      <PropertyRef Name="memberInfoID" />
+      <PropertyRef Name="userID" />
+    </Key>
+    <Property Type="String" Name="nickName" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="email" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="visitorID" Nullable="false" />
+    <Property Type="Int32" Name="memberInfoID" Nullable="false" />
+    <Property Type="Int32" Name="userID" Nullable="false" />
+    <Property Type="DateTime" Name="addTime" Precision="3" />
+  </EntityType>
+</Schema>

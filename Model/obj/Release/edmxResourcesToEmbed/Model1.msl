@@ -1,0 +1,1138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="bds252114683_dbModelStoreContainer" CdmEntityContainer="bds252114683_dbEntities">
+    <EntitySetMapping Name="person_aboutus">
+      <EntityTypeMapping TypeName="bds252114683_dbModel.person_aboutus">
+        <MappingFragment StoreEntitySet="person_aboutus">
+          <ScalarProperty Name="updateTime" ColumnName="updateTime" />
+          <ScalarProperty Name="addTime" ColumnName="addTime" />
+          <ScalarProperty Name="pictureID" ColumnName="pictureID" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="typeName" ColumnName="typeName" />
+          <ScalarProperty Name="aboutID" ColumnName="aboutID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="person_aboutus_content">
+      <EntityTypeMapping TypeName="bds252114683_dbModel.person_aboutus_content">
+        <MappingFragment StoreEntitySet="person_aboutus_content">
+          <ScalarProperty Name="updateTime" ColumnName="updateTime" />
+          <ScalarProperty Name="addTime" ColumnName="addTime" />
+          <ScalarProperty Name="aboutID" ColumnName="aboutID" />
+          <ScalarProperty Name="content" ColumnName="content" />
+          <ScalarProperty Name="aboutContentID" ColumnName="aboutContentID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="person_accesstoken">
+      <EntityTypeMapping TypeName="bds252114683_dbModel.person_accesstoken">
+        <MappingFragment StoreEntitySet="person_accesstoken">
+          <ScalarProperty Name="updateTime" ColumnName="updateTime" />
+          <ScalarProperty Name="refresh_token" ColumnName="refresh_token" />
+          <ScalarProperty Name="expires_in" ColumnName="expires_in" />
+          <ScalarProperty Name="access_token" ColumnName="access_token" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="person_account_notice">
+      <EntityTypeMapping TypeName="bds252114683_dbModel.person_account_notice">
+        <MappingFragment StoreEntitySet="person_account_notice">
+          <ScalarProperty Name="updateTime" ColumnName="updateTime" />
+          <ScalarProperty Name="addTime" ColumnName="addTime" />
+          <ScalarProperty Name="remark2" ColumnName="remark2" />
+          <ScalarProperty Name="remark1" ColumnName="remark1" />
+          <ScalarProperty Name="iconID" ColumnName="iconID" />
+          <ScalarProperty Name="accountNoticeID" ColumnName="accountNoticeID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="person_achievements">
+      <EntityTypeMapping TypeName="bds252114683_dbModel.person_achievements">
+        <MappingFragment StoreEntitySet="person_achievements">
+          <ScalarProperty Name="updateTime" ColumnName="updateTime" />
+          <ScalarProperty Name="addTime" ColumnName="addTime" />
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="iconID" ColumnName="iconID" />
+          <ScalarProperty Name="count" ColumnName="count" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="achievementsID" ColumnName="achievementsID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="person_action">
+      <EntityTypeMapping TypeName="bds252114683_dbModel.person_action">
+        <MappingFragment StoreEntitySet="person_action">
+          <ScalarProperty Name="addTime" ColumnName="addTime" />
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="actionID" ColumnName="actionID" />
+          <ScalarProperty Name="actionType" ColumnName="actionType" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="person_active">
+      <EntityTypeMapping TypeName="bds252114683_dbModel.person_active">
+        <MappingFragment StoreEntitySet="person_active">
+          <ScalarProperty Name="activeTime" ColumnName="activeTime" />
+          <ScalarProperty Name="activeToken" ColumnName="activeToken" />
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="activeType" ColumnName="activeType" />
+          <ScalarProperty Name="activeID" ColumnName="activeID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="person_banner">
+      <EntityTypeMapping TypeName="bds252114683_dbModel.person_banner">
+        <MappingFragment StoreEntitySet="person_banner">
+          <ScalarProperty Name="updateTime" ColumnName="updateTime" />
+          <ScalarProperty Name="addTime" ColumnName="addTime" />
+          <ScalarProperty Name="isRecommend" ColumnName="isRecommend" />
+          <ScalarProperty Name="tags" ColumnName="tags" />
+          <ScalarProperty Name="hot" ColumnName="hot" />
+          <ScalarProperty Name="isDelete" ColumnName="isDelete" />
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="pictureID" ColumnName="pictureID" />
+          <ScalarProperty Name="content" ColumnName="content" />
+          <ScalarProperty Name="describe" ColumnName="describe" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="bannerID" ColumnName="bannerID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="person_blog">
+      <EntityTypeMapping TypeName="bds252114683_dbModel.person_blog">
+        <MappingFragment StoreEntitySet="person_blog">
+          <ScalarProperty Name="updateTime" ColumnName="updateTime" />
+          <ScalarProperty Name="addTime" ColumnName="addTime" />
+          <ScalarProperty Name="sourceType" ColumnName="sourceType" />
+          <ScalarProperty Name="tags" ColumnName="tags" />
+          <ScalarProperty Name="hot" ColumnName="hot" />
+          <ScalarProperty Name="isRecommend" ColumnName="isRecommend" />
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="typeID" ColumnName="typeID" />
+          <ScalarProperty Name="content" ColumnName="content" />
+          <ScalarProperty Name="describe" ColumnName="describe" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="blogID" ColumnName="blogID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="person_blog_type">
+      <EntityTypeMapping TypeName="bds252114683_dbModel.person_blog_type">
+        <MappingFragment StoreEntitySet="person_blog_type">
+          <ScalarProperty Name="updateTime" ColumnName="updateTime" />
+          <ScalarProperty Name="addTime" ColumnName="addTime" />
+          <ScalarProperty Name="weight" ColumnName="weight" />
+          <ScalarProperty Name="pictureID" ColumnName="pictureID" />
+          <ScalarProperty Name="describe" ColumnName="describe" />
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="typeName" ColumnName="typeName" />
+          <ScalarProperty Name="typeID" ColumnName="typeID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="person_case">
+      <EntityTypeMapping TypeName="bds252114683_dbModel.person_case">
+        <MappingFragment StoreEntitySet="person_case">
+          <ScalarProperty Name="updateTime" ColumnName="updateTime" />
+          <ScalarProperty Name="addTime" ColumnName="addTime" />
+          <ScalarProperty Name="isDelete" ColumnName="isDelete" />
+          <ScalarProperty Name="isRecommend" ColumnName="isRecommend" />
+          <ScalarProperty Name="hot" ColumnName="hot" />
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="typeID" ColumnName="typeID" />
+          <ScalarProperty Name="pictureID" ColumnName="pictureID" />
+          <ScalarProperty Name="content" ColumnName="content" />
+          <ScalarProperty Name="describe" ColumnName="describe" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="caseID" ColumnName="caseID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="person_case_type">
+      <EntityTypeMapping TypeName="bds252114683_dbModel.person_case_type">
+        <MappingFragment StoreEntitySet="person_case_type">
+          <ScalarProperty Name="updateTime" ColumnName="updateTime" />
+          <ScalarProperty Name="addTime" ColumnName="addTime" />
+          <ScalarProperty Name="weight" ColumnName="weight" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="typeID" ColumnName="typeID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="person_client">
+      <EntityTypeMapping TypeName="bds252114683_dbModel.person_client">
+        <MappingFragment StoreEntitySet="person_client">
+          <ScalarProperty Name="updateTime" ColumnName="updateTime" />
+          <ScalarProperty Name="addTime" ColumnName="addTime" />
+          <ScalarProperty Name="webUrl" ColumnName="webUrl" />
+          <ScalarProperty Name="webName" ColumnName="webName" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="content" ColumnName="content" />
+          <ScalarProperty Name="clientID" ColumnName="clientID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="person_collection">
+      <EntityTypeMapping TypeName="bds252114683_dbModel.person_collection">
+        <MappingFragment StoreEntitySet="person_collection">
+          <ScalarProperty Name="addTime" ColumnName="addTime" />
+          <ScalarProperty Name="collectionTypeID" ColumnName="collectionTypeID" />
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="collectionID" ColumnName="collectionID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="person_contact">
+      <EntityTypeMapping TypeName="bds252114683_dbModel.person_contact">
+        <MappingFragment StoreEntitySet="person_contact">
+          <ScalarProperty Name="updateTime" ColumnName="updateTime" />
+          <ScalarProperty Name="addTime" ColumnName="addTime" />
+          <ScalarProperty Name="isDelete" ColumnName="isDelete" />
+          <ScalarProperty Name="isRead" ColumnName="isRead" />
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="message" ColumnName="message" />
+          <ScalarProperty Name="website" ColumnName="website" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="contactID" ColumnName="contactID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="person_contact_info">
+      <EntityTypeMapping TypeName="bds252114683_dbModel.person_contact_info">
+        <MappingFragment StoreEntitySet="person_contact_info">
+          <ScalarProperty Name="updateTime" ColumnName="updateTime" />
+          <ScalarProperty Name="addTime" ColumnName="addTime" />
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="area" ColumnName="area" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="emailTwo" ColumnName="emailTwo" />
+          <ScalarProperty Name="emailOne" ColumnName="emailOne" />
+          <ScalarProperty Name="phoneTwo" ColumnName="phoneTwo" />
+          <ScalarProperty Name="phoneOne" ColumnName="phoneOne" />
+          <ScalarProperty Name="contactInfoID" ColumnName="contactInfoID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="person_download_reader">
+      <EntityTypeMapping TypeName="bds252114683_dbModel.person_download_reader">
+        <MappingFragment StoreEntitySet="person_download_reader">
+          <ScalarProperty Name="addTime" ColumnName="addTime" />
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="readerID" ColumnName="readerID" />
+          <ScalarProperty Name="downloadID" ColumnName="downloadID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="person_email">
+      <EntityTypeMapping TypeName="bds252114683_dbModel.person_email">
+        <MappingFragment StoreEntitySet="person_email">
+          <ScalarProperty Name="emailUrl" ColumnName="emailUrl" />
+          <ScalarProperty Name="emailLast" ColumnName="emailLast" />
+          <ScalarProperty Name="emailID" ColumnName="emailID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="person_faq">
+      <EntityTypeMapping TypeName="bds252114683_dbModel.person_faq">
+        <MappingFragment StoreEntitySet="person_faq">
+          <ScalarProperty Name="updateTime" ColumnName="updateTime" />
+          <ScalarProperty Name="addTime" ColumnName="addTime" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="faqID" ColumnName="faqID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="person_faq_content">
+      <EntityTypeMapping TypeName="bds252114683_dbModel.person_faq_content">
+        <MappingFragment StoreEntitySet="person_faq_content">
+          <ScalarProperty Name="updateTime" ColumnName="updateTime" />
+          <ScalarProperty Name="addTime" ColumnName="addTime" />
+          <ScalarProperty Name="faqID" ColumnName="faqID" />
+          <ScalarProperty Name="content" ColumnName="content" />
+          <ScalarProperty Name="faqContentID" ColumnName="faqContentID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="person_hot">
+      <EntityTypeMapping TypeName="bds252114683_dbModel.person_hot">
+        <MappingFragment StoreEntitySet="person_hot">
+          <ScalarProperty Name="addTime" ColumnName="addTime" />
+          <ScalarProperty Name="typeID" ColumnName="typeID" />
+          <ScalarProperty Name="ipAddress" ColumnName="ipAddress" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="hotID" ColumnName="hotID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="person_icon">
+      <EntityTypeMapping TypeName="bds252114683_dbModel.person_icon">
+        <MappingFragment StoreEntitySet="person_icon">
+          <ScalarProperty Name="updateTime" ColumnName="updateTime" />
+          <ScalarProperty Name="addTime" ColumnName="addTime" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="iconClass" ColumnName="iconClass" />
+          <ScalarProperty Name="iconID" ColumnName="iconID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="person_links">
+      <EntityTypeMapping TypeName="bds252114683_dbModel.person_links">
+        <MappingFragment StoreEntitySet="person_links">
+          <ScalarProperty Name="updateTime" ColumnName="updateTime" />
+          <ScalarProperty Name="addTime" ColumnName="addTime" />
+          <ScalarProperty Name="url" ColumnName="url" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="linkID" ColumnName="linkID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="person_log">
+      <EntityTypeMapping TypeName="bds252114683_dbModel.person_log">
+        <MappingFragment StoreEntitySet="person_log">
+          <ScalarProperty Name="addTime" ColumnName="addTime" />
+          <ScalarProperty Name="msg" ColumnName="msg" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="person_music">
+      <EntityTypeMapping TypeName="bds252114683_dbModel.person_music">
+        <MappingFragment StoreEntitySet="person_music">
+          <ScalarProperty Name="updateTime" ColumnName="updateTime" />
+          <ScalarProperty Name="addTime" ColumnName="addTime" />
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="hot" ColumnName="hot" />
+          <ScalarProperty Name="weight" ColumnName="weight" />
+          <ScalarProperty Name="isRecommend" ColumnName="isRecommend" />
+          <ScalarProperty Name="coverImage" ColumnName="coverImage" />
+          <ScalarProperty Name="musicLink" ColumnName="musicLink" />
+          <ScalarProperty Name="musicAuthor" ColumnName="musicAuthor" />
+          <ScalarProperty Name="musicName" ColumnName="musicName" />
+          <ScalarProperty Name="musicID" ColumnName="musicID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="person_navigation">
+      <EntityTypeMapping TypeName="bds252114683_dbModel.person_navigation">
+        <MappingFragment StoreEntitySet="person_navigation">
+          <ScalarProperty Name="updateTime" ColumnName="updateTime" />
+          <ScalarProperty Name="addTime" ColumnName="addTime" />
+          <ScalarProperty Name="hot" ColumnName="hot" />
+          <ScalarProperty Name="isRecommend" ColumnName="isRecommend" />
+          <ScalarProperty Name="typeID" ColumnName="typeID" />
+          <ScalarProperty Name="siteUrl" ColumnName="siteUrl" />
+          <ScalarProperty Name="siteName" ColumnName="siteName" />
+          <ScalarProperty Name="navigationID" ColumnName="navigationID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="person_navigation_type">
+      <EntityTypeMapping TypeName="bds252114683_dbModel.person_navigation_type">
+        <MappingFragment StoreEntitySet="person_navigation_type">
+          <ScalarProperty Name="updateTime" ColumnName="updateTime" />
+          <ScalarProperty Name="addTime" ColumnName="addTime" />
+          <ScalarProperty Name="describe" ColumnName="describe" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="typeID" ColumnName="typeID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="person_partner">
+      <EntityTypeMapping TypeName="bds252114683_dbModel.person_partner">
+        <MappingFragment StoreEntitySet="person_partner">
+          <ScalarProperty Name="updateTime" ColumnName="updateTime" />
+          <ScalarProperty Name="addTime" ColumnName="addTime" />
+          <ScalarProperty Name="url" ColumnName="url" />
+          <ScalarProperty Name="pictureID" ColumnName="pictureID" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="partnerID" ColumnName="partnerID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="person_picture">
+      <EntityTypeMapping TypeName="bds252114683_dbModel.person_picture">
+        <MappingFragment StoreEntitySet="person_picture">
+          <ScalarProperty Name="updateTime" ColumnName="updateTime" />
+          <ScalarProperty Name="addTime" ColumnName="addTime" />
+          <ScalarProperty Name="isDelete" ColumnName="isDelete" />
+          <ScalarProperty Name="typeID" ColumnName="typeID" />
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="url" ColumnName="url" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="pictureID" ColumnName="pictureID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="person_picture_type">
+      <EntityTypeMapping TypeName="bds252114683_dbModel.person_picture_type">
+        <MappingFragment StoreEntitySet="person_picture_type">
+          <ScalarProperty Name="updateTime" ColumnName="updateTime" />
+          <ScalarProperty Name="addTime" ColumnName="addTime" />
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="typeID" ColumnName="typeID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="person_plan">
+      <EntityTypeMapping TypeName="bds252114683_dbModel.person_plan">
+        <MappingFragment StoreEntitySet="person_plan">
+          <ScalarProperty Name="updateTime" ColumnName="updateTime" />
+          <ScalarProperty Name="addTime" ColumnName="addTime" />
+          <ScalarProperty Name="tags" ColumnName="tags" />
+          <ScalarProperty Name="isRecommend" ColumnName="isRecommend" />
+          <ScalarProperty Name="hot" ColumnName="hot" />
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="describe" ColumnName="describe" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="planID" ColumnName="planID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="person_plan_content">
+      <EntityTypeMapping TypeName="bds252114683_dbModel.person_plan_content">
+        <MappingFragment StoreEntitySet="person_plan_content">
+          <ScalarProperty Name="updateTime" ColumnName="updateTime" />
+          <ScalarProperty Name="addTime" ColumnName="addTime" />
+          <ScalarProperty Name="endTime" ColumnName="endTime" />
+          <ScalarProperty Name="startTime" ColumnName="startTime" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="planID" ColumnName="planID" />
+          <ScalarProperty Name="weight" ColumnName="weight" />
+          <ScalarProperty Name="content" ColumnName="content" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="detailID" ColumnName="detailID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="person_price">
+      <EntityTypeMapping TypeName="bds252114683_dbModel.person_price">
+        <MappingFragment StoreEntitySet="person_price">
+          <ScalarProperty Name="updateTime" ColumnName="updateTime" />
+          <ScalarProperty Name="addTime" ColumnName="addTime" />
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="iconID" ColumnName="iconID" />
+          <ScalarProperty Name="url" ColumnName="url" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="priceID" ColumnName="priceID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="person_price_content">
+      <EntityTypeMapping TypeName="bds252114683_dbModel.person_price_content">
+        <MappingFragment StoreEntitySet="person_price_content">
+          <ScalarProperty Name="updateTime" ColumnName="updateTime" />
+          <ScalarProperty Name="addTime" ColumnName="addTime" />
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="priceID" ColumnName="priceID" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="priceContentID" ColumnName="priceContentID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="person_product_description">
+      <EntityTypeMapping TypeName="bds252114683_dbModel.person_product_description">
+        <MappingFragment StoreEntitySet="person_product_description">
+          <ScalarProperty Name="updateTime" ColumnName="updateTime" />
+          <ScalarProperty Name="addTime" ColumnName="addTime" />
+          <ScalarProperty Name="hot" ColumnName="hot" />
+          <ScalarProperty Name="iconID" ColumnName="iconID" />
+          <ScalarProperty Name="content" ColumnName="content" />
+          <ScalarProperty Name="describe" ColumnName="describe" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="productDescriptionID" ColumnName="productDescriptionID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="person_qq_login">
+      <EntityTypeMapping TypeName="bds252114683_dbModel.person_qq_login">
+        <MappingFragment StoreEntitySet="person_qq_login">
+          <ScalarProperty Name="addTime" ColumnName="addTime" />
+          <ScalarProperty Name="openid" ColumnName="openid" />
+          <ScalarProperty Name="is_yellow_year_vip" ColumnName="is_yellow_year_vip" />
+          <ScalarProperty Name="level" ColumnName="level" />
+          <ScalarProperty Name="yellow_vip_level" ColumnName="yellow_vip_level" />
+          <ScalarProperty Name="vip" ColumnName="vip" />
+          <ScalarProperty Name="is_yellow_vip" ColumnName="is_yellow_vip" />
+          <ScalarProperty Name="gender" ColumnName="gender" />
+          <ScalarProperty Name="figureurl_qq_2" ColumnName="figureurl_qq_2" />
+          <ScalarProperty Name="figureurl_qq_1" ColumnName="figureurl_qq_1" />
+          <ScalarProperty Name="figureurl_2" ColumnName="figureurl_2" />
+          <ScalarProperty Name="figureurl_1" ColumnName="figureurl_1" />
+          <ScalarProperty Name="figureurl" ColumnName="figureurl" />
+          <ScalarProperty Name="nickname" ColumnName="nickname" />
+          <ScalarProperty Name="msg" ColumnName="msg" />
+          <ScalarProperty Name="ret" ColumnName="ret" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="person_reader">
+      <EntityTypeMapping TypeName="bds252114683_dbModel.person_reader">
+        <MappingFragment StoreEntitySet="person_reader">
+          <ScalarProperty Name="updateTime" ColumnName="updateTime" />
+          <ScalarProperty Name="addTime" ColumnName="addTime" />
+          <ScalarProperty Name="downloadCount" ColumnName="downloadCount" />
+          <ScalarProperty Name="tags" ColumnName="tags" />
+          <ScalarProperty Name="typeID" ColumnName="typeID" />
+          <ScalarProperty Name="isRecommend" ColumnName="isRecommend" />
+          <ScalarProperty Name="hot" ColumnName="hot" />
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="link" ColumnName="link" />
+          <ScalarProperty Name="readerDescribe" ColumnName="readerDescribe" />
+          <ScalarProperty Name="readerTitle" ColumnName="readerTitle" />
+          <ScalarProperty Name="readerID" ColumnName="readerID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="person_reader_type">
+      <EntityTypeMapping TypeName="bds252114683_dbModel.person_reader_type">
+        <MappingFragment StoreEntitySet="person_reader_type">
+          <ScalarProperty Name="updateTime" ColumnName="updateTime" />
+          <ScalarProperty Name="addTime" ColumnName="addTime" />
+          <ScalarProperty Name="weight" ColumnName="weight" />
+          <ScalarProperty Name="typeName" ColumnName="typeName" />
+          <ScalarProperty Name="typeID" ColumnName="typeID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="person_resume">
+      <EntityTypeMapping TypeName="bds252114683_dbModel.person_resume">
+        <MappingFragment StoreEntitySet="person_resume">
+          <ScalarProperty Name="updateTime" ColumnName="updateTime" />
+          <ScalarProperty Name="addTime" ColumnName="addTime" />
+          <ScalarProperty Name="isShow" ColumnName="isShow" />
+          <ScalarProperty Name="contactEmail" ColumnName="contactEmail" />
+          <ScalarProperty Name="mobile" ColumnName="mobile" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="workTime" ColumnName="workTime" />
+          <ScalarProperty Name="education" ColumnName="education" />
+          <ScalarProperty Name="birthday" ColumnName="birthday" />
+          <ScalarProperty Name="sex" ColumnName="sex" />
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="describe" ColumnName="describe" />
+          <ScalarProperty Name="position" ColumnName="position" />
+          <ScalarProperty Name="pictureID" ColumnName="pictureID" />
+          <ScalarProperty Name="realName" ColumnName="realName" />
+          <ScalarProperty Name="resumeID" ColumnName="resumeID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="person_role">
+      <EntityTypeMapping TypeName="bds252114683_dbModel.person_role">
+        <MappingFragment StoreEntitySet="person_role">
+          <ScalarProperty Name="updateTime" ColumnName="updateTime" />
+          <ScalarProperty Name="addTime" ColumnName="addTime" />
+          <ScalarProperty Name="remark" ColumnName="remark" />
+          <ScalarProperty Name="roleName" ColumnName="roleName" />
+          <ScalarProperty Name="roleID" ColumnName="roleID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="person_service">
+      <EntityTypeMapping TypeName="bds252114683_dbModel.person_service">
+        <MappingFragment StoreEntitySet="person_service">
+          <ScalarProperty Name="updateTime" ColumnName="updateTime" />
+          <ScalarProperty Name="addTime" ColumnName="addTime" />
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="iconID" ColumnName="iconID" />
+          <ScalarProperty Name="content" ColumnName="content" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="serviceID" ColumnName="serviceID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="person_site_config">
+      <EntityTypeMapping TypeName="bds252114683_dbModel.person_site_config">
+        <MappingFragment StoreEntitySet="person_site_config">
+          <ScalarProperty Name="updateTime" ColumnName="updateTime" />
+          <ScalarProperty Name="value" ColumnName="value" />
+          <ScalarProperty Name="key" ColumnName="key" />
+          <ScalarProperty Name="configID" ColumnName="configID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="person_skill">
+      <EntityTypeMapping TypeName="bds252114683_dbModel.person_skill">
+        <MappingFragment StoreEntitySet="person_skill">
+          <ScalarProperty Name="updateTime" ColumnName="updateTime" />
+          <ScalarProperty Name="addTime" ColumnName="addTime" />
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="percent" ColumnName="percent" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="skillID" ColumnName="skillID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="person_social">
+      <EntityTypeMapping TypeName="bds252114683_dbModel.person_social">
+        <MappingFragment StoreEntitySet="person_social">
+          <ScalarProperty Name="updateTime" ColumnName="updateTime" />
+          <ScalarProperty Name="addTime" ColumnName="addTime" />
+          <ScalarProperty Name="hot" ColumnName="hot" />
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="iconID" ColumnName="iconID" />
+          <ScalarProperty Name="linkUrl" ColumnName="linkUrl" />
+          <ScalarProperty Name="socialID" ColumnName="socialID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="person_user">
+      <EntityTypeMapping TypeName="bds252114683_dbModel.person_user">
+        <MappingFragment StoreEntitySet="person_user">
+          <ScalarProperty Name="updateTime" ColumnName="updateTime" />
+          <ScalarProperty Name="loginTime" ColumnName="loginTime" />
+          <ScalarProperty Name="signTime" ColumnName="signTime" />
+          <ScalarProperty Name="qqID" ColumnName="qqID" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="signature" ColumnName="signature" />
+          <ScalarProperty Name="motto" ColumnName="motto" />
+          <ScalarProperty Name="loginCount" ColumnName="loginCount" />
+          <ScalarProperty Name="roleID" ColumnName="roleID" />
+          <ScalarProperty Name="bindStatus" ColumnName="bindStatus" />
+          <ScalarProperty Name="pictureID" ColumnName="pictureID" />
+          <ScalarProperty Name="score" ColumnName="score" />
+          <ScalarProperty Name="sex" ColumnName="sex" />
+          <ScalarProperty Name="nickName" ColumnName="nickName" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="userID" ColumnName="userID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="person_visitor">
+      <EntityTypeMapping TypeName="bds252114683_dbModel.person_visitor">
+        <MappingFragment StoreEntitySet="person_visitor">
+          <ScalarProperty Name="addTime" ColumnName="addTime" />
+          <ScalarProperty Name="memberInfoID" ColumnName="memberInfoID" />
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="visitorID" ColumnName="visitorID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="person_vyw_aboutus_picture">
+      <EntityTypeMapping TypeName="bds252114683_dbModel.person_vyw_aboutus_picture">
+        <MappingFragment StoreEntitySet="person_vyw_aboutus_picture">
+          <ScalarProperty Name="isDelete" ColumnName="isDelete" />
+          <ScalarProperty Name="url" ColumnName="url" />
+          <ScalarProperty Name="pictureTitle" ColumnName="pictureTitle" />
+          <ScalarProperty Name="updateTime" ColumnName="updateTime" />
+          <ScalarProperty Name="addTime" ColumnName="addTime" />
+          <ScalarProperty Name="pictureID" ColumnName="pictureID" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="typeName" ColumnName="typeName" />
+          <ScalarProperty Name="aboutID" ColumnName="aboutID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="person_vyw_account_notice_icon">
+      <EntityTypeMapping TypeName="bds252114683_dbModel.person_vyw_account_notice_icon">
+        <MappingFragment StoreEntitySet="person_vyw_account_notice_icon">
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="iconClass" ColumnName="iconClass" />
+          <ScalarProperty Name="updateTime" ColumnName="updateTime" />
+          <ScalarProperty Name="addTime" ColumnName="addTime" />
+          <ScalarProperty Name="remark2" ColumnName="remark2" />
+          <ScalarProperty Name="remark1" ColumnName="remark1" />
+          <ScalarProperty Name="iconID" ColumnName="iconID" />
+          <ScalarProperty Name="accountNoticeID" ColumnName="accountNoticeID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="person_vyw_achievements_icon">
+      <EntityTypeMapping TypeName="bds252114683_dbModel.person_vyw_achievements_icon">
+        <MappingFragment StoreEntitySet="person_vyw_achievements_icon">
+          <ScalarProperty Name="roleID" ColumnName="roleID" />
+          <ScalarProperty Name="nickName" ColumnName="nickName" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="iconClass" ColumnName="iconClass" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="updateTime" ColumnName="updateTime" />
+          <ScalarProperty Name="addTime" ColumnName="addTime" />
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="iconID" ColumnName="iconID" />
+          <ScalarProperty Name="count" ColumnName="count" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="achievementsID" ColumnName="achievementsID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="person_vyw_active_user">
+      <EntityTypeMapping TypeName="bds252114683_dbModel.person_vyw_active_user">
+        <MappingFragment StoreEntitySet="person_vyw_active_user">
+          <ScalarProperty Name="nickName" ColumnName="nickName" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="bindStatus" ColumnName="bindStatus" />
+          <ScalarProperty Name="activeID" ColumnName="activeID" />
+          <ScalarProperty Name="activeType" ColumnName="activeType" />
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="activeToken" ColumnName="activeToken" />
+          <ScalarProperty Name="activeTime" ColumnName="activeTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="person_vyw_banner_user">
+      <EntityTypeMapping TypeName="bds252114683_dbModel.person_vyw_banner_user">
+        <MappingFragment StoreEntitySet="person_vyw_banner_user">
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="userPictureIsDelete" ColumnName="userPictureIsDelete" />
+          <ScalarProperty Name="userPictureUrl" ColumnName="userPictureUrl" />
+          <ScalarProperty Name="userPictureTitle" ColumnName="userPictureTitle" />
+          <ScalarProperty Name="userPictureID" ColumnName="userPictureID" />
+          <ScalarProperty Name="url" ColumnName="url" />
+          <ScalarProperty Name="pictureIsDelete" ColumnName="pictureIsDelete" />
+          <ScalarProperty Name="pictureTitle" ColumnName="pictureTitle" />
+          <ScalarProperty Name="pictureID" ColumnName="pictureID" />
+          <ScalarProperty Name="tags" ColumnName="tags" />
+          <ScalarProperty Name="isRecommend" ColumnName="isRecommend" />
+          <ScalarProperty Name="nickName" ColumnName="nickName" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="updateTime" ColumnName="updateTime" />
+          <ScalarProperty Name="addTime" ColumnName="addTime" />
+          <ScalarProperty Name="hot" ColumnName="hot" />
+          <ScalarProperty Name="isDelete" ColumnName="isDelete" />
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="content" ColumnName="content" />
+          <ScalarProperty Name="describe" ColumnName="describe" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="bannerID" ColumnName="bannerID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="person_vyw_blog_type">
+      <EntityTypeMapping TypeName="bds252114683_dbModel.person_vyw_blog_type">
+        <MappingFragment StoreEntitySet="person_vyw_blog_type">
+          <ScalarProperty Name="userPictureUrl" ColumnName="userPictureUrl" />
+          <ScalarProperty Name="userPictureTitle" ColumnName="userPictureTitle" />
+          <ScalarProperty Name="userPictureID" ColumnName="userPictureID" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="url" ColumnName="url" />
+          <ScalarProperty Name="pictureTitle" ColumnName="pictureTitle" />
+          <ScalarProperty Name="pictureID" ColumnName="pictureID" />
+          <ScalarProperty Name="sourceType" ColumnName="sourceType" />
+          <ScalarProperty Name="tags" ColumnName="tags" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="nickName" ColumnName="nickName" />
+          <ScalarProperty Name="roleID" ColumnName="roleID" />
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="updateTime" ColumnName="updateTime" />
+          <ScalarProperty Name="addTime" ColumnName="addTime" />
+          <ScalarProperty Name="isRecommend" ColumnName="isRecommend" />
+          <ScalarProperty Name="hot" ColumnName="hot" />
+          <ScalarProperty Name="typeID" ColumnName="typeID" />
+          <ScalarProperty Name="content" ColumnName="content" />
+          <ScalarProperty Name="describe" ColumnName="describe" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="blogID" ColumnName="blogID" />
+          <ScalarProperty Name="typeName" ColumnName="typeName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="person_vyw_blog_type_picture">
+      <EntityTypeMapping TypeName="bds252114683_dbModel.person_vyw_blog_type_picture">
+        <MappingFragment StoreEntitySet="person_vyw_blog_type_picture">
+          <ScalarProperty Name="isDelete" ColumnName="isDelete" />
+          <ScalarProperty Name="Expr1" ColumnName="Expr1" />
+          <ScalarProperty Name="url" ColumnName="url" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="updateTime" ColumnName="updateTime" />
+          <ScalarProperty Name="addTime" ColumnName="addTime" />
+          <ScalarProperty Name="weight" ColumnName="weight" />
+          <ScalarProperty Name="pictureID" ColumnName="pictureID" />
+          <ScalarProperty Name="describe" ColumnName="describe" />
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="typeName" ColumnName="typeName" />
+          <ScalarProperty Name="typeID" ColumnName="typeID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="person_vyw_case_type_user_picture">
+      <EntityTypeMapping TypeName="bds252114683_dbModel.person_vyw_case_type_user_picture">
+        <MappingFragment StoreEntitySet="person_vyw_case_type_user_picture">
+          <ScalarProperty Name="userPictureIsDelete" ColumnName="userPictureIsDelete" />
+          <ScalarProperty Name="userPictureUrl" ColumnName="userPictureUrl" />
+          <ScalarProperty Name="userPictureTitle" ColumnName="userPictureTitle" />
+          <ScalarProperty Name="userPictureID" ColumnName="userPictureID" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="pictureIsDelete" ColumnName="pictureIsDelete" />
+          <ScalarProperty Name="url" ColumnName="url" />
+          <ScalarProperty Name="pictureTitle" ColumnName="pictureTitle" />
+          <ScalarProperty Name="pictureID" ColumnName="pictureID" />
+          <ScalarProperty Name="isDelete" ColumnName="isDelete" />
+          <ScalarProperty Name="isRecommend" ColumnName="isRecommend" />
+          <ScalarProperty Name="roleID" ColumnName="roleID" />
+          <ScalarProperty Name="nickName" ColumnName="nickName" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="updateTime" ColumnName="updateTime" />
+          <ScalarProperty Name="addTime" ColumnName="addTime" />
+          <ScalarProperty Name="hot" ColumnName="hot" />
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="typeID" ColumnName="typeID" />
+          <ScalarProperty Name="content" ColumnName="content" />
+          <ScalarProperty Name="describe" ColumnName="describe" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="caseID" ColumnName="caseID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="person_vyw_collection_blog_type">
+      <EntityTypeMapping TypeName="bds252114683_dbModel.person_vyw_collection_blog_type">
+        <MappingFragment StoreEntitySet="person_vyw_collection_blog_type">
+          <ScalarProperty Name="sourceType" ColumnName="sourceType" />
+          <ScalarProperty Name="describe" ColumnName="describe" />
+          <ScalarProperty Name="addTime" ColumnName="addTime" />
+          <ScalarProperty Name="collectionTypeID" ColumnName="collectionTypeID" />
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="collectionID" ColumnName="collectionID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="typeName" ColumnName="typeName" />
+          <ScalarProperty Name="hot" ColumnName="hot" />
+          <ScalarProperty Name="typeID" ColumnName="typeID" />
+          <ScalarProperty Name="title" ColumnName="title" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="person_vyw_collection_music">
+      <EntityTypeMapping TypeName="bds252114683_dbModel.person_vyw_collection_music">
+        <MappingFragment StoreEntitySet="person_vyw_collection_music">
+          <ScalarProperty Name="hot" ColumnName="hot" />
+          <ScalarProperty Name="isRecommend" ColumnName="isRecommend" />
+          <ScalarProperty Name="musicLink" ColumnName="musicLink" />
+          <ScalarProperty Name="musicAuthor" ColumnName="musicAuthor" />
+          <ScalarProperty Name="musicName" ColumnName="musicName" />
+          <ScalarProperty Name="addTime" ColumnName="addTime" />
+          <ScalarProperty Name="collectionTypeID" ColumnName="collectionTypeID" />
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="collectionID" ColumnName="collectionID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="person_vyw_collection_plan">
+      <EntityTypeMapping TypeName="bds252114683_dbModel.person_vyw_collection_plan">
+        <MappingFragment StoreEntitySet="person_vyw_collection_plan">
+          <ScalarProperty Name="describe" ColumnName="describe" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="hot" ColumnName="hot" />
+          <ScalarProperty Name="collectionID" ColumnName="collectionID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="collectionTypeID" ColumnName="collectionTypeID" />
+          <ScalarProperty Name="addTime" ColumnName="addTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="person_vyw_collection_reader_type">
+      <EntityTypeMapping TypeName="bds252114683_dbModel.person_vyw_collection_reader_type">
+        <MappingFragment StoreEntitySet="person_vyw_collection_reader_type">
+          <ScalarProperty Name="tags" ColumnName="tags" />
+          <ScalarProperty Name="collectionID" ColumnName="collectionID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="collectionTypeID" ColumnName="collectionTypeID" />
+          <ScalarProperty Name="addTime" ColumnName="addTime" />
+          <ScalarProperty Name="typeID" ColumnName="typeID" />
+          <ScalarProperty Name="hot" ColumnName="hot" />
+          <ScalarProperty Name="readerDescribe" ColumnName="readerDescribe" />
+          <ScalarProperty Name="readerTitle" ColumnName="readerTitle" />
+          <ScalarProperty Name="typeName" ColumnName="typeName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="person_vyw_music_user">
+      <EntityTypeMapping TypeName="bds252114683_dbModel.person_vyw_music_user">
+        <MappingFragment StoreEntitySet="person_vyw_music_user">
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="coverImage" ColumnName="coverImage" />
+          <ScalarProperty Name="isRecommend" ColumnName="isRecommend" />
+          <ScalarProperty Name="hot" ColumnName="hot" />
+          <ScalarProperty Name="roleID" ColumnName="roleID" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="nickName" ColumnName="nickName" />
+          <ScalarProperty Name="updateTime" ColumnName="updateTime" />
+          <ScalarProperty Name="addTime" ColumnName="addTime" />
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="weight" ColumnName="weight" />
+          <ScalarProperty Name="musicLink" ColumnName="musicLink" />
+          <ScalarProperty Name="musicAuthor" ColumnName="musicAuthor" />
+          <ScalarProperty Name="musicName" ColumnName="musicName" />
+          <ScalarProperty Name="musicID" ColumnName="musicID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="person_vyw_navigation_type">
+      <EntityTypeMapping TypeName="bds252114683_dbModel.person_vyw_navigation_type">
+        <MappingFragment StoreEntitySet="person_vyw_navigation_type">
+          <ScalarProperty Name="isRecommend" ColumnName="isRecommend" />
+          <ScalarProperty Name="hot" ColumnName="hot" />
+          <ScalarProperty Name="updateTime" ColumnName="updateTime" />
+          <ScalarProperty Name="addTime" ColumnName="addTime" />
+          <ScalarProperty Name="navigationID" ColumnName="navigationID" />
+          <ScalarProperty Name="siteName" ColumnName="siteName" />
+          <ScalarProperty Name="siteUrl" ColumnName="siteUrl" />
+          <ScalarProperty Name="typeID" ColumnName="typeID" />
+          <ScalarProperty Name="describe" ColumnName="describe" />
+          <ScalarProperty Name="name" ColumnName="name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="person_vyw_partner_picture">
+      <EntityTypeMapping TypeName="bds252114683_dbModel.person_vyw_partner_picture">
+        <MappingFragment StoreEntitySet="person_vyw_partner_picture">
+          <ScalarProperty Name="isDelete" ColumnName="isDelete" />
+          <ScalarProperty Name="pictureUrl" ColumnName="pictureUrl" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="pictureID" ColumnName="pictureID" />
+          <ScalarProperty Name="updateTime" ColumnName="updateTime" />
+          <ScalarProperty Name="addTime" ColumnName="addTime" />
+          <ScalarProperty Name="url" ColumnName="url" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="partnerID" ColumnName="partnerID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="person_vyw_plan_content">
+      <EntityTypeMapping TypeName="bds252114683_dbModel.person_vyw_plan_content">
+        <MappingFragment StoreEntitySet="person_vyw_plan_content">
+          <ScalarProperty Name="planTitle" ColumnName="planTitle" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="describe" ColumnName="describe" />
+          <ScalarProperty Name="tags" ColumnName="tags" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="addTime" ColumnName="addTime" />
+          <ScalarProperty Name="isRecommend" ColumnName="isRecommend" />
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="planID" ColumnName="planID" />
+          <ScalarProperty Name="endTime" ColumnName="endTime" />
+          <ScalarProperty Name="startTime" ColumnName="startTime" />
+          <ScalarProperty Name="detailID" ColumnName="detailID" />
+          <ScalarProperty Name="content" ColumnName="content" />
+          <ScalarProperty Name="weight" ColumnName="weight" />
+          <ScalarProperty Name="hot" ColumnName="hot" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="person_vyw_plan_user">
+      <EntityTypeMapping TypeName="bds252114683_dbModel.person_vyw_plan_user">
+        <MappingFragment StoreEntitySet="person_vyw_plan_user">
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="pictureTitle" ColumnName="pictureTitle" />
+          <ScalarProperty Name="url" ColumnName="url" />
+          <ScalarProperty Name="isDelete" ColumnName="isDelete" />
+          <ScalarProperty Name="pictureID" ColumnName="pictureID" />
+          <ScalarProperty Name="tags" ColumnName="tags" />
+          <ScalarProperty Name="nickName" ColumnName="nickName" />
+          <ScalarProperty Name="updateTime" ColumnName="updateTime" />
+          <ScalarProperty Name="addTime" ColumnName="addTime" />
+          <ScalarProperty Name="isRecommend" ColumnName="isRecommend" />
+          <ScalarProperty Name="hot" ColumnName="hot" />
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="describe" ColumnName="describe" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="planID" ColumnName="planID" />
+          <ScalarProperty Name="roleID" ColumnName="roleID" />
+          <ScalarProperty Name="email" ColumnName="email" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="person_vyw_price_icon">
+      <EntityTypeMapping TypeName="bds252114683_dbModel.person_vyw_price_icon">
+        <MappingFragment StoreEntitySet="person_vyw_price_icon">
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="nickName" ColumnName="nickName" />
+          <ScalarProperty Name="roleID" ColumnName="roleID" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="iconTitle" ColumnName="iconTitle" />
+          <ScalarProperty Name="iconClass" ColumnName="iconClass" />
+          <ScalarProperty Name="updateTime" ColumnName="updateTime" />
+          <ScalarProperty Name="addTime" ColumnName="addTime" />
+          <ScalarProperty Name="url" ColumnName="url" />
+          <ScalarProperty Name="iconID" ColumnName="iconID" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="priceID" ColumnName="priceID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="person_vyw_product_description_icon">
+      <EntityTypeMapping TypeName="bds252114683_dbModel.person_vyw_product_description_icon">
+        <MappingFragment StoreEntitySet="person_vyw_product_description_icon">
+          <ScalarProperty Name="productDescriptionID" ColumnName="productDescriptionID" />
+          <ScalarProperty Name="iconTitle" ColumnName="iconTitle" />
+          <ScalarProperty Name="iconClass" ColumnName="iconClass" />
+          <ScalarProperty Name="updateTime" ColumnName="updateTime" />
+          <ScalarProperty Name="addTime" ColumnName="addTime" />
+          <ScalarProperty Name="hot" ColumnName="hot" />
+          <ScalarProperty Name="iconID" ColumnName="iconID" />
+          <ScalarProperty Name="content" ColumnName="content" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="describe" ColumnName="describe" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="person_vyw_reader_user">
+      <EntityTypeMapping TypeName="bds252114683_dbModel.person_vyw_reader_user">
+        <MappingFragment StoreEntitySet="person_vyw_reader_user">
+          <ScalarProperty Name="isDelete" ColumnName="isDelete" />
+          <ScalarProperty Name="url" ColumnName="url" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="pictureID" ColumnName="pictureID" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="downloadCount" ColumnName="downloadCount" />
+          <ScalarProperty Name="tags" ColumnName="tags" />
+          <ScalarProperty Name="weight" ColumnName="weight" />
+          <ScalarProperty Name="typeName" ColumnName="typeName" />
+          <ScalarProperty Name="roleID" ColumnName="roleID" />
+          <ScalarProperty Name="isRecommend" ColumnName="isRecommend" />
+          <ScalarProperty Name="updateTime" ColumnName="updateTime" />
+          <ScalarProperty Name="addTime" ColumnName="addTime" />
+          <ScalarProperty Name="typeID" ColumnName="typeID" />
+          <ScalarProperty Name="hot" ColumnName="hot" />
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="link" ColumnName="link" />
+          <ScalarProperty Name="readerDescribe" ColumnName="readerDescribe" />
+          <ScalarProperty Name="readerTitle" ColumnName="readerTitle" />
+          <ScalarProperty Name="readerID" ColumnName="readerID" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="nickName" ColumnName="nickName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="person_vyw_resume_picture">
+      <EntityTypeMapping TypeName="bds252114683_dbModel.person_vyw_resume_picture">
+        <MappingFragment StoreEntitySet="person_vyw_resume_picture">
+          <ScalarProperty Name="isDelete" ColumnName="isDelete" />
+          <ScalarProperty Name="typeID" ColumnName="typeID" />
+          <ScalarProperty Name="url" ColumnName="url" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="resumeID" ColumnName="resumeID" />
+          <ScalarProperty Name="realName" ColumnName="realName" />
+          <ScalarProperty Name="pictureID" ColumnName="pictureID" />
+          <ScalarProperty Name="position" ColumnName="position" />
+          <ScalarProperty Name="describe" ColumnName="describe" />
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="sex" ColumnName="sex" />
+          <ScalarProperty Name="birthday" ColumnName="birthday" />
+          <ScalarProperty Name="education" ColumnName="education" />
+          <ScalarProperty Name="workTime" ColumnName="workTime" />
+          <ScalarProperty Name="mobile" ColumnName="mobile" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="contactEmail" ColumnName="contactEmail" />
+          <ScalarProperty Name="isShow" ColumnName="isShow" />
+          <ScalarProperty Name="addTime" ColumnName="addTime" />
+          <ScalarProperty Name="updateTime" ColumnName="updateTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="person_vyw_resume_user">
+      <EntityTypeMapping TypeName="bds252114683_dbModel.person_vyw_resume_user">
+        <MappingFragment StoreEntitySet="person_vyw_resume_user">
+          <ScalarProperty Name="isDelete" ColumnName="isDelete" />
+          <ScalarProperty Name="url" ColumnName="url" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="pictureID" ColumnName="pictureID" />
+          <ScalarProperty Name="roleID" ColumnName="roleID" />
+          <ScalarProperty Name="updateTime" ColumnName="updateTime" />
+          <ScalarProperty Name="addTime" ColumnName="addTime" />
+          <ScalarProperty Name="isShow" ColumnName="isShow" />
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="describe" ColumnName="describe" />
+          <ScalarProperty Name="position" ColumnName="position" />
+          <ScalarProperty Name="realName" ColumnName="realName" />
+          <ScalarProperty Name="resumeID" ColumnName="resumeID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="person_vyw_service_icon">
+      <EntityTypeMapping TypeName="bds252114683_dbModel.person_vyw_service_icon">
+        <MappingFragment StoreEntitySet="person_vyw_service_icon">
+          <ScalarProperty Name="roleID" ColumnName="roleID" />
+          <ScalarProperty Name="nickName" ColumnName="nickName" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="iconTitle" ColumnName="iconTitle" />
+          <ScalarProperty Name="iconClass" ColumnName="iconClass" />
+          <ScalarProperty Name="updateTime" ColumnName="updateTime" />
+          <ScalarProperty Name="addTime" ColumnName="addTime" />
+          <ScalarProperty Name="iconID" ColumnName="iconID" />
+          <ScalarProperty Name="content" ColumnName="content" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="serviceID" ColumnName="serviceID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="person_vyw_social_icon">
+      <EntityTypeMapping TypeName="bds252114683_dbModel.person_vyw_social_icon">
+        <MappingFragment StoreEntitySet="person_vyw_social_icon">
+          <ScalarProperty Name="roleID" ColumnName="roleID" />
+          <ScalarProperty Name="nickName" ColumnName="nickName" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="iconClass" ColumnName="iconClass" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="updateTime" ColumnName="updateTime" />
+          <ScalarProperty Name="addTime" ColumnName="addTime" />
+          <ScalarProperty Name="hot" ColumnName="hot" />
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="linkUrl" ColumnName="linkUrl" />
+          <ScalarProperty Name="iconID" ColumnName="iconID" />
+          <ScalarProperty Name="socialID" ColumnName="socialID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="person_vyw_user_picture">
+      <EntityTypeMapping TypeName="bds252114683_dbModel.person_vyw_user_picture">
+        <MappingFragment StoreEntitySet="person_vyw_user_picture">
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="updateTime" ColumnName="updateTime" />
+          <ScalarProperty Name="loginTime" ColumnName="loginTime" />
+          <ScalarProperty Name="signTime" ColumnName="signTime" />
+          <ScalarProperty Name="qqID" ColumnName="qqID" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="signature" ColumnName="signature" />
+          <ScalarProperty Name="motto" ColumnName="motto" />
+          <ScalarProperty Name="loginCount" ColumnName="loginCount" />
+          <ScalarProperty Name="roleID" ColumnName="roleID" />
+          <ScalarProperty Name="bindStatus" ColumnName="bindStatus" />
+          <ScalarProperty Name="pictureID" ColumnName="pictureID" />
+          <ScalarProperty Name="score" ColumnName="score" />
+          <ScalarProperty Name="sex" ColumnName="sex" />
+          <ScalarProperty Name="nickName" ColumnName="nickName" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="isDelete" ColumnName="isDelete" />
+          <ScalarProperty Name="typeID" ColumnName="typeID" />
+          <ScalarProperty Name="url" ColumnName="url" />
+          <ScalarProperty Name="title" ColumnName="title" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="person_vyw_visitor_user">
+      <EntityTypeMapping TypeName="bds252114683_dbModel.person_vyw_visitor_user">
+        <MappingFragment StoreEntitySet="person_vyw_visitor_user">
+          <ScalarProperty Name="addTime" ColumnName="addTime" />
+          <ScalarProperty Name="userID" ColumnName="userID" />
+          <ScalarProperty Name="memberInfoID" ColumnName="memberInfoID" />
+          <ScalarProperty Name="visitorID" ColumnName="visitorID" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="nickName" ColumnName="nickName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
