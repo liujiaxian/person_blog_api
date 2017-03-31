@@ -117,7 +117,24 @@ namespace MvcApi.Controllers
                 return null;
             }
 
-            return model;
+            var newmodel = new
+            {
+                blogID = model.blogID,
+                content = model.content,
+                describe = model.describe,
+                hot = model.hot,
+                userPictureUrl = model.userPictureUrl,
+                url = model.url,
+                typeName = model.typeName,
+                typeID = model.typeID,
+                userID = model.userID,
+                title = model.title,
+                tags = model.tags,
+                nickName = string.IsNullOrEmpty(model.nickName) ? model.username : model.nickName,
+                addTime = Convert.ToDateTime(model.addTime).ToString("yyyy-MM-dd HH:mm:ss")
+            };
+
+            return newmodel;
         }
         #endregion
         #endregion
@@ -156,7 +173,21 @@ namespace MvcApi.Controllers
                 return null;
             }
 
-            return model;
+            var newmodel = new
+            {
+                content = model.content,
+                describe = model.describe,
+                tags = model.tags,
+                title = model.title,
+                url = model.url,
+                userPictureUrl = model.userPictureUrl,
+                nickName = string.IsNullOrEmpty(model.nickName) ? model.username : model.nickName,
+                addTime = Convert.ToDateTime(model.addTime).ToString("yyyy-MM-dd HH:mm:ss"),
+                hot = model.hot,
+                userID = model.userID
+            };
+
+            return newmodel;
         }
         #endregion
 
@@ -266,7 +297,7 @@ namespace MvcApi.Controllers
                           select new
                           {
                               url = d.url,
-                              blogID = d.planID,
+                              planID = d.planID,
                               nickName = string.IsNullOrEmpty(d.nickName) ? d.username : d.nickName,
                               title = d.title,
                               isRecommend = Convert.ToBoolean(d.isRecommend) ? "推荐" : "未推荐",
@@ -287,11 +318,10 @@ namespace MvcApi.Controllers
             {
                 return null;
             }
+
             IQueryable<person_vyw_plan_user> result = db.person_vyw_plan_user.Where(c => true);
             List<person_vyw_plan_user> list = null;
             object newlist = null;
-
-
 
             count = result.Count();
 
@@ -315,7 +345,7 @@ namespace MvcApi.Controllers
                           select new
                           {
                               url = d.url,
-                              blogID = d.planID,
+                              planID = d.planID,
                               nickName = string.IsNullOrEmpty(d.nickName) ? d.username : d.nickName,
                               title = d.title,
                               isRecommend = Convert.ToBoolean(d.isRecommend) ? "推荐" : "未推荐",
@@ -337,13 +367,55 @@ namespace MvcApi.Controllers
                 return null;
             }
 
-            var list = db.person_vyw_plan_content.Where(c => c.planID == id).ToList();
-            if (list.Count <= 0)
+            var model = db.person_vyw_plan_user.Where(c => c.planID == id).FirstOrDefault();
+            if (model == null)
             {
                 return null;
             }
 
-            return list;
+            var newmodel = new
+            {
+                hot = model.hot,
+                describe = model.describe,
+                nickName = string.IsNullOrEmpty(model.nickName) ? model.username : model.nickName,
+                userID = model.userID,
+                title = model.title,
+                tags = model.tags,
+                isRecommend = Convert.ToBoolean(model.isRecommend) ? "推荐" : "未推荐",
+                url = model.url,
+                addTime = Convert.ToDateTime(model.addTime).ToString("yyyy-MM-dd HH:mm:ss")
+            };
+
+            return newmodel;
+        }
+        #endregion
+
+        #region 计划详细
+        public object GetPlanContentList(int? id)
+        {
+            if (string.IsNullOrEmpty(id.ToString()))
+            {
+                return null;
+            }
+
+            var list = db.person_vyw_plan_content.Where(c => c.planID == id).OrderBy(c=>c.weight).ToList();
+            if (list.Count<=0)
+            {
+                return null;
+            }
+
+            var newlist = from d in list
+                      select new
+                      {
+                          title = d.title,
+                          weight = d.weight,
+                          content=  d.content,
+                          status = Enum.GetName(typeof(MvcApi.Models.Enum_PlanStatus),d.status),
+                          startTime = Convert.ToDateTime(d.startTime).ToString("yyyy-MM-dd HH:mm:ss"),
+                          endTime = Convert.ToDateTime(d.endTime).ToString("yyyy-MM-dd HH:mm:ss"),
+                      };
+
+            return newlist;
         }
         #endregion
         #endregion
@@ -358,10 +430,10 @@ namespace MvcApi.Controllers
                           select new
                           {
                               url = d.url,
-                              blogID = d.readerID,
+                              bookID = d.readerID,
                               nickName = string.IsNullOrEmpty(d.nickName) ? d.username : d.nickName,
                               title = d.readerTitle,
-                              typeid = d.typeID,
+                              typeID = d.typeID,
                               typeName = d.typeName,
                               userID = d.userID,
                               hot = d.hot,
@@ -412,10 +484,10 @@ namespace MvcApi.Controllers
                           select new
                           {
                               url = d.url,
-                              blogID = d.readerID,
+                              bookID = d.readerID,
                               nickName = string.IsNullOrEmpty(d.nickName) ? d.username : d.nickName,
                               title = d.readerTitle,
-                              typeid = d.typeID,
+                              typeID = d.typeID,
                               typeName = d.typeName,
                               userID = d.userID,
                               hot = d.hot,
@@ -471,11 +543,11 @@ namespace MvcApi.Controllers
                               url = d.url,
                               userID = d.userID,
                               userPictureUrl = d.userPictureUrl,
-                              bannerID = d.caseID,
+                              caseID = d.caseID,
                               typeName = d.name,
                               typeID = d.typeID,
                               title = d.title,
-                              nickName  = string.IsNullOrEmpty(d.nickName)?d.username:d.nickName,
+                              nickName = string.IsNullOrEmpty(d.nickName) ? d.username : d.nickName,
                               hot = d.hot,
                               addTime = Convert.ToDateTime(d.addTime).ToString("yyyy-MM-dd HH:mm:ss")
                           };
@@ -498,16 +570,17 @@ namespace MvcApi.Controllers
                 return null;
             }
 
-            var newmodel = new { 
-               title =model.title,
-               describe =model.describe,
-               content =model.content,
-               hot =model.hot,
-               name =model.name,
-               typeID =model.typeID,
-               userID =model.userID,
-               nickName =string.IsNullOrEmpty(model.nickName)?model.username:model.nickName,
-               addTime = Convert.ToDateTime(model.addTime).ToString("yyyy-MM-dd HH:mm:ss")
+            var newmodel = new
+            {
+                title = model.title,
+                describe = model.describe,
+                content = model.content,
+                hot = model.hot,
+                name = model.name,
+                typeID = model.typeID,
+                userID = model.userID,
+                nickName = string.IsNullOrEmpty(model.nickName) ? model.username : model.nickName,
+                addTime = Convert.ToDateTime(model.addTime).ToString("yyyy-MM-dd HH:mm:ss")
             };
 
             return model;
@@ -516,7 +589,7 @@ namespace MvcApi.Controllers
 
         #region 项目列表
         [HttpPost]
-        public object PostCaseList(int? page,int? typeid)
+        public object PostCaseList(int? page, int? typeid)
         {
             if (string.IsNullOrEmpty(page.ToString()))
             {
@@ -544,9 +617,9 @@ namespace MvcApi.Controllers
                 typeid = 0;
             }
 
-            if (typeid>0)
+            if (typeid > 0)
             {
-                result = result.Where(c=>c.typeID==typeid);
+                result = result.Where(c => c.typeID == typeid);
             }
 
             count = result.Count();
@@ -573,7 +646,7 @@ namespace MvcApi.Controllers
                               url = d.url,
                               userID = d.userID,
                               userPictureUrl = d.userPictureUrl,
-                              bannerID = d.caseID,
+                              caseID = d.caseID,
                               typeName = d.name,
                               typeID = d.typeID,
                               title = d.title,
